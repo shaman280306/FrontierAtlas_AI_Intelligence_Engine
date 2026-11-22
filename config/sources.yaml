@@ -1,0 +1,80 @@
+# Configuration for Data Sources across Verticals
+
+sources:
+  startups:
+    - name: "Hugging Face Organizations"
+      url: "https://huggingface.co/api/models"
+      type: "api"
+      rate_limit_per_min: 60
+    - name: "GitHub Organizations"
+      url: "https://api.github.com/search/users"
+      type: "api"
+      rate_limit_per_min: 30
+
+  products:
+    - name: "Hugging Face Models Hub"
+      url: "https://huggingface.co/api/models"
+      type: "api"
+      rate_limit_per_min: 60
+    - name: "Hugging Face Spaces Hub"
+      url: "https://huggingface.co/api/spaces"
+      type: "api"
+      rate_limit_per_min: 60
+    - name: "GitHub AI Repositories"
+      url: "https://api.github.com/search/repositories"
+      type: "api"
+      rate_limit_per_min: 30
+
+  research_papers:
+    - name: "arXiv Computer Science AI/ML"
+      url: "http://export.arxiv.org/api/query"
+      type: "xml_api"
+      rate_limit_per_min: 20
+    - name: "GitHub REST API"
+      url: "https://api.github.com/repos"
+      type: "api"
+      rate_limit_per_min: 60
+
+  news:
+    - name: "TechCrunch AI"
+      url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+      type: "rss"
+      freshness_hours: 24
+    - name: "The Verge AI"
+      url: "https://www.theverge.com/rss/index.xml"
+      type: "atom"
+      freshness_hours: 24
+    - name: "Ars Technica AI/Tech"
+      url: "https://feeds.arstechnica.com/arstechnica/technology-lab"
+      type: "rss"
+      freshness_hours: 24
+    - name: "BBC Technology"
+      url: "https://feeds.bbci.co.uk/news/technology/rss.xml"
+      type: "rss"
+      freshness_hours: 24
+    - name: "Hacker News AI Signals"
+      url: "https://hn.algolia.com/api/v1/search_by_date?tags=story&query=AI"
+      type: "json_api"
+      freshness_hours: 24
+
+  jobs:
+    - name: "Remotive"
+      url: "https://remotive.com/api/remote-jobs?category=software-dev"
+      type: "json_api"
+      freshness_hours: 24
+    - name: "Arbeitnow"
+      url: "https://www.arbeitnow.com/api/job-board-api"
+      type: "json_api"
+      freshness_hours: 24
+    - name: "Jobicy"
+      url: "https://jobicy.com/api/v2/remote-jobs?tag=ai"
+      type: "json_api"
+      freshness_hours: 24
+    - name: "Himalayas"
+      url: "https://himalayas.app/jobs/api"
+      type: "json_api"
+      freshness_hours: 24
+    - name: "WeWorkRemotely"
+      url: "https://weworkremotely.com/categories/remote-programming-jobs.rss"
+      type: "rss"
+      freshness_hours: 24

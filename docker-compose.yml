@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: frontier_atlas_api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./data/frontier_atlas.db
+      - ENVIRONMENT=production
+      - LOG_LEVEL=INFO
+      - MAX_CONCURRENT_REQUESTS=10
+    volumes:
+      - ./data:/app/data
+      - ./docs:/app/docs
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:7-alpine
+    container_name: frontier_atlas_redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  # Optional production PostgreSQL with pgvector
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: frontier_atlas_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: frontier_atlas
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    profiles:
+      - postgres-prod
+
+volumes:
+  redis_data:
+  pgdata:
