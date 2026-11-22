@@ -1,0 +1,1001 @@
+raw_name,canonical_name,matching_method,confidence_score,source_url,resolution_timestamp
+OpenAI,OpenAI,EXACT_CANONICAL,1.0000,https://openai.com,2026-11-22T20:09:24Z
+Anthropic,Anthropic,EXACT_CANONICAL,1.0000,https://anthropic.com,2026-11-22T20:09:24Z
+Mistral AI,Mistral AI,EXACT_CANONICAL,1.0000,https://mistral.ai,2026-11-22T20:09:24Z
+Stability AI,Stability AI,EXACT_CANONICAL,1.0000,https://stability.ai,2026-11-22T20:09:24Z
+Cohere,Cohere,EXACT_CANONICAL,1.0000,https://cohere.com,2026-11-22T20:09:24Z
+Perplexity AI,Perplexity AI,EXACT_CANONICAL,1.0000,https://perplexity.ai,2026-11-22T20:09:24Z
+Midjourney,Midjourney,EXACT_CANONICAL,1.0000,https://midjourney.com,2026-11-22T20:09:24Z
+Runway,Runway,EXACT_CANONICAL,1.0000,https://runwayml.com,2026-11-22T20:09:24Z
+Character.ai,Character.ai,EXACT_CANONICAL,1.0000,https://character.ai,2026-11-22T20:09:24Z
+Hugging Face,Hugging Face,EXACT_CANONICAL,1.0000,https://huggingface.co,2026-11-22T20:09:24Z
+Scale AI,Scale AI,EXACT_CANONICAL,1.0000,https://scale.com,2026-11-22T20:09:24Z
+ElevenLabs,ElevenLabs,EXACT_CANONICAL,1.0000,https://elevenlabs.io,2026-11-22T20:09:24Z
+DeepSeek,DeepSeek,EXACT_CANONICAL,1.0000,https://deepseek.com,2026-11-22T20:09:24Z
+Together AI,Together AI,EXACT_CANONICAL,1.0000,https://together.ai,2026-11-22T20:09:24Z
+Groq,Groq,EXACT_CANONICAL,1.0000,https://groq.com,2026-11-22T20:09:24Z
+Databricks,Databricks,EXACT_CANONICAL,1.0000,https://databricks.com,2026-11-22T20:09:24Z
+Anyscale,Anyscale,EXACT_CANONICAL,1.0000,https://anyscale.com,2026-11-22T20:09:24Z
+Pinecone,Pinecone,EXACT_CANONICAL,1.0000,https://pinecone.io,2026-11-22T20:09:24Z
+Weaviate,Weaviate,EXACT_CANONICAL,1.0000,https://weaviate.io,2026-11-22T20:09:24Z
+Qdrant,Qdrant,EXACT_CANONICAL,1.0000,https://qdrant.tech,2026-11-22T20:09:24Z
+Chroma,Chroma,EXACT_CANONICAL,1.0000,https://trychroma.com,2026-11-22T20:09:24Z
+LangChain,LangChain,EXACT_CANONICAL,1.0000,https://langchain.com,2026-11-22T20:09:24Z
+LlamaIndex,LlamaIndex,EXACT_CANONICAL,1.0000,https://llamaindex.ai,2026-11-22T20:09:24Z
+Weights & Biases,Weights & Biases,EXACT_CANONICAL,1.0000,https://wandb.ai,2026-11-22T20:09:24Z
+Replicate,Replicate,EXACT_CANONICAL,1.0000,https://replicate.com,2026-11-22T20:09:24Z
+Fireworks AI,Fireworks AI,EXACT_CANONICAL,1.0000,https://fireworks.ai,2026-11-22T20:09:24Z
+Baseten,Baseten,EXACT_CANONICAL,1.0000,https://baseten.co,2026-11-22T20:09:24Z
+Modal,Modal,EXACT_CANONICAL,1.0000,https://modal.com,2026-11-22T20:09:24Z
+Cursor,Cursor,EXACT_CANONICAL,1.0000,https://cursor.com,2026-11-22T20:09:24Z
+Cognition AI,Cognition AI,EXACT_CANONICAL,1.0000,https://cognition.ai,2026-11-22T20:09:24Z
+Harvey AI,Harvey AI,EXACT_CANONICAL,1.0000,https://harvey.ai,2026-11-22T20:09:24Z
+Synthesia,Synthesia,EXACT_CANONICAL,1.0000,https://synthesia.io,2026-11-22T20:09:24Z
+Jasper AI,Jasper AI,EXACT_CANONICAL,1.0000,https://jasper.ai,2026-11-22T20:09:24Z
+Writer,Writer,EXACT_CANONICAL,1.0000,https://writer.com,2026-11-22T20:09:24Z
+Shield AI,Shield AI,EXACT_CANONICAL,1.0000,https://shield.ai,2026-11-22T20:09:24Z
+Glean,Glean,EXACT_CANONICAL,1.0000,https://glean.com,2026-11-22T20:09:24Z
+Helsing,Helsing,EXACT_CANONICAL,1.0000,https://helsing.ai,2026-11-22T20:09:24Z
+Inflection AI,Inflection AI,EXACT_CANONICAL,1.0000,https://inflection.ai,2026-11-22T20:09:24Z
+Sakana AI,Sakana AI,EXACT_CANONICAL,1.0000,https://sakana.ai,2026-11-22T20:09:24Z
+Thinking Machines,Thinking Machines,EXACT_CANONICAL,1.0000,https://thinkingmachin.es,2026-11-22T20:09:24Z
+Adept AI,Adept AI,EXACT_CANONICAL,1.0000,https://adept.ai,2026-11-22T20:09:24Z
+Poolside,Poolside,EXACT_CANONICAL,1.0000,https://poolside.ai,2026-11-22T20:09:24Z
+Cresta,Cresta,EXACT_CANONICAL,1.0000,https://cresta.com,2026-11-22T20:09:24Z
+Hippocratic AI,Hippocratic AI,EXACT_CANONICAL,1.0000,https://hippocraticai.com,2026-11-22T20:09:24Z
+Inworld AI,Inworld AI,EXACT_CANONICAL,1.0000,https://inworld.ai,2026-11-22T20:09:24Z
+Pika Labs,Pika Labs,EXACT_CANONICAL,1.0000,https://pika.art,2026-11-22T20:09:24Z
+Black Forest Labs,Black Forest Labs,EXACT_CANONICAL,1.0000,https://blackforestlabs.ai,2026-11-22T20:09:24Z
+Essential AI,Essential AI,EXACT_CANONICAL,1.0000,https://essential.ai,2026-11-22T20:09:24Z
+Imbue,Imbue,EXACT_CANONICAL,1.0000,https://imbue.com,2026-11-22T20:09:24Z
+Liquid AI,Liquid AI,EXACT_CANONICAL,1.0000,https://liquid.ai,2026-11-22T20:09:24Z
+thinkingmachines,Thinkingmachines,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/thinkingmachines,2026-11-22T20:09:26Z
+unsloth,Unsloth,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/unsloth,2026-11-22T20:09:26Z
+harness-hub,Harness Hub,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/harness-hub,2026-11-22T20:09:26Z
+higurashi-ai,Higurashi Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/higurashi-ai,2026-11-22T20:09:26Z
+AtomicChat,Atomicchat,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/AtomicChat,2026-11-22T20:09:26Z
+apple,Apple,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/apple,2026-11-22T20:09:26Z
+tencent,Tencent,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/tencent,2026-11-22T20:09:26Z
+Qwen,Qwen,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Qwen,2026-11-22T20:09:26Z
+sensenova,Sensenova,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/sensenova,2026-11-22T20:09:26Z
+Lightricks,Lightricks,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Lightricks,2026-11-22T20:09:26Z
+SulphurAI,Sulphurai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/SulphurAI,2026-11-22T20:09:26Z
+chatrlabs,Chatrlabs,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/chatrlabs,2026-11-22T20:09:26Z
+meituan-longcat,Meituan Longcat,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/meituan-longcat,2026-11-22T20:09:26Z
+MiniMaxAI,Minimaxai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/MiniMaxAI,2026-11-22T20:09:26Z
+maxwell-model,Maxwell Model,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/maxwell-model,2026-11-22T20:09:26Z
+DavidAU,Davidau,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/DavidAU,2026-11-22T20:09:26Z
+RadixArk,Radixark,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/RadixArk,2026-11-22T20:09:26Z
+n4ze3m,N4Ze3M,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/n4ze3m,2026-11-22T20:09:26Z
+facebook,Facebook,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/facebook,2026-11-22T20:09:26Z
+Sentinel7,Sentinel7,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Sentinel7,2026-11-22T20:09:26Z
+nvidia,Nvidia,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/nvidia,2026-11-22T20:09:26Z
+huihui-ai,Huihui Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/huihui-ai,2026-11-22T20:09:26Z
+briaai,Briaai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/briaai,2026-11-22T20:09:26Z
+Reson8,Reson8,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Reson8,2026-11-22T20:09:26Z
+internlm,Internlm,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/internlm,2026-11-22T20:09:26Z
+Zyphra,Zyphra,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Zyphra,2026-11-22T20:09:26Z
+Cloudflare,Cloudflare,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Cloudflare,2026-11-22T20:09:26Z
+OpenUncensored,Openuncensored,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/OpenUncensored,2026-11-22T20:09:26Z
+pyannote,Pyannote,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/pyannote,2026-11-22T20:09:26Z
+Lakonik,Lakonik,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Lakonik,2026-11-22T20:09:26Z
+meta-llama,Meta Llama,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/meta-llama,2026-11-22T20:09:26Z
+moonshotai,Moonshotai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/moonshotai,2026-11-22T20:09:26Z
+microsoft,Microsoft,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/microsoft,2026-11-22T20:09:26Z
+OVHaiLLM,Ovhaillm,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/OVHaiLLM,2026-11-22T20:09:26Z
+KORMo-VL,Kormo Vl,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/KORMo-VL,2026-11-22T20:09:26Z
+Comfy-Org,Comfy Org,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Comfy-Org,2026-11-22T20:09:26Z
+Cactus-Compute,Cactus Compute,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Cactus-Compute,2026-11-22T20:09:26Z
+speridlabs,Speridlabs,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/speridlabs,2026-11-22T20:09:26Z
+Edge0,Edge0,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Edge0,2026-11-22T20:09:26Z
+thejagstudio,Thejagstudio,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/thejagstudio,2026-11-22T20:09:26Z
+LiquidAI,LiquidAI,MANUAL_REVIEW_FLAGGED,0.8571,https://huggingface.co/LiquidAI,2026-11-22T20:09:26Z
+AngelSlim,Angelslim,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/AngelSlim,2026-11-22T20:09:26Z
+ggml-org,Ggml Org,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ggml-org,2026-11-22T20:09:26Z
+software-mansion,Software Mansion,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/software-mansion,2026-11-22T20:09:26Z
+google,Google,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/google,2026-11-22T20:09:26Z
+lodestones,Lodestones,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/lodestones,2026-11-22T20:09:26Z
+Pinkstack,Pinkstack,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Pinkstack,2026-11-22T20:09:26Z
+IFM,Ifm,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/IFM,2026-11-22T20:09:26Z
+mradermacher,Mradermacher,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/mradermacher,2026-11-22T20:09:26Z
+SC117,Sc117,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/SC117,2026-11-22T20:09:26Z
+akatz-ai,Akatz Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/akatz-ai,2026-11-22T20:09:26Z
+strata-engine,Strata Engine,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/strata-engine,2026-11-22T20:09:26Z
+Nebsh,Nebsh,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Nebsh,2026-11-22T20:09:26Z
+lvladikov,Lvladikov,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/lvladikov,2026-11-22T20:09:26Z
+KRAFTON,Krafton,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/KRAFTON,2026-11-22T20:09:26Z
+xtools-at,Xtools At,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/xtools-at,2026-11-22T20:09:26Z
+orcarouter,Orcarouter,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/orcarouter,2026-11-22T20:09:26Z
+FluidVoice-Labs,Fluidvoice,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/FluidVoice-Labs,2026-11-22T20:09:26Z
+surogate,Surogate,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/surogate,2026-11-22T20:09:26Z
+Akahsizrr,Akahsizrr,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Akahsizrr,2026-11-22T20:09:26Z
+SupraLabs,Supralabs,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/SupraLabs,2026-11-22T20:09:26Z
+akhaliq,Akhaliq,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/akhaliq,2026-11-22T20:09:26Z
+Apexintelligence-AI,Apexintelligence Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Apexintelligence-AI,2026-11-22T20:09:26Z
+nokeepai,Nokeepai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/nokeepai,2026-11-22T20:09:26Z
+Wan-AI,Wan Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Wan-AI,2026-11-22T20:09:26Z
+inclusionAI,Inclusionai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/inclusionAI,2026-11-22T20:09:26Z
+CaryPalmer,Carypalmer,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/CaryPalmer,2026-11-22T20:09:26Z
+TenStrip,Tenstrip,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/TenStrip,2026-11-22T20:09:26Z
+RecursiveSI,Recursivesi,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/RecursiveSI,2026-11-22T20:09:26Z
+zai-org,Zai Org,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/zai-org,2026-11-22T20:09:26Z
+comfyanonymous,Comfyanonymous,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/comfyanonymous,2026-11-22T20:09:26Z
+NousResearch,Nousresearch,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/NousResearch,2026-11-22T20:09:26Z
+linlinlinlinsdada,Linlinlinlinsdada,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/linlinlinlinsdada,2026-11-22T20:09:26Z
+FrontiersMind,Frontiersmind,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/FrontiersMind,2026-11-22T20:09:26Z
+bartowski,Bartowski,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/bartowski,2026-11-22T20:09:26Z
+mlx-community,Mlx Community,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/mlx-community,2026-11-22T20:09:26Z
+Alissonerdx,Alissonerdx,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Alissonerdx,2026-11-22T20:09:26Z
+prism-ml,Prism Ml,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/prism-ml,2026-11-22T20:09:26Z
+FunAILab,Funailab,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/FunAILab,2026-11-22T20:09:26Z
+XHToken,Xhtoken,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/XHToken,2026-11-22T20:09:26Z
+paperweight,Paperweight,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/paperweight,2026-11-22T20:09:27Z
+Tongyi-MAI,Tongyi Mai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Tongyi-MAI,2026-11-22T20:09:27Z
+jialinyyzz,Jialinyyzz,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/jialinyyzz,2026-11-22T20:09:27Z
+ReDiverse,Rediverse,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ReDiverse,2026-11-22T20:09:27Z
+kyutai,Kyutai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/kyutai,2026-11-22T20:09:27Z
+tuanlai001,Tuanlai001,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/tuanlai001,2026-11-22T20:09:27Z
+sentence-transformers,Sentence Transformers,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/sentence-transformers,2026-11-22T20:09:27Z
+agents-course,Agents Course,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/agents-course,2026-11-22T20:09:27Z
+k2-fsa,K2 Fsa,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/k2-fsa,2026-11-22T20:09:27Z
+OpenMOSS-Team,Openmoss Team,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/OpenMOSS-Team,2026-11-22T20:09:27Z
+Viggle,Viggle,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Viggle,2026-11-22T20:09:27Z
+Nanbeige,Nanbeige,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Nanbeige,2026-11-22T20:09:27Z
+VoightKampffLabs,Voightkampfflabs,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/VoightKampffLabs,2026-11-22T20:09:27Z
+mehdi-hf,Mehdi Hf,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/mehdi-hf,2026-11-22T20:09:27Z
+kitaniai,Kitaniai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/kitaniai,2026-11-22T20:09:27Z
+HauhauCS,Hauhaucs,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/HauhauCS,2026-11-22T20:09:27Z
+JonathanColetti,Jonathancoletti,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/JonathanColetti,2026-11-22T20:09:27Z
+Jingzhi03,Jingzhi03,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Jingzhi03,2026-11-22T20:09:27Z
+audnai,Audnai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/audnai,2026-11-22T20:09:27Z
+yunyangge,Yunyangge,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/yunyangge,2026-11-22T20:09:27Z
+Wuli-art,Wuli Art,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Wuli-art,2026-11-22T20:09:27Z
+voyager-so,Voyager So,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/voyager-so,2026-11-22T20:09:27Z
+baselabs,Baselabs,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/baselabs,2026-11-22T20:09:27Z
+jesdga,Jesdga,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/jesdga,2026-11-22T20:09:27Z
+Abiray,Abiray,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Abiray,2026-11-22T20:09:27Z
+hexgrad,Hexgrad,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/hexgrad,2026-11-22T20:09:27Z
+PhaiModelLab,Phaimodellab,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/PhaiModelLab,2026-11-22T20:09:27Z
+Trelis,Trelis,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Trelis,2026-11-22T20:09:27Z
+cfahlgren1,Cfahlgren1,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/cfahlgren1,2026-11-22T20:09:27Z
+peasantsmith,Peasantsmith,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/peasantsmith,2026-11-22T20:09:27Z
+krea,Krea,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/krea,2026-11-22T20:09:27Z
+ISTA-DASLab,Ista Daslab,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ISTA-DASLab,2026-11-22T20:09:27Z
+KittenML,Kittenml,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/KittenML,2026-11-22T20:09:27Z
+openbmb,openbmb,MANUAL_REVIEW_FLAGGED,0.7273,https://huggingface.co/openbmb,2026-11-22T20:09:27Z
+ukisai,Ukisai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ukisai,2026-11-22T20:09:27Z
+MachinePulseAI,Machinepulseai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/MachinePulseAI,2026-11-22T20:09:27Z
+aurateam,Aurateam,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/aurateam,2026-11-22T20:09:27Z
+vyrekai,Vyrekai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/vyrekai,2026-11-22T20:09:27Z
+adventists-ai,Adventists Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/adventists-ai,2026-11-22T20:09:27Z
+whittleOrg,Whittleorg,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/whittleOrg,2026-11-22T20:09:27Z
+fishaudio,Fishaudio,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/fishaudio,2026-11-22T20:09:27Z
+ai4bharat,Ai4Bharat,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ai4bharat,2026-11-22T20:09:27Z
+BreezeBlue,Breezeblue,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/BreezeBlue,2026-11-22T20:09:27Z
+moondream,Moondream,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/moondream,2026-11-22T20:09:27Z
+ccore,ccore,MANUAL_REVIEW_FLAGGED,0.7273,https://huggingface.co/ccore,2026-11-22T20:09:27Z
+baidu,Baidu,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/baidu,2026-11-22T20:09:27Z
+data-archetype,Data Archetype,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/data-archetype,2026-11-22T20:09:27Z
+coder3101,Coder3101,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/coder3101,2026-11-22T20:09:27Z
+culturerevolt,Culturerevolt,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/culturerevolt,2026-11-22T20:09:27Z
+OBLITERATUS,Obliteratus,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/OBLITERATUS,2026-11-22T20:09:27Z
+OliviaRossi,Oliviarossi,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/OliviaRossi,2026-11-22T20:09:27Z
+AuroraAI-Research,Auroraai Research,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/AuroraAI-Research,2026-11-22T20:09:27Z
+Blackfrost-AI,Blackfrost-AI,MANUAL_REVIEW_FLAGGED,0.8182,https://huggingface.co/Blackfrost-AI,2026-11-22T20:09:27Z
+BAAI,Baai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/BAAI,2026-11-22T20:09:27Z
+froggeric,Froggeric,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/froggeric,2026-11-22T20:09:27Z
+notmax123,Notmax123,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/notmax123,2026-11-22T20:09:27Z
+meta-models,Meta Models,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/meta-models,2026-11-22T20:09:27Z
+GeWu-Lab,Gewu,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/GeWu-Lab,2026-11-22T20:09:27Z
+gertelrina,Gertelrina,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/gertelrina,2026-11-22T20:09:27Z
+empero-ai,Empero Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/empero-ai,2026-11-22T20:09:27Z
+gustavecortal,Gustavecortal,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/gustavecortal,2026-11-22T20:09:27Z
+loom-fun,Loom Fun,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/loom-fun,2026-11-22T20:09:27Z
+convaiinnovations,Convaiinnovations,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/convaiinnovations,2026-11-22T20:09:27Z
+open-athena,Open Athena,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/open-athena,2026-11-22T20:09:27Z
+SII-kejia,Sii Kejia,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/SII-kejia,2026-11-22T20:09:27Z
+Jackrong,Jackrong,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Jackrong,2026-11-22T20:09:27Z
+LiconStudio,Liconstudio,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/LiconStudio,2026-11-22T20:09:27Z
+PrunaAI,Prunaai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/PrunaAI,2026-11-22T20:09:27Z
+kobimusic,Kobimusic,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/kobimusic,2026-11-22T20:09:27Z
+ai-coustics,Ai Coustics,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ai-coustics,2026-11-22T20:09:27Z
+MoonMath-ai,Moonmath Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/MoonMath-ai,2026-11-22T20:09:27Z
+ScarletKc,ScarletKc,MANUAL_REVIEW_FLAGGED,0.7143,https://huggingface.co/ScarletKc,2026-11-22T20:09:27Z
+StillDeadcode,Stilldeadcode,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/StillDeadcode,2026-11-22T20:09:27Z
+duongve,Duongve,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/duongve,2026-11-22T20:09:27Z
+hinablue,Hinablue,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/hinablue,2026-11-22T20:09:27Z
+KaleComputer,Kalecomputer,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/KaleComputer,2026-11-22T20:09:27Z
+AJ-Gonzalez,Aj Gonzalez,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/AJ-Gonzalez,2026-11-22T20:09:27Z
+nace-ai,Nace Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/nace-ai,2026-11-22T20:09:27Z
+larryvrh,Larryvrh,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/larryvrh,2026-11-22T20:09:28Z
+agentionai,Agentionai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/agentionai,2026-11-22T20:09:28Z
+hi3d-official,Hi3D Official,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/hi3d-official,2026-11-22T20:09:28Z
+sevren-ai,Sevren Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/sevren-ai,2026-11-22T20:09:28Z
+IsValorum,Isvalorum,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/IsValorum,2026-11-22T20:09:28Z
+VideoRebirthAI,Videorebirthai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/VideoRebirthAI,2026-11-22T20:09:28Z
+sakasegawa,Sakasegawa,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/sakasegawa,2026-11-22T20:09:28Z
+0bserverx,0Bserverx,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/0bserverx,2026-11-22T20:09:28Z
+peculiar-ragdoll,Peculiar Ragdoll,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/peculiar-ragdoll,2026-11-22T20:09:28Z
+nerkyor,Nerkyor,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/nerkyor,2026-11-22T20:09:28Z
+ACE-Step,Ace Step,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ACE-Step,2026-11-22T20:09:28Z
+MuScriptor,Muscriptor,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/MuScriptor,2026-11-22T20:09:28Z
+fidel1234,Fidel1234,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/fidel1234,2026-11-22T20:09:28Z
+sabicap,Sabicap,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/sabicap,2026-11-22T20:09:28Z
+Hearthscale,Hearthscale,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Hearthscale,2026-11-22T20:09:28Z
+Remtir,Remtir,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Remtir,2026-11-22T20:09:28Z
+guideboardlabs,Guideboardlabs,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/guideboardlabs,2026-11-22T20:09:28Z
+kkt94,Kkt94,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/kkt94,2026-11-22T20:09:28Z
+TrevorJS,Trevorjs,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/TrevorJS,2026-11-22T20:09:28Z
+circlestone-labs,Circlestone,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/circlestone-labs,2026-11-22T20:09:28Z
+openai-community,Openai Community,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/openai-community,2026-11-22T20:09:28Z
+TencentARC,Tencentarc,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/TencentARC,2026-11-22T20:09:28Z
+audio-cpp,Audio Cpp,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/audio-cpp,2026-11-22T20:09:28Z
+lightx2v,Lightx2V,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/lightx2v,2026-11-22T20:09:28Z
+Kijai,Kijai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Kijai,2026-11-22T20:09:28Z
+WarmBloodAban,Warmbloodaban,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/WarmBloodAban,2026-11-22T20:09:28Z
+abenzerps,Abenzerps,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/abenzerps,2026-11-22T20:09:28Z
+THUSI-Lab,Thusi,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/THUSI-Lab,2026-11-22T20:09:28Z
+ornith-ai,Ornith Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ornith-ai,2026-11-22T20:09:28Z
+dealignai,Dealignai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/dealignai,2026-11-22T20:09:28Z
+coqui,Coqui,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/coqui,2026-11-22T20:09:28Z
+fal,Fal,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/fal,2026-11-22T20:09:28Z
+litert-community,Litert Community,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/litert-community,2026-11-22T20:09:28Z
+yuxinlu1,Yuxinlu1,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/yuxinlu1,2026-11-22T20:09:28Z
+conradlocke,Conradlocke,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/conradlocke,2026-11-22T20:09:28Z
+Prior-Labs,Prior,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Prior-Labs,2026-11-22T20:09:28Z
+MicksHF,Mickshf,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/MicksHF,2026-11-22T20:09:28Z
+KBlueLeaf,Kblueleaf,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/KBlueLeaf,2026-11-22T20:09:28Z
+ConceptCountry,Conceptcountry,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ConceptCountry,2026-11-22T20:09:28Z
+minishlab,Minishlab,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/minishlab,2026-11-22T20:09:28Z
+iapp,Iapp,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/iapp,2026-11-22T20:09:28Z
+owensong,Owensong,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/owensong,2026-11-22T20:09:28Z
+ContinuousIntelligence,Continuousintelligence,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ContinuousIntelligence,2026-11-22T20:09:28Z
+translated,Translated,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/translated,2026-11-22T20:09:28Z
+migtissera,Migtissera,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/migtissera,2026-11-22T20:09:28Z
+AxiomicLabs,Axiomiclabs,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/AxiomicLabs,2026-11-22T20:09:28Z
+Agnes-AI,Agnes Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Agnes-AI,2026-11-22T20:09:28Z
+alesha-pro,Alesha Pro,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/alesha-pro,2026-11-22T20:09:28Z
+rhasspy,Rhasspy,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/rhasspy,2026-11-22T20:09:28Z
+stable-diffusion-v1-5,Stable Diffusion V1 5,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/stable-diffusion-v1-5,2026-11-22T20:09:28Z
+bosonai,Bosonai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/bosonai,2026-11-22T20:09:28Z
+XiaomiMiMo,Xiaomimimo,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/XiaomiMiMo,2026-11-22T20:09:28Z
+Aleph-Alpha,Aleph Alpha,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Aleph-Alpha,2026-11-22T20:09:28Z
+JetBrains,Jetbrains,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/JetBrains,2026-11-22T20:09:28Z
+InternScience,Internscience,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/InternScience,2026-11-22T20:09:28Z
+gradium,Gradium,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/gradium,2026-11-22T20:09:28Z
+HemmingwayAI,Hemmingwayai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/HemmingwayAI,2026-11-22T20:09:28Z
+hyz317,Hyz317,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/hyz317,2026-11-22T20:09:28Z
+ricursiveAI,Ricursiveai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ricursiveAI,2026-11-22T20:09:28Z
+BennyDaBall,Bennydaball,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/BennyDaBall,2026-11-22T20:09:28Z
+qvac,Qvac,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/qvac,2026-11-22T20:09:28Z
+rayline-ai,Rayline Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/rayline-ai,2026-11-22T20:09:28Z
+yijunwang2,Yijunwang2,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/yijunwang2,2026-11-22T20:09:28Z
+t8star,T8Star,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/t8star,2026-11-22T20:09:28Z
+Mia-AiLab,Mia Ailab,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Mia-AiLab,2026-11-22T20:09:28Z
+Kiyo1130,Kiyo1130,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Kiyo1130,2026-11-22T20:09:28Z
+H3-Tiny,H3 Tiny,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/H3-Tiny,2026-11-22T20:09:28Z
+shinmegamiboson,Shinmegamiboson,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/shinmegamiboson,2026-11-22T20:09:28Z
+f23gg,F23Gg,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/f23gg,2026-11-22T20:09:28Z
+DreamFast,Dreamfast,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/DreamFast,2026-11-22T20:09:28Z
+ggerganov,Ggerganov,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ggerganov,2026-11-22T20:09:28Z
+Supertone,Supertone,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Supertone,2026-11-22T20:09:28Z
+desert-ant-labs,Desert Ant,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/desert-ant-labs,2026-11-22T20:09:28Z
+FermionResearch,FermionResearch,MANUAL_REVIEW_FLAGGED,0.7059,https://huggingface.co/FermionResearch,2026-11-22T20:09:28Z
+xiaomi-research,Xiaomi Research,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/xiaomi-research,2026-11-22T20:09:28Z
+blaze-voice-ai,Blaze Voice Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/blaze-voice-ai,2026-11-22T20:09:28Z
+Efficient-Large-Model,Efficient Large Model,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Efficient-Large-Model,2026-11-22T20:09:28Z
+VillanovaAI,Villanovaai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/VillanovaAI,2026-11-22T20:09:28Z
+mossloras,Mossloras,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/mossloras,2026-11-22T20:09:28Z
+Metric-AI,Metric Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Metric-AI,2026-11-22T20:09:28Z
+drmhse,Drmhse,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/drmhse,2026-11-22T20:09:28Z
+siraxe,Siraxe,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/siraxe,2026-11-22T20:09:29Z
+Chechen123,Chechen123,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Chechen123,2026-11-22T20:09:29Z
+haruuuuu-1256,Haruuuuu 1256,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/haruuuuu-1256,2026-11-22T20:09:29Z
+WaveCut,Wavecut,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/WaveCut,2026-11-22T20:09:29Z
+mudler,Mudler,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/mudler,2026-11-22T20:09:29Z
+StarpowerTechnology,Starpowertechnology,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/StarpowerTechnology,2026-11-22T20:09:29Z
+singam96,Singam96,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/singam96,2026-11-22T20:09:29Z
+ethanfel,Ethanfel,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ethanfel,2026-11-22T20:09:29Z
+SG161222,Sg161222,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/SG161222,2026-11-22T20:09:29Z
+ideogram-ai,Ideogram Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ideogram-ai,2026-11-22T20:09:29Z
+EllaPriest45,Ellapriest45,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/EllaPriest45,2026-11-22T20:09:29Z
+moodycat288,Moodycat288,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/moodycat288,2026-11-22T20:09:29Z
+javawock7618,Javawock7618,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/javawock7618,2026-11-22T20:09:29Z
+smhfacct,Smhfacct,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/smhfacct,2026-11-22T20:09:29Z
+LBH-123-AI,Lbh 123 Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/LBH-123-AI,2026-11-22T20:09:29Z
+dgrauet,Dgrauet,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/dgrauet,2026-11-22T20:09:29Z
+m-a-p,M A P,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/m-a-p,2026-11-22T20:09:29Z
+TheDrummer,Thedrummer,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/TheDrummer,2026-11-22T20:09:29Z
+pablodawson,Pablodawson,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/pablodawson,2026-11-22T20:09:29Z
+lilylilith,Lilylilith,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/lilylilith,2026-11-22T20:09:29Z
+kopper,Kopper,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/kopper,2026-11-22T20:09:29Z
+ConwayResearch,Conwayresearch,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ConwayResearch,2026-11-22T20:09:29Z
+fastino,Fastino,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/fastino,2026-11-22T20:09:29Z
+HAL-X-AI,Hal X Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/HAL-X-AI,2026-11-22T20:09:29Z
+opencerebral,Opencerebral,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/opencerebral,2026-11-22T20:09:29Z
+laion,Laion,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/laion,2026-11-22T20:09:29Z
+ricecake,Ricecake,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ricecake,2026-11-22T20:09:29Z
+aj9o9,Aj9O9,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/aj9o9,2026-11-22T20:09:29Z
+TontaubeAI,Tontaubeai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/TontaubeAI,2026-11-22T20:09:29Z
+charcot-ai,charcot-ai,MANUAL_REVIEW_FLAGGED,0.7500,https://huggingface.co/charcot-ai,2026-11-22T20:09:29Z
+lucidml,Lucidml,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/lucidml,2026-11-22T20:09:29Z
+garlic-llm,Garlic Llm,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/garlic-llm,2026-11-22T20:09:29Z
+77ethers,77Ethers,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/77ethers,2026-11-22T20:09:29Z
+DiffSynth-Studio,Diffsynth Studio,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/DiffSynth-Studio,2026-11-22T20:09:29Z
+noahcao,Noahcao,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/noahcao,2026-11-22T20:09:29Z
+llmfan46,Llmfan46,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/llmfan46,2026-11-22T20:09:29Z
+drowzeys,Drowzeys,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/drowzeys,2026-11-22T20:09:29Z
+nex-agi,Nex Agi,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/nex-agi,2026-11-22T20:09:29Z
+ZhengPeng7,Zhengpeng7,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ZhengPeng7,2026-11-22T20:09:29Z
+ResembleAI,Resembleai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ResembleAI,2026-11-22T20:09:29Z
+maya-research,Maya Research,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/maya-research,2026-11-22T20:09:29Z
+FunAudioLLM,Funaudiollm,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/FunAudioLLM,2026-11-22T20:09:29Z
+Ultralytics,Ultralytics,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Ultralytics,2026-11-22T20:09:29Z
+k2loras,K2Loras,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/k2loras,2026-11-22T20:09:29Z
+0x4c48,0X4C48,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/0x4c48,2026-11-22T20:09:29Z
+turboderp,Turboderp,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/turboderp,2026-11-22T20:09:29Z
+z-lab,z-lab,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/z-lab,2026-11-22T20:09:29Z
+bodhan-ai,Bodhan Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/bodhan-ai,2026-11-22T20:09:29Z
+logic65,Logic65,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/logic65,2026-11-22T20:09:29Z
+akhilaaa3,Akhilaaa3,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/akhilaaa3,2026-11-22T20:09:29Z
+openjev,openjev,MANUAL_REVIEW_FLAGGED,0.7273,https://huggingface.co/openjev,2026-11-22T20:09:29Z
+OS-Software,Os Software,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/OS-Software,2026-11-22T20:09:29Z
+datalab-to,Datalab To,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/datalab-to,2026-11-22T20:09:29Z
+vllm-sr,Vllm Sr,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/vllm-sr,2026-11-22T20:09:29Z
+hazyresearch,Hazyresearch,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/hazyresearch,2026-11-22T20:09:29Z
+IteraCompute,Iteracompute,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/IteraCompute,2026-11-22T20:09:29Z
+GrootTeam,Grootteam,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/GrootTeam,2026-11-22T20:09:29Z
+Diffuspace,Diffuspace,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Diffuspace,2026-11-22T20:09:29Z
+MATLOWAI,Matlowai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/MATLOWAI,2026-11-22T20:09:29Z
+FashionFlora,Fashionflora,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/FashionFlora,2026-11-22T20:09:29Z
+oruk,Oruk,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/oruk,2026-11-22T20:09:29Z
+Sakura721,Sakura721,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Sakura721,2026-11-22T20:09:29Z
+FixedSeed,Fixedseed,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/FixedSeed,2026-11-22T20:09:29Z
+Inferact,Inferact,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Inferact,2026-11-22T20:09:29Z
+YeeNyunn,Yeenyunn,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/YeeNyunn,2026-11-22T20:09:29Z
+huawei-csl,Huawei Csl,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/huawei-csl,2026-11-22T20:09:29Z
+sarvamai,Sarvamai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/sarvamai,2026-11-22T20:09:29Z
+pandacooming,Pandacooming,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/pandacooming,2026-11-22T20:09:29Z
+racineai,Racineai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/racineai,2026-11-22T20:09:29Z
+lmms-lab-encoder,Lmms Encoder,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/lmms-lab-encoder,2026-11-22T20:09:29Z
+LuffyTheFox,Luffythefox,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/LuffyTheFox,2026-11-22T20:09:29Z
+moganai,Moganai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/moganai,2026-11-22T20:09:29Z
+netprojects,Netprojects,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/netprojects,2026-11-22T20:09:29Z
+ayousanz,Ayousanz,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ayousanz,2026-11-22T20:09:29Z
+PedroMarinhoDev,Pedromarinhodev,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/PedroMarinhoDev,2026-11-22T20:09:29Z
+ant-intl,Ant Intl,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ant-intl,2026-11-22T20:09:29Z
+lmstudio-community,Lmstudio Community,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/lmstudio-community,2026-11-22T20:09:29Z
+ddalcu,Ddalcu,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ddalcu,2026-11-22T20:09:29Z
+webAI-Official,Webai Official,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/webAI-Official,2026-11-22T20:09:29Z
+MinimaLabs,Minimalabs,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/MinimaLabs,2026-11-22T20:09:29Z
+RavichandranJ,Ravichandranj,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/RavichandranJ,2026-11-22T20:09:29Z
+Cudecnik,Cudecnik,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Cudecnik,2026-11-22T20:09:29Z
+KasugaiSakura,Kasugaisakura,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/KasugaiSakura,2026-11-22T20:09:29Z
+mdevoz,Mdevoz,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/mdevoz,2026-11-22T20:09:29Z
+jackjusko,Jackjusko,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/jackjusko,2026-11-22T20:09:29Z
+lyber-ai,Lyber Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/lyber-ai,2026-11-22T20:09:29Z
+JoaoZaokk,Joaozaokk,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/JoaoZaokk,2026-11-22T20:09:29Z
+cagliostrolab,Cagliostrolab,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/cagliostrolab,2026-11-22T20:09:29Z
+DeepHat,Deephat,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/DeepHat,2026-11-22T20:09:29Z
+ibm-granite,Ibm Granite,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ibm-granite,2026-11-22T20:09:29Z
+lerobot,Lerobot,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/lerobot,2026-11-22T20:09:29Z
+QuantStack,Quantstack,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/QuantStack,2026-11-22T20:09:29Z
+Roboflow,Roboflow,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Roboflow,2026-11-22T20:09:30Z
+avaturn-live,Avaturn Live,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/avaturn-live,2026-11-22T20:09:30Z
+utter-project,utter-project,MANUAL_REVIEW_FLAGGED,0.7500,https://huggingface.co/utter-project,2026-11-22T20:09:30Z
+ifmylove2011,Ifmylove2011,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ifmylove2011,2026-11-22T20:09:30Z
+elix3r,Elix3R,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/elix3r,2026-11-22T20:09:30Z
+RedHatAI,Redhatai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/RedHatAI,2026-11-22T20:09:30Z
+lylogummy,Lylogummy,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/lylogummy,2026-11-22T20:09:30Z
+Jundot,Jundot,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Jundot,2026-11-22T20:09:30Z
+incoai,Incoai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/incoai,2026-11-22T20:09:30Z
+YoSaNoo,Yosanoo,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/YoSaNoo,2026-11-22T20:09:30Z
+jaredpalmer,Jaredpalmer,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/jaredpalmer,2026-11-22T20:09:30Z
+pfeifferj,Pfeifferj,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/pfeifferj,2026-11-22T20:09:30Z
+bytkim,Bytkim,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/bytkim,2026-11-22T20:09:30Z
+fafsaf1,Fafsaf1,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/fafsaf1,2026-11-22T20:09:30Z
+canberkkkkkk,Canberkkkkkk,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/canberkkkkkk,2026-11-22T20:09:30Z
+AlayaLab,Alayalab,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/AlayaLab,2026-11-22T20:09:30Z
+Soulfate24,Soulfate24,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Soulfate24,2026-11-22T20:09:30Z
+memorilla,Memorilla,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/memorilla,2026-11-22T20:09:30Z
+Maximilian228,Maximilian228,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Maximilian228,2026-11-22T20:09:30Z
+LittleBitLLM,Littlebitllm,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/LittleBitLLM,2026-11-22T20:09:30Z
+trillionlabs,Trillionlabs,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/trillionlabs,2026-11-22T20:09:30Z
+Angais,Angais,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Angais,2026-11-22T20:09:30Z
+arxhr007,Arxhr007,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/arxhr007,2026-11-22T20:09:30Z
+BUT-FIT,But Fit,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/BUT-FIT,2026-11-22T20:09:30Z
+manuelgscom,Manuelgscom,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/manuelgscom,2026-11-22T20:09:30Z
+speakleash,Speakleash,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/speakleash,2026-11-22T20:09:30Z
+kakaocorp,Kakaocorp,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/kakaocorp,2026-11-22T20:09:30Z
+ceia-research,ceia-research,MANUAL_REVIEW_FLAGGED,0.7200,https://huggingface.co/ceia-research,2026-11-22T20:09:30Z
+pfnet,Pfnet,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/pfnet,2026-11-22T20:09:30Z
+deep-principle,Deep Principle,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/deep-principle,2026-11-22T20:09:30Z
+tablinum,Tablinum,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/tablinum,2026-11-22T20:09:30Z
+jgkwak,Jgkwak,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/jgkwak,2026-11-22T20:09:30Z
+pirahansiah,Pirahansiah,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/pirahansiah,2026-11-22T20:09:30Z
+SupersonicLabs,Supersoniclabs,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/SupersonicLabs,2026-11-22T20:09:30Z
+thedeoxen,Thedeoxen,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/thedeoxen,2026-11-22T20:09:30Z
+naklecha,Naklecha,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/naklecha,2026-11-22T20:09:30Z
+manifestro,Manifestro,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/manifestro,2026-11-22T20:09:30Z
+knowledgator,Knowledgator,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/knowledgator,2026-11-22T20:09:30Z
+johndpope,Johndpope,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/johndpope,2026-11-22T20:09:30Z
+krystofmitka,Krystofmitka,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/krystofmitka,2026-11-22T20:09:30Z
+ihor-umanets,Ihor Umanets,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ihor-umanets,2026-11-22T20:09:30Z
+summerAIO,Summeraio,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/summerAIO,2026-11-22T20:09:30Z
+uezo,Uezo,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/uezo,2026-11-22T20:09:30Z
+Xylolabs,Xylolabs,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Xylolabs,2026-11-22T20:09:30Z
+Avifenesh,Avifenesh,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Avifenesh,2026-11-22T20:09:30Z
+sorryhyun,Sorryhyun,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/sorryhyun,2026-11-22T20:09:30Z
+kabachuha,Kabachuha,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/kabachuha,2026-11-22T20:09:30Z
+ModelsLab,Modelslab,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ModelsLab,2026-11-22T20:09:30Z
+nativ-community,Nativ Community,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/nativ-community,2026-11-22T20:09:30Z
+oddadmix,Oddadmix,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/oddadmix,2026-11-22T20:09:30Z
+TensorForger,Tensorforger,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/TensorForger,2026-11-22T20:09:30Z
+eltokh7,Eltokh7,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/eltokh7,2026-11-22T20:09:30Z
+ponpoke,Ponpoke,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ponpoke,2026-11-22T20:09:30Z
+satellitedown,Satellitedown,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/satellitedown,2026-11-22T20:09:30Z
+salesforce-sovereign-intelligence,Salesforce Sovereign Intelligence,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/salesforce-sovereign-intelligence,2026-11-22T20:09:30Z
+LyliaEngine,Lyliaengine,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/LyliaEngine,2026-11-22T20:09:30Z
+169Pi,169Pi,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/169Pi,2026-11-22T20:09:30Z
+jhu-clsp,Jhu Clsp,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/jhu-clsp,2026-11-22T20:09:30Z
+NCAIR1,Ncair1,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/NCAIR1,2026-11-22T20:09:30Z
+dbonet,Dbonet,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/dbonet,2026-11-22T20:09:30Z
+ai-sage,Ai Sage,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ai-sage,2026-11-22T20:09:30Z
+SeeSee21,Seesee21,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/SeeSee21,2026-11-22T20:09:30Z
+PaddlePaddle,Paddlepaddle,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/PaddlePaddle,2026-11-22T20:09:30Z
+mohammedaly22,Mohammedaly22,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/mohammedaly22,2026-11-22T20:09:30Z
+drbaph,Drbaph,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/drbaph,2026-11-22T20:09:30Z
+bsaleh03,Bsaleh03,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/bsaleh03,2026-11-22T20:09:30Z
+huawei-bayerlab,Huawei Bayerlab,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/huawei-bayerlab,2026-11-22T20:09:30Z
+peonist-ai,Peonist Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/peonist-ai,2026-11-22T20:09:30Z
+wanvideo,Wanvideo,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/wanvideo,2026-11-22T20:09:30Z
+Alex995647,Alex995647,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Alex995647,2026-11-22T20:09:30Z
+OrionLLM,Orionllm,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/OrionLLM,2026-11-22T20:09:30Z
+XingChen-AGI,Xingchen Agi,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/XingChen-AGI,2026-11-22T20:09:30Z
+Cseti,Cseti,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Cseti,2026-11-22T20:09:31Z
+alibaba-pai,Alibaba Pai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/alibaba-pai,2026-11-22T20:09:31Z
+taobao-mnn,Taobao Mnn,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/taobao-mnn,2026-11-22T20:09:31Z
+bottlecapai,Bottlecapai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/bottlecapai,2026-11-22T20:09:31Z
+DuoNeural,Duoneural,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/DuoNeural,2026-11-22T20:09:31Z
+Aratako,Aratako,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Aratako,2026-11-22T20:09:31Z
+NaiveAI,Naiveai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/NaiveAI,2026-11-22T20:09:31Z
+ausboss,Ausboss,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/ausboss,2026-11-22T20:09:31Z
+SoMarkAI,Somarkai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/SoMarkAI,2026-11-22T20:09:31Z
+sionic-ai,Sionic Ai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/sionic-ai,2026-11-22T20:09:31Z
+AlmawaveLabs,Almawavelabs,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/AlmawaveLabs,2026-11-22T20:09:31Z
+lododoai,Lododoai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/lododoai,2026-11-22T20:09:31Z
+linoyts,Linoyts,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/linoyts,2026-11-22T20:09:31Z
+LessThanThreeAI,Lessthanthreeai,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/LessThanThreeAI,2026-11-22T20:09:31Z
+Prahaladha,Prahaladha,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/Prahaladha,2026-11-22T20:09:31Z
+RikiyaT,Rikiyat,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/RikiyaT,2026-11-22T20:09:31Z
+opensearch-project,Opensearch Project,STANDALONE_NORMALIZED,1.0000,https://huggingface.co/opensearch-project,2026-11-22T20:09:31Z
+allenai,Allenai,STANDALONE_NORMALIZED,1.0000,https://github.com/allenai,2026-11-22T20:09:32Z
+airbnb,Airbnb,STANDALONE_NORMALIZED,1.0000,https://github.com/airbnb,2026-11-22T20:09:32Z
+dair-ai,Dair Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/dair-ai,2026-11-22T20:09:32Z
+jina-ai,Jina Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/jina-ai,2026-11-22T20:09:32Z
+commaai,Commaai,STANDALONE_NORMALIZED,1.0000,https://github.com/commaai,2026-11-22T20:09:32Z
+LAION-AI,Laion Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/LAION-AI,2026-11-22T20:09:32Z
+AI4Finance-Foundation,Ai4Finance Foundation,STANDALONE_NORMALIZED,1.0000,https://github.com/AI4Finance-Foundation,2026-11-22T20:09:32Z
+EleutherAI,Eleutherai,STANDALONE_NORMALIZED,1.0000,https://github.com/EleutherAI,2026-11-22T20:09:32Z
+fastai,Fastai,STANDALONE_NORMALIZED,1.0000,https://github.com/fastai,2026-11-22T20:09:32Z
+SakanaAI,SakanaAI,MANUAL_REVIEW_FLAGGED,0.8571,https://github.com/SakanaAI,2026-11-22T20:09:32Z
+tenstorrent,Tenstorrent,STANDALONE_NORMALIZED,1.0000,https://github.com/tenstorrent,2026-11-22T20:09:32Z
+shareAI-lab,Shareai,STANDALONE_NORMALIZED,1.0000,https://github.com/shareAI-lab,2026-11-22T20:09:32Z
+nomic-ai,Nomic Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/nomic-ai,2026-11-22T20:09:32Z
+camel-ai,Camel Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/camel-ai,2026-11-22T20:09:32Z
+AnswerDotAI,Answerdotai,STANDALONE_NORMALIZED,1.0000,https://github.com/AnswerDotAI,2026-11-22T20:09:32Z
+Wan-Video,Wan Video,STANDALONE_NORMALIZED,1.0000,https://github.com/Wan-Video,2026-11-22T20:09:32Z
+ai-forever,Ai Forever,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-forever,2026-11-22T20:09:32Z
+leon-ai,Leon Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/leon-ai,2026-11-22T20:09:32Z
+https-deeplearning-ai,Https Deeplearning Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/https-deeplearning-ai,2026-11-22T20:09:32Z
+fetchai,Fetchai,STANDALONE_NORMALIZED,1.0000,https://github.com/fetchai,2026-11-22T20:09:32Z
+aimacode,Aimacode,STANDALONE_NORMALIZED,1.0000,https://github.com/aimacode,2026-11-22T20:09:32Z
+VedalAI,Vedalai,STANDALONE_NORMALIZED,1.0000,https://github.com/VedalAI,2026-11-22T20:09:32Z
+unslothai,Unslothai,STANDALONE_NORMALIZED,1.0000,https://github.com/unslothai,2026-11-22T20:09:32Z
+AirtestProject,Airtestproject,STANDALONE_NORMALIZED,1.0000,https://github.com/AirtestProject,2026-11-22T20:09:32Z
+crewAIInc,Crewaiinc,STANDALONE_NORMALIZED,1.0000,https://github.com/crewAIInc,2026-11-22T20:09:32Z
+MonlamAI,Monlamai,STANDALONE_NORMALIZED,1.0000,https://github.com/MonlamAI,2026-11-22T20:09:32Z
+aio-libs,Aio Libs,STANDALONE_NORMALIZED,1.0000,https://github.com/aio-libs,2026-11-22T20:09:32Z
+BerriAI,Berriai,STANDALONE_NORMALIZED,1.0000,https://github.com/BerriAI,2026-11-22T20:09:32Z
+AirdropFamilyIDN-V2-0,Airdropfamilyidn V2 0,STANDALONE_NORMALIZED,1.0000,https://github.com/AirdropFamilyIDN-V2-0,2026-11-22T20:09:32Z
+airbytehq,Airbytehq,STANDALONE_NORMALIZED,1.0000,https://github.com/airbytehq,2026-11-22T20:09:32Z
+RapidAI,Rapidai,STANDALONE_NORMALIZED,1.0000,https://github.com/RapidAI,2026-11-22T20:09:32Z
+swiss-ai,Swiss Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/swiss-ai,2026-11-22T20:09:32Z
+labmlai,Labmlai,STANDALONE_NORMALIZED,1.0000,https://github.com/labmlai,2026-11-22T20:09:32Z
+mozilla-ai,Mozilla Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/mozilla-ai,2026-11-22T20:09:32Z
+Liquid4All,Liquid4All,MANUAL_REVIEW_FLAGGED,0.7500,https://github.com/Liquid4All,2026-11-22T20:09:32Z
+302ai,302Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/302ai,2026-11-22T20:09:32Z
+FlowiseAI,Flowiseai,STANDALONE_NORMALIZED,1.0000,https://github.com/FlowiseAI,2026-11-22T20:09:32Z
+Genesis-Embodied-AI,Genesis Embodied Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Genesis-Embodied-AI,2026-11-22T20:09:32Z
+moeru-ai,Moeru Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/moeru-ai,2026-11-22T20:09:32Z
+tile-ai,Tile Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/tile-ai,2026-11-22T20:09:32Z
+FreedomIntelligence,Freedomintelligence,STANDALONE_NORMALIZED,1.0000,https://github.com/FreedomIntelligence,2026-11-22T20:09:32Z
+resemble-ai,Resemble Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/resemble-ai,2026-11-22T20:09:32Z
+kvcache-ai,Kvcache Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/kvcache-ai,2026-11-22T20:09:32Z
+nogibjj,Nogibjj,STANDALONE_NORMALIZED,1.0000,https://github.com/nogibjj,2026-11-22T20:09:32Z
+tavily-ai,Tavily Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/tavily-ai,2026-11-22T20:09:32Z
+fixie-ai,Fixie Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/fixie-ai,2026-11-22T20:09:32Z
+noCaptchaAi,Nocaptchaai,STANDALONE_NORMALIZED,1.0000,https://github.com/noCaptchaAi,2026-11-22T20:09:32Z
+boson-ai,Boson Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/boson-ai,2026-11-22T20:09:32Z
+AI-Maker-Space,Ai Maker Space,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-Maker-Space,2026-11-22T20:09:32Z
+Lightning-AI,Lightning Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Lightning-AI,2026-11-22T20:09:32Z
+smol-ai,Smol Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/smol-ai,2026-11-22T20:09:32Z
+AikidoSec,Aikidosec,STANDALONE_NORMALIZED,1.0000,https://github.com/AikidoSec,2026-11-22T20:09:32Z
+NVIDIA-AI-IOT,Nvidia Ai Iot,STANDALONE_NORMALIZED,1.0000,https://github.com/NVIDIA-AI-IOT,2026-11-22T20:09:32Z
+OrionStarAI,Orionstarai,STANDALONE_NORMALIZED,1.0000,https://github.com/OrionStarAI,2026-11-22T20:09:32Z
+Arize-ai,Arize Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Arize-ai,2026-11-22T20:09:32Z
+aiming-lab,Aiming,STANDALONE_NORMALIZED,1.0000,https://github.com/aiming-lab,2026-11-22T20:09:32Z
+aiven,Aiven,STANDALONE_NORMALIZED,1.0000,https://github.com/aiven,2026-11-22T20:09:32Z
+i-am-bee,I Am Bee,STANDALONE_NORMALIZED,1.0000,https://github.com/i-am-bee,2026-11-22T20:09:32Z
+landing-ai,Landing Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/landing-ai,2026-11-22T20:09:32Z
+girafe-ai,Girafe Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/girafe-ai,2026-11-22T20:09:32Z
+arcee-ai,Arcee Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/arcee-ai,2026-11-22T20:09:32Z
+ai-dynamo,Ai Dynamo,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-dynamo,2026-11-22T20:09:32Z
+AIRI-Institute,Airi Institute,STANDALONE_NORMALIZED,1.0000,https://github.com/AIRI-Institute,2026-11-22T20:09:32Z
+naver-ai,Naver Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/naver-ai,2026-11-22T20:09:32Z
+different-ai,Different Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/different-ai,2026-11-22T20:09:32Z
+moonshine-ai,Moonshine Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/moonshine-ai,2026-11-22T20:09:32Z
+01-ai,01 Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/01-ai,2026-11-22T20:09:32Z
+OptimaiNetwork,Optimainetwork,STANDALONE_NORMALIZED,1.0000,https://github.com/OptimaiNetwork,2026-11-22T20:09:32Z
+AIDotNet,Aidotnet,STANDALONE_NORMALIZED,1.0000,https://github.com/AIDotNet,2026-11-22T20:09:32Z
+aisingapore,Aisingapore,STANDALONE_NORMALIZED,1.0000,https://github.com/aisingapore,2026-11-22T20:09:32Z
+aiplanethub,Aiplanethub,STANDALONE_NORMALIZED,1.0000,https://github.com/aiplanethub,2026-11-22T20:09:32Z
+hyperai,Hyperai,STANDALONE_NORMALIZED,1.0000,https://github.com/hyperai,2026-11-22T20:09:32Z
+AI-Hobbyist,Ai Hobbyist,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-Hobbyist,2026-11-22T20:09:32Z
+AILab-CVC,Ailab Cvc,STANDALONE_NORMALIZED,1.0000,https://github.com/AILab-CVC,2026-11-22T20:09:32Z
+Airtable,Airtable,STANDALONE_NORMALIZED,1.0000,https://github.com/Airtable,2026-11-22T20:09:32Z
+hanzoai,Hanzoai,STANDALONE_NORMALIZED,1.0000,https://github.com/hanzoai,2026-11-22T20:09:32Z
+valeoai,Valeoai,STANDALONE_NORMALIZED,1.0000,https://github.com/valeoai,2026-11-22T20:09:32Z
+agentscope-ai,Agentscope Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/agentscope-ai,2026-11-22T20:09:32Z
+AI-Hypercomputer,Ai Hypercomputer,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-Hypercomputer,2026-11-22T20:09:32Z
+airgap-it,Airgap It,STANDALONE_NORMALIZED,1.0000,https://github.com/airgap-it,2026-11-22T20:09:32Z
+tracel-ai,Tracel Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/tracel-ai,2026-11-22T20:09:32Z
+Continuum-AI-Corp,Continuum Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Continuum-AI-Corp,2026-11-22T20:09:32Z
+protectai,protectai,MANUAL_REVIEW_FLAGGED,0.7000,https://github.com/protectai,2026-11-22T20:09:32Z
+khoj-ai,Khoj Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/khoj-ai,2026-11-22T20:09:32Z
+kby-ai,Kby Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/kby-ai,2026-11-22T20:09:32Z
+AI-secure,Ai Secure,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-secure,2026-11-22T20:09:32Z
+hyperspaceai,Hyperspaceai,STANDALONE_NORMALIZED,1.0000,https://github.com/hyperspaceai,2026-11-22T20:09:32Z
+i-dot-ai,I Dot Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/i-dot-ai,2026-11-22T20:09:32Z
+AssemblyAI,Assemblyai,STANDALONE_NORMALIZED,1.0000,https://github.com/AssemblyAI,2026-11-22T20:09:32Z
+aigc3d,Aigc3D,STANDALONE_NORMALIZED,1.0000,https://github.com/aigc3d,2026-11-22T20:09:32Z
+aim-uofa,Aim Uofa,STANDALONE_NORMALIZED,1.0000,https://github.com/aim-uofa,2026-11-22T20:09:32Z
+itsdecodingai,Itsdecodingai,STANDALONE_NORMALIZED,1.0000,https://github.com/itsdecodingai,2026-11-22T20:09:32Z
+AICP,Aicp,STANDALONE_NORMALIZED,1.0000,https://github.com/AICP,2026-11-22T20:09:32Z
+pollinations,Pollinations,STANDALONE_NORMALIZED,1.0000,https://github.com/pollinations,2026-11-22T20:09:33Z
+leptonai,Leptonai,STANDALONE_NORMALIZED,1.0000,https://github.com/leptonai,2026-11-22T20:09:33Z
+Aider-AI,Aider Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Aider-AI,2026-11-22T20:09:33Z
+nearai,Nearai,STANDALONE_NORMALIZED,1.0000,https://github.com/nearai,2026-11-22T20:09:33Z
+ai-hero-dev,Ai Hero Dev,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-hero-dev,2026-11-22T20:09:33Z
+abacusai,Abacusai,STANDALONE_NORMALIZED,1.0000,https://github.com/abacusai,2026-11-22T20:09:33Z
+furiosa-ai,Furiosa Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/furiosa-ai,2026-11-22T20:09:33Z
+castai,Castai,STANDALONE_NORMALIZED,1.0000,https://github.com/castai,2026-11-22T20:09:33Z
+rtk-ai,Rtk Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/rtk-ai,2026-11-22T20:09:33Z
+QoderAI,Qoderai,STANDALONE_NORMALIZED,1.0000,https://github.com/QoderAI,2026-11-22T20:09:33Z
+AISCIENCES,Aisciences,STANDALONE_NORMALIZED,1.0000,https://github.com/AISCIENCES,2026-11-22T20:09:33Z
+AIGODLIKE,Aigodlike,STANDALONE_NORMALIZED,1.0000,https://github.com/AIGODLIKE,2026-11-22T20:09:33Z
+airbus-seclab,Airbus Seclab,STANDALONE_NORMALIZED,1.0000,https://github.com/airbus-seclab,2026-11-22T20:09:33Z
+ai4ce,Ai4Ce,STANDALONE_NORMALIZED,1.0000,https://github.com/ai4ce,2026-11-22T20:09:33Z
+alan-ai,Alan Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/alan-ai,2026-11-22T20:09:33Z
+open-gigaai,Open Gigaai,STANDALONE_NORMALIZED,1.0000,https://github.com/open-gigaai,2026-11-22T20:09:33Z
+Tele-AI,Tele Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Tele-AI,2026-11-22T20:09:33Z
+RobotecAI,Robotecai,STANDALONE_NORMALIZED,1.0000,https://github.com/RobotecAI,2026-11-22T20:09:33Z
+aimagelab,Aimagelab,STANDALONE_NORMALIZED,1.0000,https://github.com/aimagelab,2026-11-22T20:09:33Z
+vanna-ai,Vanna Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/vanna-ai,2026-11-22T20:09:33Z
+nod-ai,Nod Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/nod-ai,2026-11-22T20:09:33Z
+BloopAI,Bloopai,STANDALONE_NORMALIZED,1.0000,https://github.com/BloopAI,2026-11-22T20:09:33Z
+AIGeniusInstitute,Aigeniusinstitute,STANDALONE_NORMALIZED,1.0000,https://github.com/AIGeniusInstitute,2026-11-22T20:09:33Z
+AI-App,Ai App,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-App,2026-11-22T20:09:33Z
+minivision-ai,Minivision Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/minivision-ai,2026-11-22T20:09:33Z
+NeonGeckoCom,Neongeckocom,STANDALONE_NORMALIZED,1.0000,https://github.com/NeonGeckoCom,2026-11-22T20:09:33Z
+guardrails-ai,Guardrails Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/guardrails-ai,2026-11-22T20:09:33Z
+airbus-cert,Airbus Cert,STANDALONE_NORMALIZED,1.0000,https://github.com/airbus-cert,2026-11-22T20:09:33Z
+lumalabs,Lumalabs,STANDALONE_NORMALIZED,1.0000,https://github.com/lumalabs,2026-11-22T20:09:33Z
+Aiven-Open,Aiven Open,STANDALONE_NORMALIZED,1.0000,https://github.com/Aiven-Open,2026-11-22T20:09:33Z
+PygmalionAI,Pygmalionai,STANDALONE_NORMALIZED,1.0000,https://github.com/PygmalionAI,2026-11-22T20:09:33Z
+unit-mesh,Unit Mesh,STANDALONE_NORMALIZED,1.0000,https://github.com/unit-mesh,2026-11-22T20:09:33Z
+instill-ai,Instill Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/instill-ai,2026-11-22T20:09:33Z
+materialyzeai,Materialyzeai,STANDALONE_NORMALIZED,1.0000,https://github.com/materialyzeai,2026-11-22T20:09:33Z
+hpcaitech,Hpcaitech,STANDALONE_NORMALIZED,1.0000,https://github.com/hpcaitech,2026-11-22T20:09:33Z
+instantX-research,Instantx Research,STANDALONE_NORMALIZED,1.0000,https://github.com/instantX-research,2026-11-22T20:09:33Z
+airtribe-projects,Airtribe Projects,STANDALONE_NORMALIZED,1.0000,https://github.com/airtribe-projects,2026-11-22T20:09:33Z
+neptune-ai,Neptune Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/neptune-ai,2026-11-22T20:09:33Z
+sweepai,Sweepai,STANDALONE_NORMALIZED,1.0000,https://github.com/sweepai,2026-11-22T20:09:33Z
+boostcampaitech5,Boostcampaitech5,STANDALONE_NORMALIZED,1.0000,https://github.com/boostcampaitech5,2026-11-22T20:09:33Z
+clovaai,Clovaai,STANDALONE_NORMALIZED,1.0000,https://github.com/clovaai,2026-11-22T20:09:33Z
+HumeAI,Humeai,STANDALONE_NORMALIZED,1.0000,https://github.com/HumeAI,2026-11-22T20:09:33Z
+ai-infra-curriculum,Ai Infra Curriculum,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-infra-curriculum,2026-11-22T20:09:33Z
+aimlapi,Aimlapi,STANDALONE_NORMALIZED,1.0000,https://github.com/aimlapi,2026-11-22T20:09:33Z
+QuixiAI,Quixiai,STANDALONE_NORMALIZED,1.0000,https://github.com/QuixiAI,2026-11-22T20:09:33Z
+octoml,Octoml,STANDALONE_NORMALIZED,1.0000,https://github.com/octoml,2026-11-22T20:09:33Z
+ai4co,Ai4Co,STANDALONE_NORMALIZED,1.0000,https://github.com/ai4co,2026-11-22T20:09:33Z
+commune-ai,Commune Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/commune-ai,2026-11-22T20:09:33Z
+AI-Riksarkivet,Ai Riksarkivet,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-Riksarkivet,2026-11-22T20:09:33Z
+aifoundry-org,Aifoundry Org,STANDALONE_NORMALIZED,1.0000,https://github.com/aifoundry-org,2026-11-22T20:09:33Z
+ros-claw,Ros Claw,STANDALONE_NORMALIZED,1.0000,https://github.com/ros-claw,2026-11-22T20:09:33Z
+lamini-ai,Lamini Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/lamini-ai,2026-11-22T20:09:33Z
+KlingAIResearch,Klingairesearch,STANDALONE_NORMALIZED,1.0000,https://github.com/KlingAIResearch,2026-11-22T20:09:33Z
+AlignmentResearch,Alignmentresearch,STANDALONE_NORMALIZED,1.0000,https://github.com/AlignmentResearch,2026-11-22T20:09:33Z
+epoch-research,Epoch Research,STANDALONE_NORMALIZED,1.0000,https://github.com/epoch-research,2026-11-22T20:09:33Z
+fazer-ai,Fazer Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/fazer-ai,2026-11-22T20:09:33Z
+ail-project,Ail Project,STANDALONE_NORMALIZED,1.0000,https://github.com/ail-project,2026-11-22T20:09:33Z
+OthersideAI,Othersideai,STANDALONE_NORMALIZED,1.0000,https://github.com/OthersideAI,2026-11-22T20:09:33Z
+NovelAI,Novelai,STANDALONE_NORMALIZED,1.0000,https://github.com/NovelAI,2026-11-22T20:09:33Z
+NVIDIA-AI-Blueprints,Nvidia Ai Blueprints,STANDALONE_NORMALIZED,1.0000,https://github.com/NVIDIA-AI-Blueprints,2026-11-22T20:09:33Z
+PolymathicAI,Polymathicai,STANDALONE_NORMALIZED,1.0000,https://github.com/PolymathicAI,2026-11-22T20:09:33Z
+AgnesAI-Labs,Agnesai,STANDALONE_NORMALIZED,1.0000,https://github.com/AgnesAI-Labs,2026-11-22T20:09:33Z
+boostcampaitech3,Boostcampaitech3,STANDALONE_NORMALIZED,1.0000,https://github.com/boostcampaitech3,2026-11-22T20:09:33Z
+redis-applied-ai,Redis Applied Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/redis-applied-ai,2026-11-22T20:09:33Z
+aidotse,Aidotse,STANDALONE_NORMALIZED,1.0000,https://github.com/aidotse,2026-11-22T20:09:33Z
+ailia-ai,Ailia Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/ailia-ai,2026-11-22T20:09:33Z
+aisuda,Aisuda,STANDALONE_NORMALIZED,1.0000,https://github.com/aisuda,2026-11-22T20:09:33Z
+Ethara-Ai,Ethara Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Ethara-Ai,2026-11-22T20:09:33Z
+tetsuo-ai,Tetsuo Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/tetsuo-ai,2026-11-22T20:09:33Z
+AI4EPS,Ai4Eps,STANDALONE_NORMALIZED,1.0000,https://github.com/AI4EPS,2026-11-22T20:09:33Z
+FellouAI,Fellouai,STANDALONE_NORMALIZED,1.0000,https://github.com/FellouAI,2026-11-22T20:09:33Z
+viktor-platform,Viktor Platform,STANDALONE_NORMALIZED,1.0000,https://github.com/viktor-platform,2026-11-22T20:09:33Z
+Explore-AI,Explore Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Explore-AI,2026-11-22T20:09:33Z
+towardsai,Towardsai,STANDALONE_NORMALIZED,1.0000,https://github.com/towardsai,2026-11-22T20:09:33Z
+VinAIResearch,Vinairesearch,STANDALONE_NORMALIZED,1.0000,https://github.com/VinAIResearch,2026-11-22T20:09:33Z
+sail-sg,Sail Sg,STANDALONE_NORMALIZED,1.0000,https://github.com/sail-sg,2026-11-22T20:09:33Z
+ShiftLeftSecurity,Shiftleftsecurity,STANDALONE_NORMALIZED,1.0000,https://github.com/ShiftLeftSecurity,2026-11-22T20:09:33Z
+ConnectAI-E,Connectai E,STANDALONE_NORMALIZED,1.0000,https://github.com/ConnectAI-E,2026-11-22T20:09:33Z
+confident-ai,Confident Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/confident-ai,2026-11-22T20:09:33Z
+ai-dock,Ai Dock,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-dock,2026-11-22T20:09:33Z
+RelevanceAI,Relevanceai,STANDALONE_NORMALIZED,1.0000,https://github.com/RelevanceAI,2026-11-22T20:09:33Z
+All-About-AI-YouTube,All About Ai Youtube,STANDALONE_NORMALIZED,1.0000,https://github.com/All-About-AI-YouTube,2026-11-22T20:09:33Z
+Infrasys-AI,Infrasys Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Infrasys-AI,2026-11-22T20:09:33Z
+AIM-Harvard,Aim Harvard,STANDALONE_NORMALIZED,1.0000,https://github.com/AIM-Harvard,2026-11-22T20:09:33Z
+smallcloudai,Smallcloudai,STANDALONE_NORMALIZED,1.0000,https://github.com/smallcloudai,2026-11-22T20:09:33Z
+ai-driven-dev,Ai Driven Dev,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-driven-dev,2026-11-22T20:09:33Z
+sendaifun,Sendaifun,STANDALONE_NORMALIZED,1.0000,https://github.com/sendaifun,2026-11-22T20:09:33Z
+cdcai,Cdcai,STANDALONE_NORMALIZED,1.0000,https://github.com/cdcai,2026-11-22T20:09:33Z
+meshy-dev,Meshy Dev,STANDALONE_NORMALIZED,1.0000,https://github.com/meshy-dev,2026-11-22T20:09:33Z
+airbus,Airbus,STANDALONE_NORMALIZED,1.0000,https://github.com/airbus,2026-11-22T20:09:33Z
+oraios,Oraios,STANDALONE_NORMALIZED,1.0000,https://github.com/oraios,2026-11-22T20:09:33Z
+SandAI-org,Sandai Org,STANDALONE_NORMALIZED,1.0000,https://github.com/SandAI-org,2026-11-22T20:09:33Z
+aiogram,Aiogram,STANDALONE_NORMALIZED,1.0000,https://github.com/aiogram,2026-11-22T20:09:33Z
+Trae-AI,Trae Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Trae-AI,2026-11-22T20:09:33Z
+wit-ai,Wit Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/wit-ai,2026-11-22T20:09:33Z
+AIGeeksGroup,Aigeeksgroup,STANDALONE_NORMALIZED,1.0000,https://github.com/AIGeeksGroup,2026-11-22T20:09:33Z
+HFAiLab,Hfailab,STANDALONE_NORMALIZED,1.0000,https://github.com/HFAiLab,2026-11-22T20:09:33Z
+run-ai,Run Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/run-ai,2026-11-22T20:09:33Z
+aidecentralized,Aidecentralized,STANDALONE_NORMALIZED,1.0000,https://github.com/aidecentralized,2026-11-22T20:09:33Z
+aimclub,Aimclub,STANDALONE_NORMALIZED,1.0000,https://github.com/aimclub,2026-11-22T20:09:34Z
+EmergenceAI,Emergenceai,STANDALONE_NORMALIZED,1.0000,https://github.com/EmergenceAI,2026-11-22T20:09:34Z
+AIS-Bonn,Ais Bonn,STANDALONE_NORMALIZED,1.0000,https://github.com/AIS-Bonn,2026-11-22T20:09:34Z
+XLabs-AI,Xlabs Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/XLabs-AI,2026-11-22T20:09:34Z
+AI21Labs,Ai21Labs,STANDALONE_NORMALIZED,1.0000,https://github.com/AI21Labs,2026-11-22T20:09:34Z
+novitalabs,Novitalabs,STANDALONE_NORMALIZED,1.0000,https://github.com/novitalabs,2026-11-22T20:09:34Z
+rh-ai-quickstart,Rh Ai Quickstart,STANDALONE_NORMALIZED,1.0000,https://github.com/rh-ai-quickstart,2026-11-22T20:09:34Z
+kuafuai,Kuafuai,STANDALONE_NORMALIZED,1.0000,https://github.com/kuafuai,2026-11-22T20:09:34Z
+AISaturdaysLagos,Aisaturdayslagos,STANDALONE_NORMALIZED,1.0000,https://github.com/AISaturdaysLagos,2026-11-22T20:09:34Z
+AI-Planning,Ai Planning,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-Planning,2026-11-22T20:09:34Z
+ContinualAI,Continualai,STANDALONE_NORMALIZED,1.0000,https://github.com/ContinualAI,2026-11-22T20:09:34Z
+airalab,Airalab,STANDALONE_NORMALIZED,1.0000,https://github.com/airalab,2026-11-22T20:09:34Z
+AICoE,Aicoe,STANDALONE_NORMALIZED,1.0000,https://github.com/AICoE,2026-11-22T20:09:34Z
+maximhq,Maximhq,STANDALONE_NORMALIZED,1.0000,https://github.com/maximhq,2026-11-22T20:09:34Z
+om-ai-lab,Om Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/om-ai-lab,2026-11-22T20:09:34Z
+aaif,Aaif,STANDALONE_NORMALIZED,1.0000,https://github.com/aaif,2026-11-22T20:09:34Z
+The-AI-Summer,The Ai Summer,STANDALONE_NORMALIZED,1.0000,https://github.com/The-AI-Summer,2026-11-22T20:09:34Z
+determined-ai,Determined Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/determined-ai,2026-11-22T20:09:34Z
+SalesforceAIResearch,Salesforceairesearch,STANDALONE_NORMALIZED,1.0000,https://github.com/SalesforceAIResearch,2026-11-22T20:09:34Z
+AI45Lab,Ai45Lab,STANDALONE_NORMALIZED,1.0000,https://github.com/AI45Lab,2026-11-22T20:09:34Z
+gretelai,Gretelai,STANDALONE_NORMALIZED,1.0000,https://github.com/gretelai,2026-11-22T20:09:34Z
+Dao-AILab,Dao Ailab,STANDALONE_NORMALIZED,1.0000,https://github.com/Dao-AILab,2026-11-22T20:09:34Z
+trycompai,Trycompai,STANDALONE_NORMALIZED,1.0000,https://github.com/trycompai,2026-11-22T20:09:34Z
+veniceai,Veniceai,STANDALONE_NORMALIZED,1.0000,https://github.com/veniceai,2026-11-22T20:09:34Z
+figurerobotics,Figurerobotics,STANDALONE_NORMALIZED,1.0000,https://github.com/figurerobotics,2026-11-22T20:09:34Z
+Marker-Inc-Korea,Marker Korea,STANDALONE_NORMALIZED,1.0000,https://github.com/Marker-Inc-Korea,2026-11-22T20:09:34Z
+lastmile-ai,Lastmile Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/lastmile-ai,2026-11-22T20:09:34Z
+krafton-ai,Krafton Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/krafton-ai,2026-11-22T20:09:34Z
+AIR-DISCOVER,Air Discover,STANDALONE_NORMALIZED,1.0000,https://github.com/AIR-DISCOVER,2026-11-22T20:09:34Z
+paiml,Paiml,STANDALONE_NORMALIZED,1.0000,https://github.com/paiml,2026-11-22T20:09:34Z
+RLHFlow,Rlhflow,STANDALONE_NORMALIZED,1.0000,https://github.com/RLHFlow,2026-11-22T20:09:34Z
+SpectacularAI,Spectacularai,STANDALONE_NORMALIZED,1.0000,https://github.com/SpectacularAI,2026-11-22T20:09:34Z
+h2oai,H2Oai,STANDALONE_NORMALIZED,1.0000,https://github.com/h2oai,2026-11-22T20:09:34Z
+evidentlyai,Evidentlyai,STANDALONE_NORMALIZED,1.0000,https://github.com/evidentlyai,2026-11-22T20:09:34Z
+FlagAI-Open,Flagai Open,STANDALONE_NORMALIZED,1.0000,https://github.com/FlagAI-Open,2026-11-22T20:09:34Z
+aiken-lang,Aiken Lang,STANDALONE_NORMALIZED,1.0000,https://github.com/aiken-lang,2026-11-22T20:09:34Z
+ai-for-developers,Ai For Developers,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-for-developers,2026-11-22T20:09:35Z
+code-kern-ai,Code Kern Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/code-kern-ai,2026-11-22T20:09:35Z
+Oxen-AI,Oxen-AI,MANUAL_REVIEW_FLAGGED,0.7500,https://github.com/Oxen-AI,2026-11-22T20:09:35Z
+vast-ai,Vast Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/vast-ai,2026-11-22T20:09:35Z
+AI4Science-WestlakeU,Ai4Science Westlakeu,STANDALONE_NORMALIZED,1.0000,https://github.com/AI4Science-WestlakeU,2026-11-22T20:09:35Z
+serp-ai,Serp Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/serp-ai,2026-11-22T20:09:35Z
+airframesio,Airframesio,STANDALONE_NORMALIZED,1.0000,https://github.com/airframesio,2026-11-22T20:09:35Z
+aiidateam,Aiidateam,STANDALONE_NORMALIZED,1.0000,https://github.com/aiidateam,2026-11-22T20:09:35Z
+sqliteai,Sqliteai,STANDALONE_NORMALIZED,1.0000,https://github.com/sqliteai,2026-11-22T20:09:35Z
+QuantaAlpha,Quantaalpha,STANDALONE_NORMALIZED,1.0000,https://github.com/QuantaAlpha,2026-11-22T20:09:35Z
+SnapGenAI,Snapgenai,STANDALONE_NORMALIZED,1.0000,https://github.com/SnapGenAI,2026-11-22T20:09:35Z
+AIRLab-POLIMI,Airlab Polimi,STANDALONE_NORMALIZED,1.0000,https://github.com/AIRLab-POLIMI,2026-11-22T20:09:35Z
+spring-ai-community,Spring Ai Community,STANDALONE_NORMALIZED,1.0000,https://github.com/spring-ai-community,2026-11-22T20:09:35Z
+erc-8004,Erc 8004,STANDALONE_NORMALIZED,1.0000,https://github.com/erc-8004,2026-11-22T20:09:35Z
+AI-Engineer-Skool,Ai Engineer Skool,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-Engineer-Skool,2026-11-22T20:09:35Z
+AI-SW-Maestro-OSS,Ai Sw Maestro Oss,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-SW-Maestro-OSS,2026-11-22T20:09:35Z
+snorkel-ai,Snorkel Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/snorkel-ai,2026-11-22T20:09:35Z
+maritaca-ai,Maritaca Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/maritaca-ai,2026-11-22T20:09:35Z
+aimat-lab,Aimat,STANDALONE_NORMALIZED,1.0000,https://github.com/aimat-lab,2026-11-22T20:09:35Z
+axolotl-ai-cloud,Axolotl Ai Cloud,STANDALONE_NORMALIZED,1.0000,https://github.com/axolotl-ai-cloud,2026-11-22T20:09:35Z
+RelationalAI,Relationalai,STANDALONE_NORMALIZED,1.0000,https://github.com/RelationalAI,2026-11-22T20:09:35Z
+trustyai-explainability,Trustyai Explainability,STANDALONE_NORMALIZED,1.0000,https://github.com/trustyai-explainability,2026-11-22T20:09:35Z
+ailyProject,Ailyproject,STANDALONE_NORMALIZED,1.0000,https://github.com/ailyProject,2026-11-22T20:09:35Z
+tradingstrategy-ai,Tradingstrategy Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/tradingstrategy-ai,2026-11-22T20:09:35Z
+ReconAI,Reconai,STANDALONE_NORMALIZED,1.0000,https://github.com/ReconAI,2026-11-22T20:09:35Z
+localai-org,Localai Org,STANDALONE_NORMALIZED,1.0000,https://github.com/localai-org,2026-11-22T20:09:35Z
+trypear,Trypear,STANDALONE_NORMALIZED,1.0000,https://github.com/trypear,2026-11-22T20:09:35Z
+PennyLaneAI,Pennylaneai,STANDALONE_NORMALIZED,1.0000,https://github.com/PennyLaneAI,2026-11-22T20:09:35Z
+AstrBotDevs,Astrbotdevs,STANDALONE_NORMALIZED,1.0000,https://github.com/AstrBotDevs,2026-11-22T20:09:35Z
+eigent-ai,Eigent Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/eigent-ai,2026-11-22T20:09:35Z
+tinkoff-ai,Tinkoff Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/tinkoff-ai,2026-11-22T20:09:35Z
+jupyter-naas,Jupyter Naas,STANDALONE_NORMALIZED,1.0000,https://github.com/jupyter-naas,2026-11-22T20:09:35Z
+OSCC-Project,Oscc Project,STANDALONE_NORMALIZED,1.0000,https://github.com/OSCC-Project,2026-11-22T20:09:35Z
+airacingtech,Airacingtech,STANDALONE_NORMALIZED,1.0000,https://github.com/airacingtech,2026-11-22T20:09:35Z
+DoIT-Artificial-Intelligence,Doit Artificial Intelligence,STANDALONE_NORMALIZED,1.0000,https://github.com/DoIT-Artificial-Intelligence,2026-11-22T20:09:35Z
+alphanome-ai,Alphanome Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/alphanome-ai,2026-11-22T20:09:35Z
+Canner,Canner,STANDALONE_NORMALIZED,1.0000,https://github.com/Canner,2026-11-22T20:09:35Z
+The-AI-Alliance,The Ai Alliance,STANDALONE_NORMALIZED,1.0000,https://github.com/The-AI-Alliance,2026-11-22T20:09:35Z
+ai-med,Ai Med,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-med,2026-11-22T20:09:35Z
+ai4protein,Ai4Protein,STANDALONE_NORMALIZED,1.0000,https://github.com/ai4protein,2026-11-22T20:09:35Z
+lovstudio,Lovstudio,STANDALONE_NORMALIZED,1.0000,https://github.com/lovstudio,2026-11-22T20:09:35Z
+AssemblyAI-Community,Assemblyai Community,STANDALONE_NORMALIZED,1.0000,https://github.com/AssemblyAI-Community,2026-11-22T20:09:35Z
+AIKU-Official,Aiku Official,STANDALONE_NORMALIZED,1.0000,https://github.com/AIKU-Official,2026-11-22T20:09:35Z
+malaysia-ai,Malaysia Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/malaysia-ai,2026-11-22T20:09:35Z
+ai-village-agents,Ai Village Agents,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-village-agents,2026-11-22T20:09:35Z
+AIVIETNAMResearch,Aivietnamresearch,STANDALONE_NORMALIZED,1.0000,https://github.com/AIVIETNAMResearch,2026-11-22T20:09:35Z
+linto-ai,Linto Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/linto-ai,2026-11-22T20:09:35Z
+Aidoku,Aidoku,STANDALONE_NORMALIZED,1.0000,https://github.com/Aidoku,2026-11-22T20:09:35Z
+ScrapeGraphAI,Scrapegraphai,STANDALONE_NORMALIZED,1.0000,https://github.com/ScrapeGraphAI,2026-11-22T20:09:35Z
+aiQuest-Intelligence,Aiquest Intelligence,STANDALONE_NORMALIZED,1.0000,https://github.com/aiQuest-Intelligence,2026-11-22T20:09:35Z
+aigc-apps,Aigc Apps,STANDALONE_NORMALIZED,1.0000,https://github.com/aigc-apps,2026-11-22T20:09:35Z
+Armur-Ai,Armur Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Armur-Ai,2026-11-22T20:09:35Z
+IITGuwahati-AI,Iitguwahati Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/IITGuwahati-AI,2026-11-22T20:09:35Z
+airwallex,Airwallex,STANDALONE_NORMALIZED,1.0000,https://github.com/airwallex,2026-11-22T20:09:35Z
+ai-twinkle,Ai Twinkle,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-twinkle,2026-11-22T20:09:35Z
+nullclaw,Nullclaw,STANDALONE_NORMALIZED,1.0000,https://github.com/nullclaw,2026-11-22T20:09:35Z
+ai-evals-course,Ai Evals Course,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-evals-course,2026-11-22T20:09:35Z
+NexaAI,Nexaai,STANDALONE_NORMALIZED,1.0000,https://github.com/NexaAI,2026-11-22T20:09:35Z
+LykosAI,Lykosai,STANDALONE_NORMALIZED,1.0000,https://github.com/LykosAI,2026-11-22T20:09:35Z
+RevylAI,Revylai,STANDALONE_NORMALIZED,1.0000,https://github.com/RevylAI,2026-11-22T20:09:35Z
+zylos-ai,Zylos Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/zylos-ai,2026-11-22T20:09:35Z
+Airthings,Airthings,STANDALONE_NORMALIZED,1.0000,https://github.com/Airthings,2026-11-22T20:09:35Z
+AiursoftWeb,Aiursoftweb,STANDALONE_NORMALIZED,1.0000,https://github.com/AiursoftWeb,2026-11-22T20:09:35Z
+langgptai,Langgptai,STANDALONE_NORMALIZED,1.0000,https://github.com/langgptai,2026-11-22T20:09:36Z
+buildwithflux,Buildwithflux,STANDALONE_NORMALIZED,1.0000,https://github.com/buildwithflux,2026-11-22T20:09:36Z
+IAHispano,Iahispano,STANDALONE_NORMALIZED,1.0000,https://github.com/IAHispano,2026-11-22T20:09:36Z
+AIoT-MLSys-Lab,Aiot Mlsys,STANDALONE_NORMALIZED,1.0000,https://github.com/AIoT-MLSys-Lab,2026-11-22T20:09:36Z
+KudoAI,Kudoai,STANDALONE_NORMALIZED,1.0000,https://github.com/KudoAI,2026-11-22T20:09:36Z
+hao-ai-lab,Hao Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/hao-ai-lab,2026-11-22T20:09:36Z
+AIR-THU,Air Thu,STANDALONE_NORMALIZED,1.0000,https://github.com/AIR-THU,2026-11-22T20:09:36Z
+sinaptik-ai,Sinaptik Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/sinaptik-ai,2026-11-22T20:09:36Z
+OyadotAI,Oyadotai,STANDALONE_NORMALIZED,1.0000,https://github.com/OyadotAI,2026-11-22T20:09:36Z
+recursivelabsai,Recursivelabsai,STANDALONE_NORMALIZED,1.0000,https://github.com/recursivelabsai,2026-11-22T20:09:36Z
+cheshire-cat-ai,Cheshire Cat Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/cheshire-cat-ai,2026-11-22T20:09:36Z
+sovaai,Sovaai,STANDALONE_NORMALIZED,1.0000,https://github.com/sovaai,2026-11-22T20:09:36Z
+rh-aiservices-bu,Rh Aiservices Bu,STANDALONE_NORMALIZED,1.0000,https://github.com/rh-aiservices-bu,2026-11-22T20:09:36Z
+aihpi,Aihpi,STANDALONE_NORMALIZED,1.0000,https://github.com/aihpi,2026-11-22T20:09:36Z
+Integuru-AI,Integuru Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Integuru-AI,2026-11-22T20:09:36Z
+AI4LAM,Ai4Lam,STANDALONE_NORMALIZED,1.0000,https://github.com/AI4LAM,2026-11-22T20:09:36Z
+Qualcomm-AI-research,Qualcomm Ai Research,STANDALONE_NORMALIZED,1.0000,https://github.com/Qualcomm-AI-research,2026-11-22T20:09:36Z
+Bria-AI,Bria Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Bria-AI,2026-11-22T20:09:36Z
+AI-Core,Ai Core,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-Core,2026-11-22T20:09:36Z
+nansen-ai,Nansen Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/nansen-ai,2026-11-22T20:09:36Z
+cisco-ai-defense,Cisco Ai Defense,STANDALONE_NORMALIZED,1.0000,https://github.com/cisco-ai-defense,2026-11-22T20:09:36Z
+AiuniAI,Aiuniai,STANDALONE_NORMALIZED,1.0000,https://github.com/AiuniAI,2026-11-22T20:09:36Z
+ContextualAI,Contextualai,STANDALONE_NORMALIZED,1.0000,https://github.com/ContextualAI,2026-11-22T20:09:36Z
+probabilisticai,Probabilisticai,STANDALONE_NORMALIZED,1.0000,https://github.com/probabilisticai,2026-11-22T20:09:36Z
+airbus-cyber,Airbus Cyber,STANDALONE_NORMALIZED,1.0000,https://github.com/airbus-cyber,2026-11-22T20:09:36Z
+airflow-plugins,Airflow Plugins,STANDALONE_NORMALIZED,1.0000,https://github.com/airflow-plugins,2026-11-22T20:09:36Z
+CharHubAI,Charhubai,STANDALONE_NORMALIZED,1.0000,https://github.com/CharHubAI,2026-11-22T20:09:36Z
+gofireflyio,Gofireflyio,STANDALONE_NORMALIZED,1.0000,https://github.com/gofireflyio,2026-11-22T20:09:36Z
+moises-ai,Moises Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/moises-ai,2026-11-22T20:09:36Z
+BengaliAI,Bengaliai,STANDALONE_NORMALIZED,1.0000,https://github.com/BengaliAI,2026-11-22T20:09:36Z
+keenableai,Keenableai,STANDALONE_NORMALIZED,1.0000,https://github.com/keenableai,2026-11-22T20:09:36Z
+All-Hands-AI,All Hands Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/All-Hands-AI,2026-11-22T20:09:36Z
+AIGCDesignGroup,Aigcdesigngroup,STANDALONE_NORMALIZED,1.0000,https://github.com/AIGCDesignGroup,2026-11-22T20:09:36Z
+aibtcdev,Aibtcdev,STANDALONE_NORMALIZED,1.0000,https://github.com/aibtcdev,2026-11-22T20:09:36Z
+boostcampaitech2,Boostcampaitech2,STANDALONE_NORMALIZED,1.0000,https://github.com/boostcampaitech2,2026-11-22T20:09:36Z
+ai-scm,Ai Scm,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-scm,2026-11-22T20:09:36Z
+AmbiqAI,Ambiqai,STANDALONE_NORMALIZED,1.0000,https://github.com/AmbiqAI,2026-11-22T20:09:36Z
+SuperagenticAI,Superagenticai,STANDALONE_NORMALIZED,1.0000,https://github.com/SuperagenticAI,2026-11-22T20:09:36Z
+flowdriveai,Flowdriveai,STANDALONE_NORMALIZED,1.0000,https://github.com/flowdriveai,2026-11-22T20:09:36Z
+AIForBetterLife,Aiforbetterlife,STANDALONE_NORMALIZED,1.0000,https://github.com/AIForBetterLife,2026-11-22T20:09:36Z
+companionintelligence,Companionintelligence,STANDALONE_NORMALIZED,1.0000,https://github.com/companionintelligence,2026-11-22T20:09:36Z
+SparkAudio,Sparkaudio,STANDALONE_NORMALIZED,1.0000,https://github.com/SparkAudio,2026-11-22T20:09:36Z
+athina-ai,Athina Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/athina-ai,2026-11-22T20:09:36Z
+RetellAI,Retellai,STANDALONE_NORMALIZED,1.0000,https://github.com/RetellAI,2026-11-22T20:09:36Z
+Ansvar-Systems,Ansvar,STANDALONE_NORMALIZED,1.0000,https://github.com/Ansvar-Systems,2026-11-22T20:09:36Z
+ai2es,Ai2Es,STANDALONE_NORMALIZED,1.0000,https://github.com/ai2es,2026-11-22T20:09:36Z
+aidenlab,Aidenlab,STANDALONE_NORMALIZED,1.0000,https://github.com/aidenlab,2026-11-22T20:09:36Z
+AISeQLab,Aiseqlab,STANDALONE_NORMALIZED,1.0000,https://github.com/AISeQLab,2026-11-22T20:09:36Z
+ai2cm,Ai2Cm,STANDALONE_NORMALIZED,1.0000,https://github.com/ai2cm,2026-11-22T20:09:36Z
+T3xtifyai,T3Xtifyai,STANDALONE_NORMALIZED,1.0000,https://github.com/T3xtifyai,2026-11-22T20:09:36Z
+AI-S2-Lab,Ai S2,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-S2-Lab,2026-11-22T20:09:36Z
+ait-tr,Ait Tr,STANDALONE_NORMALIZED,1.0000,https://github.com/ait-tr,2026-11-22T20:09:36Z
+SantanderAI,Santanderai,STANDALONE_NORMALIZED,1.0000,https://github.com/SantanderAI,2026-11-22T20:09:36Z
+albumentations-team,Albumentations Team,STANDALONE_NORMALIZED,1.0000,https://github.com/albumentations-team,2026-11-22T20:09:36Z
+TsinghuaAI,Tsinghuaai,STANDALONE_NORMALIZED,1.0000,https://github.com/TsinghuaAI,2026-11-22T20:09:36Z
+postgres-ai,Postgres Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/postgres-ai,2026-11-22T20:09:36Z
+recallai,Recallai,STANDALONE_NORMALIZED,1.0000,https://github.com/recallai,2026-11-22T20:09:36Z
+lablab-ai,Lablab Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/lablab-ai,2026-11-22T20:09:36Z
+funstory-ai,Funstory Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/funstory-ai,2026-11-22T20:09:36Z
+aitechnav,Aitechnav,STANDALONE_NORMALIZED,1.0000,https://github.com/aitechnav,2026-11-22T20:09:36Z
+flowaicom,Flowaicom,STANDALONE_NORMALIZED,1.0000,https://github.com/flowaicom,2026-11-22T20:09:36Z
+nexthop-ai,Nexthop Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/nexthop-ai,2026-11-22T20:09:36Z
+sberbank-ai,Sberbank Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/sberbank-ai,2026-11-22T20:09:36Z
+zsibot,Zsibot,STANDALONE_NORMALIZED,1.0000,https://github.com/zsibot,2026-11-22T20:09:36Z
+AI-Infra-Team,Ai Infra Team,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-Infra-Team,2026-11-22T20:09:36Z
+WaveSpeedAI,Wavespeedai,STANDALONE_NORMALIZED,1.0000,https://github.com/WaveSpeedAI,2026-11-22T20:09:36Z
+InfuseAI,Infuseai,STANDALONE_NORMALIZED,1.0000,https://github.com/InfuseAI,2026-11-22T20:09:36Z
+kontent-ai,Kontent Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/kontent-ai,2026-11-22T20:09:36Z
+api7,Api7,STANDALONE_NORMALIZED,1.0000,https://github.com/api7,2026-11-22T20:09:36Z
+iblai,Iblai,STANDALONE_NORMALIZED,1.0000,https://github.com/iblai,2026-11-22T20:09:36Z
+DerwenAI,Derwenai,STANDALONE_NORMALIZED,1.0000,https://github.com/DerwenAI,2026-11-22T20:09:36Z
+aiwaves-cn,Aiwaves Cn,STANDALONE_NORMALIZED,1.0000,https://github.com/aiwaves-cn,2026-11-22T20:09:36Z
+SaharaLabsAI,Saharalabsai,STANDALONE_NORMALIZED,1.0000,https://github.com/SaharaLabsAI,2026-11-22T20:09:36Z
+AICLUB-IIITDM,Aiclub Iiitdm,STANDALONE_NORMALIZED,1.0000,https://github.com/AICLUB-IIITDM,2026-11-22T20:09:36Z
+shisa-ai,Shisa Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/shisa-ai,2026-11-22T20:09:36Z
+chatboxai,Chatboxai,STANDALONE_NORMALIZED,1.0000,https://github.com/chatboxai,2026-11-22T20:09:36Z
+cvat-ai,Cvat Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/cvat-ai,2026-11-22T20:09:36Z
+AIGC-Audio,Aigc Audio,STANDALONE_NORMALIZED,1.0000,https://github.com/AIGC-Audio,2026-11-22T20:09:36Z
+giotto-ai,Giotto Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/giotto-ai,2026-11-22T20:09:36Z
+timeseriesAI,Timeseriesai,STANDALONE_NORMALIZED,1.0000,https://github.com/timeseriesAI,2026-11-22T20:09:36Z
+AI-Robot-Book,Ai Robot Book,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-Robot-Book,2026-11-22T20:09:36Z
+PolyAI-LDN,Polyai Ldn,STANDALONE_NORMALIZED,1.0000,https://github.com/PolyAI-LDN,2026-11-22T20:09:36Z
+aitoss,Aitoss,STANDALONE_NORMALIZED,1.0000,https://github.com/aitoss,2026-11-22T20:09:36Z
+vibing-ai,Vibing Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/vibing-ai,2026-11-22T20:09:36Z
+AI-Marketing-Hub,Ai Marketing Hub,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-Marketing-Hub,2026-11-22T20:09:36Z
+SunbirdAI,Sunbirdai,STANDALONE_NORMALIZED,1.0000,https://github.com/SunbirdAI,2026-11-22T20:09:36Z
+skit-ai,Skit Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/skit-ai,2026-11-22T20:09:36Z
+AI4LIFE-GROUP,Ai4Life Group,STANDALONE_NORMALIZED,1.0000,https://github.com/AI4LIFE-GROUP,2026-11-22T20:09:36Z
+meetcleo,Meetcleo,STANDALONE_NORMALIZED,1.0000,https://github.com/meetcleo,2026-11-22T20:09:36Z
+Tonic-AI,Tonic Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Tonic-AI,2026-11-22T20:09:36Z
+aipotheosis-labs,Aipotheosis,STANDALONE_NORMALIZED,1.0000,https://github.com/aipotheosis-labs,2026-11-22T20:09:36Z
+ainfosec,Ainfosec,STANDALONE_NORMALIZED,1.0000,https://github.com/ainfosec,2026-11-22T20:09:36Z
+friendliai,Friendliai,STANDALONE_NORMALIZED,1.0000,https://github.com/friendliai,2026-11-22T20:09:36Z
+ai4energy,Ai4Energy,STANDALONE_NORMALIZED,1.0000,https://github.com/ai4energy,2026-11-22T20:09:36Z
+Deci-AI,Deci Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Deci-AI,2026-11-22T20:09:36Z
+AINative-Studio,Ainative Studio,STANDALONE_NORMALIZED,1.0000,https://github.com/AINative-Studio,2026-11-22T20:09:36Z
+Nexis-Network,Nexis Network,STANDALONE_NORMALIZED,1.0000,https://github.com/Nexis-Network,2026-11-22T20:09:36Z
+AIOZNetwork,Aioznetwork,STANDALONE_NORMALIZED,1.0000,https://github.com/AIOZNetwork,2026-11-22T20:09:36Z
+Klavis-AI,Klavis Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Klavis-AI,2026-11-22T20:09:37Z
+kubiyabot,Kubiyabot,STANDALONE_NORMALIZED,1.0000,https://github.com/kubiyabot,2026-11-22T20:09:37Z
+kaiko-ai,Kaiko Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/kaiko-ai,2026-11-22T20:09:37Z
+aistairc,Aistairc,STANDALONE_NORMALIZED,1.0000,https://github.com/aistairc,2026-11-22T20:09:37Z
+Airstack-xyz,Airstack Xyz,STANDALONE_NORMALIZED,1.0000,https://github.com/Airstack-xyz,2026-11-22T20:09:37Z
+airtai,Airtai,STANDALONE_NORMALIZED,1.0000,https://github.com/airtai,2026-11-22T20:09:37Z
+FirmAI-Research,Firmai Research,STANDALONE_NORMALIZED,1.0000,https://github.com/FirmAI-Research,2026-11-22T20:09:37Z
+AutodeskAILab,Autodeskailab,STANDALONE_NORMALIZED,1.0000,https://github.com/AutodeskAILab,2026-11-22T20:09:37Z
+aidos-lab,Aidos,STANDALONE_NORMALIZED,1.0000,https://github.com/aidos-lab,2026-11-22T20:09:37Z
+kaistAI,Kaistai,STANDALONE_NORMALIZED,1.0000,https://github.com/kaistAI,2026-11-22T20:09:38Z
+chai-research,Chai Research,STANDALONE_NORMALIZED,1.0000,https://github.com/chai-research,2026-11-22T20:09:38Z
+AIM-Intelligence,Aim Intelligence,STANDALONE_NORMALIZED,1.0000,https://github.com/AIM-Intelligence,2026-11-22T20:09:38Z
+airweave-ai,Airweave Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/airweave-ai,2026-11-22T20:09:38Z
+AtomicBot-ai,Atomicbot Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/AtomicBot-ai,2026-11-22T20:09:38Z
+aiondemand,Aiondemand,STANDALONE_NORMALIZED,1.0000,https://github.com/aiondemand,2026-11-22T20:09:38Z
+qureai,Qureai,STANDALONE_NORMALIZED,1.0000,https://github.com/qureai,2026-11-22T20:09:38Z
+tum-ai,Tum Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/tum-ai,2026-11-22T20:09:38Z
+hypit-ai,Hypit Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/hypit-ai,2026-11-22T20:09:38Z
+EvoScientist,Evoscientist,STANDALONE_NORMALIZED,1.0000,https://github.com/EvoScientist,2026-11-22T20:09:38Z
+usacognition,usacognition,MANUAL_REVIEW_FLAGGED,0.8571,https://github.com/usacognition,2026-11-22T20:09:38Z
+Kiln-AI,Kiln Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Kiln-AI,2026-11-22T20:09:38Z
+Team-Commonly,Team Commonly,STANDALONE_NORMALIZED,1.0000,https://github.com/Team-Commonly,2026-11-22T20:09:38Z
+PayAINetwork,Payainetwork,STANDALONE_NORMALIZED,1.0000,https://github.com/PayAINetwork,2026-11-22T20:09:38Z
+AidpProject,Aidpproject,STANDALONE_NORMALIZED,1.0000,https://github.com/AidpProject,2026-11-22T20:09:38Z
+AzatAI,Azatai,STANDALONE_NORMALIZED,1.0000,https://github.com/AzatAI,2026-11-22T20:09:38Z
+deepsense-ai,deepsense-ai,MANUAL_REVIEW_FLAGGED,0.8235,https://github.com/deepsense-ai,2026-11-22T20:09:38Z
+ai-builders,Ai Builders,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-builders,2026-11-22T20:09:38Z
+fw-ai,Fw Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/fw-ai,2026-11-22T20:09:38Z
+airswap,Airswap,STANDALONE_NORMALIZED,1.0000,https://github.com/airswap,2026-11-22T20:09:38Z
+FederatedAI,Federatedai,STANDALONE_NORMALIZED,1.0000,https://github.com/FederatedAI,2026-11-22T20:09:38Z
+lunorai,Lunorai,STANDALONE_NORMALIZED,1.0000,https://github.com/lunorai,2026-11-22T20:09:38Z
+aimhubio,Aimhubio,STANDALONE_NORMALIZED,1.0000,https://github.com/aimhubio,2026-11-22T20:09:38Z
+traycerai,Traycerai,STANDALONE_NORMALIZED,1.0000,https://github.com/traycerai,2026-11-22T20:09:38Z
+AISocietyIITJ,Aisocietyiitj,STANDALONE_NORMALIZED,1.0000,https://github.com/AISocietyIITJ,2026-11-22T20:09:38Z
+AI20K-Build-Phase-Cohort-3,Ai20K Build Phase Cohort 3,STANDALONE_NORMALIZED,1.0000,https://github.com/AI20K-Build-Phase-Cohort-3,2026-11-22T20:09:38Z
+vectranetworks,Vectranetworks,STANDALONE_NORMALIZED,1.0000,https://github.com/vectranetworks,2026-11-22T20:09:38Z
+aivillage,Aivillage,STANDALONE_NORMALIZED,1.0000,https://github.com/aivillage,2026-11-22T20:09:38Z
+AI-Engineer-Foundation,Ai Engineer Foundation,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-Engineer-Foundation,2026-11-22T20:09:38Z
+ai4s-research,Ai4S Research,STANDALONE_NORMALIZED,1.0000,https://github.com/ai4s-research,2026-11-22T20:09:38Z
+galilai-group,Galilai Group,STANDALONE_NORMALIZED,1.0000,https://github.com/galilai-group,2026-11-22T20:09:38Z
+KolosalAI,Kolosalai,STANDALONE_NORMALIZED,1.0000,https://github.com/KolosalAI,2026-11-22T20:09:38Z
+AI-QL,Ai Ql,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-QL,2026-11-22T20:09:38Z
+maum-ai,Maum Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/maum-ai,2026-11-22T20:09:38Z
+ai-cfia,Ai Cfia,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-cfia,2026-11-22T20:09:38Z
+fellowship,Fellowship,STANDALONE_NORMALIZED,1.0000,https://github.com/fellowship,2026-11-22T20:09:38Z
+Triton-AI,Triton Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Triton-AI,2026-11-22T20:09:38Z
+BlockRunAI,Blockrunai,STANDALONE_NORMALIZED,1.0000,https://github.com/BlockRunAI,2026-11-22T20:09:38Z
+edenai,Edenai,STANDALONE_NORMALIZED,1.0000,https://github.com/edenai,2026-11-22T20:09:38Z
+airlift,Airlift,STANDALONE_NORMALIZED,1.0000,https://github.com/airlift,2026-11-22T20:09:38Z
+PreferredAI,Preferredai,STANDALONE_NORMALIZED,1.0000,https://github.com/PreferredAI,2026-11-22T20:09:38Z
+PundiAI,Pundiai,STANDALONE_NORMALIZED,1.0000,https://github.com/PundiAI,2026-11-22T20:09:38Z
+riiid,Riiid,STANDALONE_NORMALIZED,1.0000,https://github.com/riiid,2026-11-22T20:09:38Z
+aitomatic,Aitomatic,STANDALONE_NORMALIZED,1.0000,https://github.com/aitomatic,2026-11-22T20:09:38Z
+WeaveFox,Weavefox,STANDALONE_NORMALIZED,1.0000,https://github.com/WeaveFox,2026-11-22T20:09:38Z
+ai-openshell,Ai Openshell,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-openshell,2026-11-22T20:09:38Z
+plandex-ai,plandex-ai,MANUAL_REVIEW_FLAGGED,0.7059,https://github.com/plandex-ai,2026-11-22T20:09:38Z
+Improbable-AI,Improbable Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Improbable-AI,2026-11-22T20:09:38Z
+surge-ai,Surge Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/surge-ai,2026-11-22T20:09:38Z
+Egonex-AI,Egonex Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Egonex-AI,2026-11-22T20:09:38Z
+heavyai,Heavyai,STANDALONE_NORMALIZED,1.0000,https://github.com/heavyai,2026-11-22T20:09:38Z
+Infini-AI-Lab,Infini Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Infini-AI-Lab,2026-11-22T20:09:38Z
+UCSB-AI,Ucsb Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/UCSB-AI,2026-11-22T20:09:38Z
+clue-ai,Clue Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/clue-ai,2026-11-22T20:09:38Z
+aurelio-labs,Aurelio,STANDALONE_NORMALIZED,1.0000,https://github.com/aurelio-labs,2026-11-22T20:09:38Z
+antvis,Antvis,STANDALONE_NORMALIZED,1.0000,https://github.com/antvis,2026-11-22T20:09:38Z
+aiea-lab,Aiea,STANDALONE_NORMALIZED,1.0000,https://github.com/aiea-lab,2026-11-22T20:09:38Z
+NeurAI-Lab,Neurai,STANDALONE_NORMALIZED,1.0000,https://github.com/NeurAI-Lab,2026-11-22T20:09:38Z
+ailab-hanyang,Ailab Hanyang,STANDALONE_NORMALIZED,1.0000,https://github.com/ailab-hanyang,2026-11-22T20:09:38Z
+getCUJO,Getcujo,STANDALONE_NORMALIZED,1.0000,https://github.com/getCUJO,2026-11-22T20:09:38Z
+kodu-ai,Kodu Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/kodu-ai,2026-11-22T20:09:38Z
+ai-mastering,Ai Mastering,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-mastering,2026-11-22T20:09:38Z
+Pokee-AI,Pokee Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Pokee-AI,2026-11-22T20:09:38Z
+refly-ai,Refly Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/refly-ai,2026-11-22T20:09:38Z
+aisa-group,Aisa Group,STANDALONE_NORMALIZED,1.0000,https://github.com/aisa-group,2026-11-22T20:09:38Z
+ailab-pku,Ailab Pku,STANDALONE_NORMALIZED,1.0000,https://github.com/ailab-pku,2026-11-22T20:09:38Z
+ai-shifu,Ai Shifu,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-shifu,2026-11-22T20:09:38Z
+AI-Engineering-Platform,Ai Engineering Platform,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-Engineering-Platform,2026-11-22T20:09:38Z
+airmessage,Airmessage,STANDALONE_NORMALIZED,1.0000,https://github.com/airmessage,2026-11-22T20:09:38Z
+aiidalab,Aiidalab,STANDALONE_NORMALIZED,1.0000,https://github.com/aiidalab,2026-11-22T20:09:38Z
+obot-platform,Obot Platform,STANDALONE_NORMALIZED,1.0000,https://github.com/obot-platform,2026-11-22T20:09:38Z
+Desearch-ai,Desearch-ai,MANUAL_REVIEW_FLAGGED,0.7000,https://github.com/Desearch-ai,2026-11-22T20:09:38Z
+AIFrontiersLab,Aifrontierslab,STANDALONE_NORMALIZED,1.0000,https://github.com/AIFrontiersLab,2026-11-22T20:09:38Z
+digma-ai,Digma Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/digma-ai,2026-11-22T20:09:38Z
+horizon3ai,Horizon3Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/horizon3ai,2026-11-22T20:09:38Z
+ml-gde,Ml Gde,STANDALONE_NORMALIZED,1.0000,https://github.com/ml-gde,2026-11-22T20:09:38Z
+ai-analyst-lab,Ai Analyst,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-analyst-lab,2026-11-22T20:09:38Z
+airsdk,Airsdk,STANDALONE_NORMALIZED,1.0000,https://github.com/airsdk,2026-11-22T20:09:38Z
+one-covenant,One Covenant,STANDALONE_NORMALIZED,1.0000,https://github.com/one-covenant,2026-11-22T20:09:38Z
+haomo-ai,Haomo Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/haomo-ai,2026-11-22T20:09:38Z
+AI-team-UoA,Ai Team Uoa,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-team-UoA,2026-11-22T20:09:38Z
+faros-ai,Faros Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/faros-ai,2026-11-22T20:09:38Z
+AIESEC-LK,Aiesec Lk,STANDALONE_NORMALIZED,1.0000,https://github.com/AIESEC-LK,2026-11-22T20:09:38Z
+boyu-ai,Boyu Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/boyu-ai,2026-11-22T20:09:38Z
+aiortc,Aiortc,STANDALONE_NORMALIZED,1.0000,https://github.com/aiortc,2026-11-22T20:09:38Z
+AI-Stuff,Ai Stuff,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-Stuff,2026-11-22T20:09:38Z
+factoredai,Factoredai,STANDALONE_NORMALIZED,1.0000,https://github.com/factoredai,2026-11-22T20:09:38Z
+traversaal-ai,Traversaal Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/traversaal-ai,2026-11-22T20:09:38Z
+aipoch,Aipoch,STANDALONE_NORMALIZED,1.0000,https://github.com/aipoch,2026-11-22T20:09:38Z
+AltimateAI,Altimateai,STANDALONE_NORMALIZED,1.0000,https://github.com/AltimateAI,2026-11-22T20:09:38Z
+ProsusAI,Prosusai,STANDALONE_NORMALIZED,1.0000,https://github.com/ProsusAI,2026-11-22T20:09:39Z
+ai-club-daiict,Ai Club Daiict,STANDALONE_NORMALIZED,1.0000,https://github.com/ai-club-daiict,2026-11-22T20:09:39Z
+MolecularAI,Molecularai,STANDALONE_NORMALIZED,1.0000,https://github.com/MolecularAI,2026-11-22T20:09:39Z
+XpressAI,Xpressai,STANDALONE_NORMALIZED,1.0000,https://github.com/XpressAI,2026-11-22T20:09:39Z
+HacktronAI,Hacktronai,STANDALONE_NORMALIZED,1.0000,https://github.com/HacktronAI,2026-11-22T20:09:39Z
+moorcheh-ai,Moorcheh Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/moorcheh-ai,2026-11-22T20:09:39Z
+syv-ai,Syv Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/syv-ai,2026-11-22T20:09:39Z
+Aidbox,Aidbox,STANDALONE_NORMALIZED,1.0000,https://github.com/Aidbox,2026-11-22T20:09:39Z
+unionai,Unionai,STANDALONE_NORMALIZED,1.0000,https://github.com/unionai,2026-11-22T20:09:39Z
+openai-php,openai-php,MANUAL_REVIEW_FLAGGED,0.7500,https://github.com/openai-php,2026-11-22T20:09:39Z
+EightfoldAI,Eightfoldai,STANDALONE_NORMALIZED,1.0000,https://github.com/EightfoldAI,2026-11-22T20:09:39Z
+aifimmunology,Aifimmunology,STANDALONE_NORMALIZED,1.0000,https://github.com/aifimmunology,2026-11-22T20:09:39Z
+AIML4OS,Aiml4Os,STANDALONE_NORMALIZED,1.0000,https://github.com/AIML4OS,2026-11-22T20:09:39Z
+mostly-ai,Mostly Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/mostly-ai,2026-11-22T20:09:39Z
+Aivis-Project,Aivis Project,STANDALONE_NORMALIZED,1.0000,https://github.com/Aivis-Project,2026-11-22T20:09:39Z
+Toolbase-AI,Toolbase Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/Toolbase-AI,2026-11-22T20:09:39Z
+groundlight,Groundlight,STANDALONE_NORMALIZED,1.0000,https://github.com/groundlight,2026-11-22T20:09:39Z
+Aizistral-Studios,Aizistral Studios,STANDALONE_NORMALIZED,1.0000,https://github.com/Aizistral-Studios,2026-11-22T20:09:39Z
+AimRT,Aimrt,STANDALONE_NORMALIZED,1.0000,https://github.com/AimRT,2026-11-22T20:09:39Z
+AI-sandbox,Ai Sandbox,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-sandbox,2026-11-22T20:09:39Z
+aixcoder-plugin,Aixcoder Plugin,STANDALONE_NORMALIZED,1.0000,https://github.com/aixcoder-plugin,2026-11-22T20:09:39Z
+dsx-ai-factory,Dsx Ai Factory,STANDALONE_NORMALIZED,1.0000,https://github.com/dsx-ai-factory,2026-11-22T20:09:39Z
+airchains-network,Airchains Network,STANDALONE_NORMALIZED,1.0000,https://github.com/airchains-network,2026-11-22T20:09:39Z
+zvec-ai,Zvec Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/zvec-ai,2026-11-22T20:09:39Z
+AI-Driven-R-D-Dept,Ai Driven R D Dept,STANDALONE_NORMALIZED,1.0000,https://github.com/AI-Driven-R-D-Dept,2026-11-22T20:09:39Z
+Lexsi-Labs,Lexsi,STANDALONE_NORMALIZED,1.0000,https://github.com/Lexsi-Labs,2026-11-22T20:09:39Z
+cookiy-ai,Cookiy Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/cookiy-ai,2026-11-22T20:09:39Z
+AIScientists-Dev,Aiscientists Dev,STANDALONE_NORMALIZED,1.0000,https://github.com/AIScientists-Dev,2026-11-22T20:09:39Z
+aicodix,Aicodix,STANDALONE_NORMALIZED,1.0000,https://github.com/aicodix,2026-11-22T20:09:39Z
+airoa-org,Airoa Org,STANDALONE_NORMALIZED,1.0000,https://github.com/airoa-org,2026-11-22T20:09:39Z
+GoodAI,Goodai,STANDALONE_NORMALIZED,1.0000,https://github.com/GoodAI,2026-11-22T20:09:39Z
+smallest-inc,Smallest,STANDALONE_NORMALIZED,1.0000,https://github.com/smallest-inc,2026-11-22T20:09:39Z
+realtime-ai,Realtime Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/realtime-ai,2026-11-22T20:09:39Z
+arakoodev,Arakoodev,STANDALONE_NORMALIZED,1.0000,https://github.com/arakoodev,2026-11-22T20:09:39Z
+conversationai,Conversationai,STANDALONE_NORMALIZED,1.0000,https://github.com/conversationai,2026-11-22T20:09:39Z
+AILAB-CEFET-RJ,Ailab Cefet Rj,STANDALONE_NORMALIZED,1.0000,https://github.com/AILAB-CEFET-RJ,2026-11-22T20:09:39Z
+aizuda,Aizuda,STANDALONE_NORMALIZED,1.0000,https://github.com/aizuda,2026-11-22T20:09:39Z
+gokite-ai,Gokite Ai,STANDALONE_NORMALIZED,1.0000,https://github.com/gokite-ai,2026-11-22T20:09:39Z
+aip-dev,Aip Dev,STANDALONE_NORMALIZED,1.0000,https://github.com/aip-dev,2026-11-22T20:09:39Z
+airplanes-live,Airplanes Live,STANDALONE_NORMALIZED,1.0000,https://github.com/airplanes-live,2026-11-22T20:09:39Z
+aiax-network,Aiax Network,STANDALONE_NORMALIZED,1.0000,https://github.com/aiax-network,2026-11-22T20:09:39Z
+fal-ai-community,Fal Ai Community,STANDALONE_NORMALIZED,1.0000,https://github.com/fal-ai-community,2026-11-22T20:09:39Z

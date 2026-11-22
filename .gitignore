@@ -37,10 +37,7 @@ service_account.json
 *.sqlite3
 *.db
 
-# Data artifacts (keep sample datasets, ignore massive dumps)
-data/exports/*.csv
-data/exports/*.xlsx
-!data/exports/.gitkeep
+# Sample datasets
 data/samples/*.json
 
 # Testing & Coverage

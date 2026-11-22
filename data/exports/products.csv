@@ -1,0 +1,1001 @@
+schemaVersion,recordType,source.name,source.url,content.startupName,content.productName,content.pricingModel,collectedAt
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://chatgpt.com,OpenAI,ChatGPT,FREEMIUM,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://platform.openai.com,OpenAI,GPT-4o API,PAID,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://claude.ai,Anthropic,Claude,FREEMIUM,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://www.anthropic.com/api,Anthropic,Claude API,PAID,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://perplexity.ai,Perplexity AI,Perplexity Search,FREEMIUM,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://midjourney.com,Midjourney,Midjourney v6,PAID,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://cursor.com,Cursor,Cursor IDE,FREEMIUM,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://runwayml.com,Runway,Runway Gen-3 Alpha,FREEMIUM,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://elevenlabs.io,ElevenLabs,ElevenLabs Voice AI,FREEMIUM,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://github.com/features/copilot,Github,GitHub Copilot,PAID,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://jasper.ai,Jasper AI,Jasper Platform,PAID,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://synthesia.io,Synthesia,Synthesia Studio,PAID,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://harvey.ai,Harvey AI,Harvey Legal Assistant,ENTERPRISE,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://scale.com,Scale AI,Scale Data Engine,ENTERPRISE,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://glean.com,Glean,Glean Enterprise Search,ENTERPRISE,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://writer.com,Writer,Writer Enterprise AI,ENTERPRISE,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://pinecone.io,Pinecone,Pinecone Serverless,FREEMIUM,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://weaviate.io,Weaviate,Weaviate Cloud Services,FREEMIUM,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://wandb.ai,Weights & Biases,W&B Models & Sweeps,FREEMIUM,2026-11-22T20:10:54Z
+1.0,PRODUCT,FrontierAtlas Product Intelligence,https://replicate.com,Replicate,Replicate Cloud API,PAID,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/thinkingmachines/Inkling-2-Mini,Thinkingmachines,Inkling-2-Mini,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/Inkling-2-Mini-GGUF,Unsloth,Inkling-2-Mini-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/inworld/voice-isolator,Inworld AI,voice-isolator,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted,Harness Hub,Qwen3.8-27B-pi-adapted,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/higurashi-ai/Haru-4B,Higurashi Ai,Haru-4B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF,Atomicchat,Inkling-2-Mini-Uncensored-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/apple/DepthPro2,Apple,DepthPro2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/Hy4-flash,Tencent,Hy4-flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3.8-27B,Qwen,Qwen3.8-27B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/sensenova/SenseNova-Loop-9B,Sensenova,SenseNova-Loop-9B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/apple/FastFrames-L,Apple,FastFrames-L,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Lightricks/LTX-2.5,Lightricks,LTX-2.5,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/SulphurAI/Sulphur-3,Sulphurai,Sulphur-3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized,Chatrlabs,Qwen-Image-2.1-Uncensored-Omni-Quantized,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6,Meituan Longcat,LongCat-Video-Avatar-1.6,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/MiniMaxAI/MiniMax-H3-Image,Minimaxai,MiniMax-H3-Image,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/maxwell-model/Maxwell-V1-Flash,Maxwell Model,Maxwell-V1-Flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF,Davidau,Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/RadixArk/DaisyRose-27B,Radixark,DaisyRose-27B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/n4ze3m/tiny-voca,N4Ze3M,tiny-voca,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/facebook/sam-3d-body-dinov3,Facebook,sam-3d-body-dinov3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/facebook/sam3,Facebook,sam3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Sentinel7/h3,Sentinel7,h3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/thinkingmachines/Inkling-2-Small,Thinkingmachines,Inkling-2-Small,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017,DeepSeek,DeepSeek-V4.1-Flash-1017,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/Qwen3.8-27B-GGUF,Unsloth,Qwen3.8-27B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB,Nvidia,NVIDIA-Nemotron-3.5-Bolt-E4B-4GB,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy,Black Forest Labs,flux-3-image-klein-comfy,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF,Davidau,Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF,Huihui Ai,Huihui-Qwen3.8-27B-abliterated-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/briaai/RMBG-3.0,Briaai,RMBG-3.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/HuggingFaceTB/SmolVLM2-256M-Video-Instruct,Hugging Face,SmolVLM2-256M-Video-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Reson8/Rumble-2-Flash,Reson8,Rumble-2-Flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/internlm/Sage-S2.1-Flash,Internlm,Sage-S2.1-Flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Zyphra/ZONOS3-Mini,Zyphra,ZONOS3-Mini,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Cloudflare/clairic,Cloudflare,clairic,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/Hy4,Tencent,Hy4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/harness-hub/Qwen3.8-27B-opencode-adapted,Harness Hub,Qwen3.8-27B-opencode-adapted,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/OpenUncensored/Inkling-2-Mini-Uncensored,Openuncensored,Inkling-2-Mini-Uncensored,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/pyannote/speaker-diarization-community-1,Pyannote,speaker-diarization-community-1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Lakonik/pi-H3,Lakonik,pi-H3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct,Meta Llama,Meta-Llama-3-8B-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/moonshotai/Kimi-K3.1-Pro,Moonshotai,Kimi-K3.1-Pro,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B,Microsoft,Aion-1.0-Instruct-2.3B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/OVHaiLLM/Olala-v1.0-mini-7A1B,Ovhaillm,Olala-v1.0-mini-7A1B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/KORMo-VL/KORMo-Web-11B,Kormo Vl,KORMo-Web-11B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Comfy-Org/MiniMax-H3-Image,Comfy Org,MiniMax-H3-Image,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m,Facebook,dinov3-vitl16-pretrain-lvd1689m,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/MiniMaxAI/MiniMax-H3,Minimaxai,MiniMax-H3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3.8-Flash-Next,Qwen,Qwen3.8-Flash-Next,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Cactus-Compute/mirage,Cactus Compute,mirage,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/speridlabs/idol,Speridlabs,idol,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Edge0/Edge0-145B-NVFP4,Edge0,Edge0-145B-NVFP4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft,Nvidia,Qwen3.5-4B-Qwen3.8-27B-Draft,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/sensenova/SenseNova-Loop-9B-GGUF,Sensenova,SenseNova-Loop-9B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/thejagstudio/tessera-small,Thejagstudio,tessera-small,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/apple/FastFrames-S,Apple,FastFrames-S,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiquidAI/LFM3-1.7B,LiquidAI,LFM3-1.7B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/AngelSlim/Hy4-flash-GGUF,Angelslim,Hy4-flash-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ggml-org/Inkling-2-Mini-GGUF,Ggml Org,Inkling-2-Mini-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/pyannote/speaker-diarization-3.1,Pyannote,speaker-diarization-3.1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/software-mansion/Reverb-TTS,Software Mansion,Reverb-TTS,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-4-E4B-it,Google,gemma-4-E4B-it,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/lodestones/Kromoss,Lodestones,Kromoss,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/thinkingmachines/TML-d24-varloop-research,Thinkingmachines,TML-d24-varloop-research,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Pinkstack/LiliPixel-V1-190M,Pinkstack,LiliPixel-V1-190M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/IFM/PAN2,Ifm,PAN2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF,Mradermacher,DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/akatz-ai/MiniMax-H3-Image-Character-Swap-LoRA,Akatz Ai,MiniMax-H3-Image-Character-Swap-LoRA,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF,Sc117,Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/strata-engine/Hy4-Flash-Strata,Strata Engine,Hy4-Flash-Strata,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Nebsh/Seedreamstyle-H3-6K,Nebsh,Seedreamstyle-H3-6K,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/lvladikov/MOSS-SFT-Distill-4step-LoRA,Lvladikov,MOSS-SFT-Distill-4step-LoRA,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/KRAFTON/Raon-1-nano,Krafton,Raon-1-nano,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted-GGUF,Harness Hub,Qwen3.8-27B-pi-adapted-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic,Xtools At,DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF,Orcarouter,Qwen3.8-27B-Uncensored-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/FluidVoice-Labs/fluid-speech-pro,Fluidvoice,fluid-speech-pro,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/microsoft/TRELLIS.2-4B,Microsoft,TRELLIS.2-4B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Comfy-Org/Krea-2,Comfy Org,Krea-2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF,Unsloth,Qwen3.8-Flash-Next-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/surogate/Surogate3.7-35B-A3B,Surogate,Surogate3.7-35B-A3B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Akahsizrr/voltron-1-mini,Akahsizrr,voltron-1-mini,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter,Harness Hub,Qwen3.8-27B-super-adapter,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/SupraLabs/Supra2.5-Pro-Instruct,Supralabs,Supra2.5-Pro-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/akhaliq/MiniMax-H3-Image-Character-Swap,Akhaliq,MiniMax-H3-Image-Character-Swap,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF,Orcarouter,Qwen3.8-Flash-Next-Uncensored-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Apexintelligence-AI/Apex-35B-V1.0,Apexintelligence Ai,Apex-35B-V1.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound-GGUF,Nokeepai,Inkling-2-Mini-Unbound-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B,Wan Ai,Wan2.2-TI2V-5B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Comfy-Org/RelayVSR,Comfy Org,RelayVSR,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/inworld/sava,Inworld AI,sava,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/WeMM-Video-35BA3B,Tencent,WeMM-Video-35BA3B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/briaai/RMBG-3.0-Comfy,Briaai,RMBG-3.0-Comfy,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/inclusionAI/LingSante-3.1-flash,Inclusionai,LingSante-3.1-flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/CaryPalmer/Kintsugi-27B,Carypalmer,Kintsugi-27B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/TenStrip/10Eros-Max,Tenstrip,10Eros-Max,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/facebook/VGGT-Omega,Facebook,VGGT-Omega,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Comfy-Org/MiniMax-H3,Comfy Org,MiniMax-H3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/RecursiveSI/flint,Recursivesi,flint,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/OVHaiLLM/Olala-v1.0-mini-7A1B-GGUF,Ovhaillm,Olala-v1.0-mini-7A1B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/MiniMax-H3-Image-GGUF,Unsloth,MiniMax-H3-Image-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/DavidAU/GLM-4.7-Flash-30B-A3B-Hellfire-Turbo-Brilliance-50x-AGI-NEO-GGUF,Davidau,GLM-4.7-Flash-30B-A3B-Hellfire-Turbo-Brilliance-50x-AGI-NEO-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mlx-community/Inkling-2-Mini-4bit,Mlx Community,Inkling-2-Mini-4bit,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/zai-org/GLM-5.3-Flash,Zai Org,GLM-5.3-Flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Cloudflare/clairic-flash,Cloudflare,clairic-flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Comfy-Org/Wan-2.2,Comfy Org,Wan-2.2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF,Unsloth,Qwen3.6-35B-A3B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/comfyanonymous/MOSS_image_MAX_ULTRA_hires_lora_test,Comfyanonymous,MOSS_image_MAX_ULTRA_hires_lora_test,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/NousResearch/Arete-27B,Nousresearch,Arete-27B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/KRAFTON/Raon-1-nano-gguf,Krafton,Raon-1-nano-gguf,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/linlinlinlinsdada/Jeveration,Linlinlinlinsdada,Jeveration,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/FrontiersMind/NandiBERT-450M,Frontiersmind,NandiBERT-450M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/bartowski/RadixArk_DaisyRose-27B-GGUF,Bartowski,RadixArk_DaisyRose-27B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated,Huihui Ai,Huihui-Qwen3.8-27B-abliterated,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap,Alissonerdx,BFS-Best-Face-Swap,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf,Prism Ml,Ternary-Bonsai-2-27B-gguf,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/FunAILab/Open-Vision-Banana,Funailab,Open-Vision-Banana,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/XHToken/Spark-X2.6-4B,Xhtoken,Spark-X2.6-4B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF,Unsloth,NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/KORMo-VL/KORMo-Web-4B,Kormo Vl,KORMo-Web-4B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/inclusionAI/invoker-render-1.0,Inclusionai,invoker-render-1.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/Hy4-flash-FP8,Tencent,Hy4-flash-FP8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/Hy4-flash-base,Tencent,Hy4-flash-base,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/AtomicChat/Inkling-2-Mini-GGUF,Atomicchat,Inkling-2-Mini-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/pyannote/segmentation-3.0,Pyannote,segmentation-3.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Qwen3.8-27B-NVFP4-QAD,Nvidia,Qwen3.8-27B-NVFP4-QAD,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/paperweight/tinyfix,Paperweight,tinyfix,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/harness-hub/Qwen3.8-27B-hermes-adapted,Harness Hub,Qwen3.8-27B-hermes-adapted,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meta-llama/Llama-3.1-8B,Meta Llama,Llama-3.1-8B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Tongyi-MAI/Z-Image-Turbo,Tongyi Mai,Z-Image-Turbo,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/jialinyyzz/humanizer,Jialinyyzz,humanizer,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Comfy-Org/Qwen-Image-2.1,Comfy Org,Qwen-Image-2.1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ReDiverse/ReDiverse-MiniMax-H3,Rediverse,ReDiverse-MiniMax-H3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound,Nokeepai,Inkling-2-Mini-Unbound,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/kyutai/pocket-tts,Kyutai,pocket-tts,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/facebook/sam3.1,Facebook,sam3.1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/embeddinggemma-2,Google,embeddinggemma-2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/DavidAU/Qwen3.8-40B-Ultimate-Heretic-Uncensored-Turbo-Brilliance-50x-AGI-NEO-GGUF,Davidau,Qwen3.8-40B-Ultimate-Heretic-Uncensored-Turbo-Brilliance-50x-AGI-NEO-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tuanlai001/H3-IMAGE-PE-HERETIC-NVFP4-COMFYUI,Tuanlai001,H3-IMAGE-PE-HERETIC-NVFP4-COMFYUI,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2,Sentence Transformers,all-MiniLM-L6-v2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/agents-course/notebooks,Agents Course,notebooks,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3.5-4B,Qwen,Qwen3.5-4B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/k2-fsa/OmniVoice,K2 Fsa,OmniVoice,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/NVIDIA-NemotronLabs-RE-USE,Nvidia,NVIDIA-NemotronLabs-RE-USE,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Cloudflare/clef,Cloudflare,clef,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/black-forest-labs/flux-3-image-klein,Black Forest Labs,flux-3-image-klein,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/harness-hub/Qwen3.8-27B-opencode-adapted-GGUF,Harness Hub,Qwen3.8-27B-opencode-adapted-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/AtomicChat/Maxwell-V1-Flash-GGUF,Atomicchat,Maxwell-V1-Flash-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF,Unsloth,gemma-4-26B-A4B-it-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3.6-35B-A3B,Qwen,Qwen3.6-35B-A3B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen-Image-2.1,Qwen,Qwen-Image-2.1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local,Nvidia,Qwen3.8-Flash-Next-FP4-Local,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base,Openmoss Team,MOSS-Image-Base,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Viggle/Viggle-Remake,Viggle,Viggle-Remake,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Nanbeige/Nanbeige4.3-33B,Nanbeige,Nanbeige4.3-33B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/VoightKampffLabs/voi-slop-detect-380M,Voightkampfflabs,voi-slop-detect-380M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mehdi-hf/cilla-mini,Mehdi Hf,cilla-mini,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/kitaniai/clover-2,Kitaniai,clover-2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Comfy-Org/LongCat-Video-Avatar,Comfy Org,LongCat-Video-Avatar,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/strata-engine/Inkling-2-Mini-Strata,Strata Engine,Inkling-2-Mini-Strata,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive,Hauhaucs,Gemma-4-E4B-Uncensored-HauhauCS-Aggressive,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF,Jonathancoletti,Qwen3.8-27B-Uncensored-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF,Atomicchat,Qwen-Image-2.1-Turbo-Uncensored-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/black-forest-labs/FLUX.1-schnell,Black Forest Labs,FLUX.1-schnell,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct,Meta Llama,Llama-3.2-3B-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-4-E2B-it,Google,gemma-4-E2B-it,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3.8-27B-FP8,Qwen,Qwen3.8-27B-FP8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Jingzhi03/UltraTex,Jingzhi03,UltraTex,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/audnai/penclaw-Kimi-K3.1-pro-unrestricted,Audnai,penclaw-Kimi-K3.1-pro-unrestricted,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/xtools-at/Qwensploit-V2-27B-CyberSecurity-Qwen3.8,Xtools At,Qwensploit-V2-27B-CyberSecurity-Qwen3.8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/yunyangge/MovieRoll,Yunyangge,MovieRoll,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Wuli-art/Gemma4-for-MiniMax-H3-Prompt-Extend,Wuli Art,Gemma4-for-MiniMax-H3-Prompt-Extend,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/akhaliq/MiniMax-H3-Image-Fun-Controlnet-Union-2.0,Akhaliq,MiniMax-H3-Image-Fun-Controlnet-Union-2.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/apple/DepthPro2-focal,Apple,DepthPro2-focal,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/voyager-so/shot-reader-8b,Voyager So,shot-reader-8b,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/baselabs/bison-1,Baselabs,bison-1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/jesdga/Inkling-2-Mini-Basalt,Jesdga,Inkling-2-Mini-Basalt,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiquidAI/d1-2B,LiquidAI,d1-2B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/DavidAU/Qwen3.8-27B-Ultimate-Heretic-Uncensored-Turbo-Brilliance-50x-AGI-NEO-GGUF,Davidau,Qwen3.8-27B-Ultimate-Heretic-Uncensored-Turbo-Brilliance-50x-AGI-NEO-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Abiray/MiniMax-H3-Image-GGUF,Abiray,MiniMax-H3-Image-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive,Hauhaucs,Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/black-forest-labs/FLUX.2-dev,Black Forest Labs,FLUX.2-dev,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-4-31B-it,Google,gemma-4-31B-it,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B,Mistral AI,Mistral-Large-4-1T-A52B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/PhaiModelLab/Phai-A1-35B-1M,Phaimodellab,Phai-A1-35B-1M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/KORMo-VL/KORMo-Web-9B,Kormo Vl,KORMo-Web-9B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Trelis/duplex-0,Trelis,duplex-0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/cfahlgren1/tessera-small-onnx,Cfahlgren1,tessera-small-onnx,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/peasantsmith/Hy4-Flash-Maya-GGUF,Peasantsmith,Hy4-Flash-Maya-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mlx-community/Inkling-2-Mini-oQ4e-mtp,Mlx Community,Inkling-2-Mini-oQ4e-mtp,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/DavidAU/Qwen3.8-Flash-Next-Abliterated-Uncensored-Turbo-Brilliance-50x-Reasoning-Instruct-GSQ-RCO-GGUF,Davidau,Qwen3.8-Flash-Next-Abliterated-Uncensored-Turbo-Brilliance-50x-Reasoning-Instruct-GSQ-RCO-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct,Meta Llama,Llama-3.1-8B-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/hexgrad/Kokoro-82M,Hexgrad,Kokoro-82M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/krea/Krea-2-Raw,Krea,Krea-2-Raw,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Alissonerdx/Minimax-H3-ComfyUI,Alissonerdx,Minimax-H3-ComfyUI,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF,Ista Daslab,Qwen3.8-Flash-Next-GSQ-RCO-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiquidAI/LFM3-Omni-2B,LiquidAI,LFM3-Omni-2B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/KittenML/kitten-tts-2-mini,Kittenml,kitten-tts-2-mini,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/AtomicChat/Hy4-flash-GGUF,Atomicchat,Hy4-flash-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/stabilityai/stable-fast-3d,Stability AI,stable-fast-3d,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/facebook/dinov3-vits16-pretrain-lvd1689m,Facebook,dinov3-vits16-pretrain-lvd1689m,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/openbmb/VoxCPM2,openbmb,VoxCPM2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/stabilityai/stable-audio-3-medium,Stability AI,stable-audio-3-medium,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/diffusiongemma-26B-A4B-it,Google,diffusiongemma-26B-A4B-it,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/MiniMaxAI/MiniMax-Music3,Minimaxai,MiniMax-Music3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash,DeepSeek,DeepSeek-V4.1-Flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-GGUF,Ukisai,Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B,Nvidia,NVIDIA-Nemotron-3.5-Transcribe-30B-A4B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/MachinePulseAI/karpo-decision-31B,Machinepulseai,karpo-decision-31B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/aurateam/AURA_2,Aurateam,AURA_2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/vyrekai/minimax-h3-image-comfyui-workflows,Vyrekai,minimax-h3-image-comfyui-workflows,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/adventists-ai/Sophon-Realtime-4B-Flash,Adventists Ai,Sophon-Realtime-4B-Flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF,Ista Daslab,Qwen3.8-27B-GSQ-RCO-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/fishaudio/drama-3,Fishaudio,drama-3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/stabilityai/stable-audio-open-1.0,Stability AI,stable-audio-open-1.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct,Meta Llama,Llama-3.2-1B-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/deepseek-ai/DeepSeek-R1,DeepSeek,DeepSeek-R1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ai4bharat/IndicF5,Ai4Bharat,IndicF5,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3,Nvidia,parakeet-tdt-0.6b-v3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/black-forest-labs/FLUX.2-klein-4B,Black Forest Labs,FLUX.2-klein-4B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/moonshotai/Kimi-K3,Moonshotai,Kimi-K3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/BreezeBlue/Breeze-TTS-2,Breezeblue,Breeze-TTS-2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/moondream/parakeet-ultra,Moondream,parakeet-ultra,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiquidAI/LFM3-VL-2B,LiquidAI,LFM3-VL-2B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF,Ista Daslab,DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder,ccore,Qwen3.5-4B-3D-Coder,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/baidu/Unlimited-OCR-2,Baidu,Unlimited-OCR-2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF,Ista Daslab,DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/WeVisForensics,Tencent,WeVisForensics,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mehdi-hf/cilla-lite,Mehdi Hf,cilla-lite,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/AngelSlim/Hy4-GGUF,Angelslim,Hy4-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/data-archetype/dflow_2b,Data Archetype,dflow_2b,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/black-forest-labs/FLUX.1-dev,Black Forest Labs,FLUX.1-dev,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3.5-9B,Qwen,Qwen3.5-9B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive,Hauhaucs,Qwen3.5-9B-Uncensored-HauhauCS-Aggressive,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/coder3101/gemma-4-E4B-it-heretic,Coder3101,gemma-4-E4B-it-heretic,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/culturerevolt/gemma-4-12b-heretic-abliterated-GGUF,Culturerevolt,gemma-4-12b-heretic-abliterated-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF,Hauhaucs,Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED,Obliteratus,Qwen3.8-27B-OBLITERATED,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/zai-org/GLM-5.3,Zai Org,GLM-5.3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/whittleOrg/Whittle-Next-27B-A3B,Whittleorg,Whittle-Next-27B-A3B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM,Oliviarossi,Minimax-h3_Singularity-x-10Eros-Max_PRISM,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/black-forest-labs/FLUX.1-Fill-dev,Black Forest Labs,FLUX.1-Fill-dev,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/openai/gpt-oss-120b,OpenAI,gpt-oss-120b,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/facebook/dinov3-vitb16-pretrain-lvd1689m,Facebook,dinov3-vitb16-pretrain-lvd1689m,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/personaplex-7b-v1,Nvidia,personaplex-7b-v1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice,Qwen,Qwen3-TTS-12Hz-1.7B-CustomVoice,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF,Unsloth,Qwen3.6-35B-A3B-MTP-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731,DeepSeek,DeepSeek-V4-Flash-0731,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Alpamayo2-Edge,Nvidia,Alpamayo2-Edge,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/inclusionAI/Ming-3.0-audio-flash,Inclusionai,Ming-3.0-audio-flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF,LiquidAI,LFM2.5-24B-A2B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash,Minimaxai,MiniMax-M3.1-Flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiquidAI/d1-Omni-2B,LiquidAI,d1-Omni-2B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/AuroraAI-Research/Aurora2-400M-A20M,Auroraai Research,Aurora2-400M-A20M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Blackfrost-AI/Inkling-2-Mini-Derisked,Blackfrost-AI,Inkling-2-Mini-Derisked,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/krea/Krea-2-Turbo,Krea,Krea-2-Turbo,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Comfy-Org/PAN2,Comfy Org,PAN2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-v2-GGUF,Huihui Ai,Huihui-Qwen3.8-Flash-Next-abliterated-v2-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/SC117/Qwen3.8-Flash-Next-abliterated-UD-GGUF,Sc117,Qwen3.8-Flash-Next-abliterated-UD-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/BAAI/bge-m3,Baai,bge-m3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates,Froggeric,Qwen-Fixed-Chat-Templates,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/baidu/Unlimited-OCR,Baidu,Unlimited-OCR,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/notmax123/BlueV3,Notmax123,BlueV3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meta-models/Muse-Glimmer-30B,Meta Models,Muse-Glimmer-30B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/GeWu-Lab/Gestalt,Gewu,Gestalt,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/jesdga/Qwen3.8-Flash-Next-Basalt,Jesdga,Qwen3.8-Flash-Next-Basalt,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiquidAI/LFM3-Omni-2B-GGUF,LiquidAI,LFM3-Omni-2B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder,ccore,Qwen3.5-4B-GLB-3D-Coder,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/gertelrina/aadd,Gertelrina,aadd,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/internlm/Sage-S2.1-Flash-FP8,Internlm,Sage-S2.1-Flash-FP8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/empero-ai/Quark-150M-128K-Zero,Empero Ai,Quark-150M-128K-Zero,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/Hy4-FP8,Tencent,Hy4-FP8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/gustavecortal/PhiloLM,Gustavecortal,PhiloLM,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ccore/CCORE-Web-Coder-4B,ccore,CCORE-Web-Coder-4B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/loom-fun/unsloth-Inkling-2-Mini-loom,Loom Fun,unsloth-Inkling-2-Mini-loom,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/convaiinnovations/laya,Convaiinnovations,laya,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF,LiquidAI,LFM3-1.7B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/open-athena/Marin-Mochi-535B-A23B,Open Athena,Marin-Mochi-535B-A23B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/FrontiersMind/NandiBERT-150M,Frontiersmind,NandiBERT-150M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/paligemma-3b-pt-224,Google,paligemma-3b-pt-224,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/openai/whisper-large-v3-turbo,OpenAI,whisper-large-v3-turbo,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ai4bharat/indic-parler-tts,Ai4Bharat,indic-parler-tts,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/briaai/RMBG-2.0,Briaai,RMBG-2.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-3-4b-it,Google,gemma-3-4b-it,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/facebook/dinov3-vith16plus-pretrain-lvd1689m,Facebook,dinov3-vith16plus-pretrain-lvd1689m,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/black-forest-labs/FLUX.2-klein-9B,Black Forest Labs,FLUX.2-klein-9B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3-ASR-1.7B,Qwen,Qwen3-ASR-1.7B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-4-26B-A4B-it,Google,gemma-4-26B-A4B-it,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/SII-kejia/AirFM-DDA-Model,Sii Kejia,AirFM-DDA-Model,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B,Jackrong,DeepSeek-V4-Pro-Qwen3.5-9B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/MiniMax-H3-GGUF,Unsloth,MiniMax-H3-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Layout-To-Render,Lightricks,LTX-2.5-22b-IC-LoRA-Layout-To-Render,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF,Xhtoken,Spark-X2.6-4B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiconStudio/Minimax-H3-VBVR,Liconstudio,Minimax-H3-VBVR,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/PrunaAI/P-Image-OSS,Prunaai,P-Image-OSS,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/kobimusic/dettato,Kobimusic,dettato,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ai-coustics/quail-voice-focus,Ai Coustics,quail-voice-focus,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ai-coustics/vad-voice-focus,Ai Coustics,vad-voice-focus,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Pika-Labs/Pika-H3-Flex-Turbo-LoRA,Pika Labs,Pika-H3-Flex-Turbo-LoRA,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/MoonMath-ai/DeepSeek-V4.1-Flash-1017-uncensored,Moonmath Ai,DeepSeek-V4.1-Flash-1017-uncensored,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mehdi-hf/chatterbox-farsi,Mehdi Hf,chatterbox-farsi,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ScarletKc/ScarletKc-2.0,ScarletKc,ScarletKc-2.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/StillDeadcode/qwen3.8-next-flash-iqr-v4,Stilldeadcode,qwen3.8-next-flash-iqr-v4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/duongve/MossYume,Duongve,MossYume,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/hinablue/1111-MOSSImage-Asian-Utopian,Hinablue,1111-MOSSImage-Asian-Utopian,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/KaleComputer/kale-tts-1-nano,Kalecomputer,kale-tts-1-nano,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/AJ-Gonzalez/coder-lfm3-1.7b-qwen4-max,Aj Gonzalez,coder-lfm3-1.7b-qwen4-max,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/WeMM-Video-2B,Tencent,WeMM-Video-2B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nace-ai/DeepSeek-V4.1-Flash-Coding-GGUF,Nace Ai,DeepSeek-V4.1-Flash-Coding-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/huihui-ai/Huihui-GLM-5.3-Flash-abliterated-GGUF,Huihui Ai,Huihui-GLM-5.3-Flash-abliterated-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-LoRA-v0.1,Chatrlabs,Qwen-Image-2.1-Uncensored-Omni-LoRA-v0.1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4.1-Flash-1017-abliterated-GGUF,Huihui Ai,Huihui-DeepSeek-V4.1-Flash-1017-abliterated-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/openai/whisper-large-v3,OpenAI,whisper-large-v3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3-0.6B,Qwen,Qwen3-0.6B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Cosmos-Reason2-2B,Nvidia,Cosmos-Reason2-2B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3.5-2B,Qwen,Qwen3.5-2B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro,DeepSeek,DeepSeek-V4-Pro,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/stabilityai/stable-audio-3-small-sfx,Stability AI,stable-audio-3-small-sfx,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced,Hauhaucs,Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora,Larryvrh,MiniMax-H3-Turbo-Lora,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/prism-ml/Ternary-Bonsai-2-9B-gguf,Prism Ml,Ternary-Bonsai-2-9B-gguf,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF,Ista Daslab,Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/agentionai/Qwen3.8-Flash-Next-Gyro-GGUF,Agentionai,Qwen3.8-Flash-Next-Gyro-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/peasantsmith/GLM-5.3-Flash-Maya-GGUF,Peasantsmith,GLM-5.3-Flash-Maya-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT,Openmoss Team,MOSS-Image-SFT,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/hi3d-official/Hi3Dv1.0,Hi3D Official,Hi3Dv1.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiquidAI/LFM3-1.7B-Base,LiquidAI,LFM3-1.7B-Base,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/AtomicChat/LFM3-1.7B-Uncensored-GGUF,Atomicchat,LFM3-1.7B-Uncensored-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ai-coustics/vad-multi-speaker,Ai Coustics,vad-multi-speaker,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ai-coustics/tyto,Ai Coustics,tyto,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/apple/DepthPro2-H,Apple,DepthPro2-H,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/Inkling-2-Small-GGUF,Unsloth,Inkling-2-Small-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/sevren-ai/Embla1-4bit,Sevren Ai,Embla1-4bit,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/aurateam/AURA_2_BF8,Aurateam,AURA_2_BF8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/PhaiModelLab/Phai-A1-35B-1M-GGUF,Phaimodellab,Phai-A1-35B-1M-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/IsValorum/Inkling-2-Mini-APEX-I-MiniPlus-V2.1-GGUF,Isvalorum,Inkling-2-Mini-APEX-I-MiniPlus-V2.1-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Abiray/Inkling-2-Mini-Uncensored-GGUF,Abiray,Inkling-2-Mini-Uncensored-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash,Videorebirthai,hyperflow-h3-flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/sakasegawa/Haru-4B-GGUF,Sakasegawa,Haru-4B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF,0Bserverx,Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-GGUF-MTP,Peculiar Ragdoll,Cyber-Tiel-Coder-35B-A3B-GGUF-MTP,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2,Nerkyor,Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF,Mradermacher,DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen-Image-Edit-2511,Qwen,Qwen-Image-Edit-2511,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/medgemma-1.5-4b-it,Google,medgemma-1.5-4b-it,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/black-forest-labs/FLUX.2-klein-9b-fp8,Black Forest Labs,FLUX.2-klein-9b-fp8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ACE-Step/Ace-Step1.5,Ace Step,Ace-Step1.5,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/zai-org/GLM-OCR,Zai Org,GLM-OCR,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash,DeepSeek,DeepSeek-V4-Flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/MuScriptor/muscriptor-large,Muscriptor,muscriptor-large,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiquidAI/LFM3-Audio-2B,LiquidAI,LFM3-Audio-2B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/fidel1234/Krea2,Fidel1234,Krea2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Cloudflare/clef-flash,Cloudflare,clef-flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/sabicap/sabi-noema,Sabicap,sabi-noema,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16,Nvidia,NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ai-coustics/quail-multi-speaker,Ai Coustics,quail-multi-speaker,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ai-coustics/rook-multi-speaker,Ai Coustics,rook-multi-speaker,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Pika-Labs/Pika-H3-Flex,Pika Labs,Pika-H3-Flex,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/perplexity-ai/pplx-decider-v1.3,Perplexity AI,pplx-decider-v1.3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Hearthscale/MiniMax-H3-Image-GGUF,Hearthscale,MiniMax-H3-Image-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Remtir/AksonOCR-Lite,Remtir,AksonOCR-Lite,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/guideboardlabs/SenseNova-Loop-9B-GGUF,Guideboardlabs,SenseNova-Loop-9B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/agentionai/Signal-2-Flash-Next-Gyro-GGUF,Agentionai,Signal-2-Flash-Next-Gyro-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/RadixArk/DaisyRose-27B-NVFP4,Radixark,DaisyRose-27B-NVFP4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/kkt94/Llama-V-JEPA-LM-Qwen3-30B-A3B,Kkt94,Llama-V-JEPA-LM-Qwen3-30B-A3B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/TrevorJS/gemma-4-12B-it-uncensored-GGUF,Trevorjs,gemma-4-12B-it-uncensored-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/circlestone-labs/Anima,Circlestone,Anima,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B-MTP-GGUF,Jackrong,DeepSeek-V4-Pro-Qwen3.5-9B-MTP-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA,Akatz Ai,MiniMax-H3-Character-Swap-LoRA,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF,Atomicchat,DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meituan-longcat/LongCat-2.5,Meituan Longcat,LongCat-2.5,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/openai-community/gpt2,Openai Community,gpt2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meta-llama/Llama-3.2-3B,Meta Llama,Llama-3.2-3B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct,Meta Llama,Llama-3.3-70B-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF,Unsloth,Qwen3-Coder-30B-A3B-Instruct-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meituan-longcat/LongCat-Video,Meituan Longcat,LongCat-Video,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/Qwen3.5-9B-GGUF,Unsloth,Qwen3.5-9B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3.5-0.8B,Qwen,Qwen3.5-0.8B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive,Hauhaucs,Qwen3.5-4B-Uncensored-HauhauCS-Aggressive,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/TencentARC/Pixal3D,Tencentarc,Pixal3D,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/gemma-4-12b-it-GGUF,Unsloth,gemma-4-12b-it-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/notmax123/BlueV3-onnx,Notmax123,BlueV3-onnx,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/audio-cpp/audio.cpp-gguf,Audio Cpp,audio.cpp-gguf,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/thinkingmachines/Inkling,Thinkingmachines,Inkling,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Kijai/MiniMax-H3_comfy,Kijai,MiniMax-H3_comfy,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B,Qwen,Qwen3.8-2.4T-A95B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Qwen3.8-27B-NVFP4,Nvidia,Qwen3.8-27B-NVFP4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity,Warmbloodaban,Minimax-h3_Singularity,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Ingredients,Lightricks,LTX-2.5-22b-IC-LoRA-Ingredients,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill-GGUF,Empero Ai,Qwen3.8-35B-A3B-Distill-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized,Abenzerps,Qwen-Image-2.1-Turbo-Quantized,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/THUSI-Lab/GameScaling,Thusi,GameScaling,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/black-forest-labs/flux-3-image-klein-base,Black Forest Labs,flux-3-image-klein-base,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Comfy-Org/MOSS-Image,Comfy Org,MOSS-Image,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/DeepSeek-V4.1-Flash-1017-GGUF,Unsloth,DeepSeek-V4.1-Flash-1017-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/flint-GGUF,Unsloth,flint-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/TenStrip/10Eros_Max_v1_dev-only,Tenstrip,10Eros_Max_v1_dev-only,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/WeMM-Video-9B,Tencent,WeMM-Video-9B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Trelis/voice-isolator,Trelis,voice-isolator,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU,Microsoft,Aion-1.0-Instruct-2.3B-ONNX-WebGPU,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/baselabs/groundhog-1,Baselabs,groundhog-1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/bartowski/thinkingmachines_Inkling-2-Mini-GGUF,Bartowski,thinkingmachines_Inkling-2-Mini-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX,Orcarouter,Qwen3.8-27B-Uncensored-MLX,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF,Ornith Ai,Ornith-1.5-9B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/perplexity-ai/pplx-decider-flash-v1.3,Perplexity AI,pplx-decider-flash-v1.3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF,Agentionai,Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8,Dealignai,DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF,Orcarouter,DeepSeek-V4.1-Flash-1017-abliterated-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/IsValorum/Inkling-2-Mini-Abliterated-APEX-I-MiniPlus-V2.1-GGUF,Isvalorum,Inkling-2-Mini-Abliterated-APEX-I-MiniPlus-V2.1-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/coqui/XTTS-v2,Coqui,XTTS-v2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/stabilityai/stable-diffusion-3.5-large,Stability AI,stable-diffusion-3.5-large,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/facebook/UMA,Facebook,UMA,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3-1.7B,Qwen,Qwen3-1.7B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA,Fal,Qwen-Image-Edit-2511-Multiple-Angles-LoRA,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/black-forest-labs/FLUX.2-klein-base-9b-fp8,Black Forest Labs,FLUX.2-klein-base-9b-fp8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/litert-community/functiongemma-270m-ft-mobile-actions,Litert Community,functiongemma-270m-ft-mobile-actions,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/Qwen3.5-4B-GGUF,Unsloth,Qwen3.5-4B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF,Yuxinlu1,gemma-4-12B-coder-fable5-composer2.5-v1-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/conradlocke/krea2-identity-edit,Conradlocke,krea2-identity-edit,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/lightx2v/Minimax-h3-Turbo,Lightx2V,Minimax-h3-Turbo,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/fal/MiniMax-H3-Realism-People-LoRA,Fal,MiniMax-H3-Realism-People-LoRA,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/timesfm-3.0-pytorch,Google,timesfm-3.0-pytorch,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/openbmb/MiniCPM5-2B,openbmb,MiniCPM5-2B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Prior-Labs/tabpfn_3_5,Prior,tabpfn_3_5,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Cactus-Compute/needle3,Cactus Compute,needle3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-27b,Ukisai,Swift-1.5-Qwen3.8-27b,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB,Nvidia,NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/MicksHF/Qwen-Image-2.1-Anime-Fusal,Mickshf,Qwen-Image-2.1-Anime-Fusal,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,Nvidia,NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/KBlueLeaf/MOSS-Image-heal,Kblueleaf,MOSS-Image-heal,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ConceptCountry/qwen-concept-27b,Conceptcountry,qwen-concept-27b,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/minishlab/blink-8M,Minishlab,blink-8M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/iapp/OpenThai2.1-OCR-Markdown-20261118,Iapp,OpenThai2.1-OCR-Markdown-20261118,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/apple/DepthPro2-coreml,Apple,DepthPro2-coreml,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/owensong/Inflect-Mini-v3,Owensong,Inflect-Mini-v3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ContinuousIntelligence/ci-proto,Continuousintelligence,ci-proto,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/translated/Lara-4-Mini-Base,Translated,Lara-4-Mini-Base,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/inclusionAI/Duo-1.0-distill,Inclusionai,Duo-1.0-distill,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/migtissera/Tess-4.5-594B-A17B,Migtissera,Tess-4.5-594B-A17B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/AxiomicLabs/X3Guard-150M,Axiomiclabs,X3Guard-150M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Sentinel7/minimax-h3-image,Sentinel7,minimax-h3-image,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/iapp/OpenThai2.1-OCR-Text-20261118,Iapp,OpenThai2.1-OCR-Text-20261118,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview,Sensenova,SenseNova-Loop-9B-Preview,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Agnes-AI/Agnes-2.5-Pro-Theta,Agnes Ai,Agnes-2.5-Pro-Theta,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/alesha-pro/Hy4-flash-Uncensored-GGUF,Alesha Pro,Hy4-flash-Uncensored-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/rhasspy/piper-voices,Rhasspy,piper-voices,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0,Stability AI,stable-diffusion-xl-base-1.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5,Stable Diffusion V1 5,stable-diffusion-v1-5,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF,Qwen,Qwen2.5-Coder-7B-Instruct-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3-8B-GGUF,Qwen,Qwen3-8B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/Hunyuan3D-2.1,Tencent,Hunyuan3D-2.1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/embeddinggemma-300m,Google,embeddinggemma-300m,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B,Wan Ai,Wan2.2-T2V-A14B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Comfy-Org/Z-Image-Turbo,Comfy Org,Z-Image-Turbo,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/fishaudio/s2-pro,Fishaudio,s2-pro,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-4-12B,Google,gemma-4-12B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/bosonai/higgs-tts-3-4b,Bosonai,higgs-tts-3-4b,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF,Yuxinlu1,gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/MuScriptor/muscriptor-medium,Muscriptor,muscriptor-medium,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL,Xiaomimimo,MiMo-V2.6-Pro-RL,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo,Viggle,Qwen-Image-2.1-viggle-turbo,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-27B-GSQ-RCO-GGUF,Ukisai,Swift-1.5-Qwen3.8-27B-GSQ-RCO-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Aleph-Alpha/Kolibri-1,Aleph Alpha,Kolibri-1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/embeddinggemma-2-GGUF,Unsloth,embeddinggemma-2-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF,Jetbrains,Mellum2.1-12B-A2.5B-Thinking-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Cloudflare/clef-omni,Cloudflare,clef-omni,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo,Qwen,Qwen-Image-2.1-Turbo,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/LTX-2.5-GGUF,Unsloth,LTX-2.5-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/InternScience/Sage-A1.5,Internscience,Sage-A1.5,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/gradium/phonon-31m-en,Gradium,phonon-31m-en,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/MOSS-Image-SFT-GGUF,Unsloth,MOSS-Image-SFT-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/HemmingwayAI/Hemmingway-1.5,Hemmingwayai,Hemmingway-1.5,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/hyz317/HairDeck,Hyz317,HairDeck,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/microsoft/Mage-VL-Cowork,Microsoft,Mage-VL-Cowork,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ricursiveAI/Ripple-65B-Preview,Ricursiveai,Ripple-65B-Preview,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/BennyDaBall/HyperFlow-H3-Flash-INT8-ComfyUI,Bennydaball,HyperFlow-H3-Flash-INT8-ComfyUI,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/MiniMaxAI/MiniMax-H3-Image-PE,Minimaxai,MiniMax-H3-Image-PE,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/qvac/BotPsy-0.8B,Qvac,BotPsy-0.8B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/rayline-ai/ARC-1.0,Rayline Ai,ARC-1.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/yijunwang2/moss-anypaint,Yijunwang2,moss-anypaint,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/t8star/Minimax-H3-Image-Exp-Comfy,T8Star,Minimax-H3-Image-Exp-Comfy,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Mia-AiLab/Sage-S2.1-Flash-EXL3-4bpw,Mia Ailab,Sage-S2.1-Flash-EXL3-4bpw,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Kiyo1130/Qwen3.8-27B-QSA-Loop-v1-GGUF,Kiyo1130,Qwen3.8-27B-QSA-Loop-v1-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/RadixArk/DaisyRose-27B-GGUF,Radixark,DaisyRose-27B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/H3-Tiny/MiniMax-H3-Tiny-ComfyUI,H3 Tiny,MiniMax-H3-Tiny-ComfyUI,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/shinmegamiboson/Inkling-2-Mini-LookAtMyQuant-8.9GB,Shinmegamiboson,Inkling-2-Mini-LookAtMyQuant-8.9GB,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/shinmegamiboson/Inkling-2-Mini-LookAtMyQuant-5.4GB,Shinmegamiboson,Inkling-2-Mini-LookAtMyQuant-5.4GB,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK,Dealignai,Gemma-4-31B-JANG_4M-CRACK,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated,Audnai,penclaw-GLM-5.3-abliterated,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/f23gg/NSFW-LORA-Qwen-Image-2.1,F23Gg,NSFW-LORA-Qwen-Image-2.1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Edge0/Edge0-145B-q3k,Edge0,Edge0-145B-q3k,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/sensenova/SenseNova-Loop-9B-AWQ,Sensenova,SenseNova-Loop-9B-AWQ,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/coder3101/gemma-4-31B-it-heretic,Coder3101,gemma-4-31B-it-heretic,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/HauhauCS/Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP,Hauhaucs,Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/DreamFast/Qwen3-VL-4b-Heretic-ComfyUI,Dreamfast,Qwen3-VL-4b-Heretic-ComfyUI,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-UNCENSORED-FP8,Dealignai,DeepSeek-V4.1-Flash-UNCENSORED-FP8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF,Orcarouter,OrcaSAQ-2-Cyber-27B-Uncensored-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic,Xtools At,DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ggerganov/whisper.cpp,Ggerganov,whisper.cpp,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meta-llama/Llama-3.2-1B,Meta Llama,Llama-3.2-1B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/microsoft/bitnet-b1.58-2B-4T,Microsoft,bitnet-b1.58-2B-4T,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/medgemma-4b-it,Google,medgemma-4b-it,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct,Qwen,Qwen3-Coder-30B-A3B-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/zai-org/GLM-4.7-Flash,Zai Org,GLM-4.7-Flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base,Qwen,Qwen3-TTS-12Hz-1.7B-Base,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-4-E4B,Google,gemma-4-E4B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-4-E2B,Google,gemma-4-E2B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Cosmos3-Nano,Nvidia,Cosmos3-Nano,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3.6-27B,Qwen,Qwen3.6-27B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Supertone/supertonic-3,Supertone,supertonic-3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/desert-ant-labs/clear,Desert Ant,clear,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-4-12B-it,Google,gemma-4-12B-it,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Comfy-Org/SeedVR2,Comfy Org,SeedVR2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf,Prism Ml,Ternary-Bonsai-27B-gguf,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Kijai/MiniMax-H3-experimental,Kijai,MiniMax-H3-experimental,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/peculiar-ragdoll/Qwen-Sharp-Chat-Templates,Peculiar Ragdoll,Qwen-Sharp-Chat-Templates,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mlx-community/Qwen3.8-27B-4bit,Mlx Community,Qwen3.8-27B-4bit,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Nemotron-3-Diarization,Nvidia,Nemotron-3-Diarization,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/IFM/K2-Horizon-7B,Ifm,K2-Horizon-7B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Lightricks/LTX-2.5-22b-LoRA-Cinemagraph,Lightricks,LTX-2.5-22b-LoRA-Cinemagraph,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/FermionResearch/Phonon-2,FermionResearch,Phonon-2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/xiaomi-research/Xiaomi-OCR-0,Xiaomi Research,Xiaomi-OCR-0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiquidAI/LFM2.5-24B-A2B,LiquidAI,LFM2.5-24B-A2B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4,Nvidia,NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/blaze-voice-ai/vienue-v3-turbo-enhanced,Blaze Voice Ai,vienue-v3-turbo-enhanced,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/orcarouter/OrcaCyber-Nano-1.0,Orcarouter,OrcaCyber-Nano-1.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/lodestones/MOSS-Image-SFT-8-steps-dmd,Lodestones,MOSS-Image-SFT-8-steps-dmd,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/peasantsmith/DeepSeek-V4.1-Flash-1017-Maya-GGUF,Peasantsmith,DeepSeek-V4.1-Flash-1017-Maya-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/sensenova/SenseNova-6.8-Code2Video,Sensenova,SenseNova-6.8-Code2Video,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K,Efficient Large Model,Open-H3-Regenerate-2K,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/apple/DepthPro2-S,Apple,DepthPro2-S,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Cactus-Compute/cactus,Cactus Compute,cactus,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mossloras/moss-image-lora-archive,Mossloras,moss-image-lora-archive,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Metric-AI/OhanASR-v0.1,Metric Ai,OhanASR-v0.1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/iapp/OpenThai2.0-ASR-Streaming,Iapp,OpenThai2.0-ASR-Streaming,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/PrunaAI/P-Q-Image-2.1-Remove-Object,Prunaai,P-Q-Image-2.1-Remove-Object,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/drmhse/nano-edge-tts,Drmhse,nano-edge-tts,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/siraxe/H3_Image_experiments,Siraxe,H3_Image_experiments,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Chechen123/Duopra,Chechen123,Duopra,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/KittenML/kitten-tts-2-nano,Kittenml,kitten-tts-2-nano,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter-GGUF,Harness Hub,Qwen3.8-27B-super-adapter-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ReDiverse/ReDiverse-Pika-H3-Flex,Rediverse,ReDiverse-Pika-H3-Flex,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/KORMo-VL/KORMo-Web-4B-mlx-4bit,Kormo Vl,KORMo-Web-4B-mlx-4bit,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/minishlab/blink-multilingual-64M,Minishlab,blink-multilingual-64M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/Hy4-base,Tencent,Hy4-base,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nace-ai/Hy4-flash-GGUF,Nace Ai,Hy4-flash-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/kyutai/AURA-1.3B,Kyutai,AURA-1.3B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/inclusionAI/LingSante-3.1-air-VL,Inclusionai,LingSante-3.1-air-VL,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/haruuuuu-1256/aoi-gemma-4-E4B-it,Haruuuuu 1256,aoi-gemma-4-E4B-it,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/WaveCut/Inkling-2-Mini-UD-IQ4_XS-NInfer-v3,Wavecut,Inkling-2-Mini-UD-IQ4_XS-NInfer-v3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mudler/Inkling-2-Mini-APEX-GGUF,Mudler,Inkling-2-Mini-APEX-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF,Ornith Ai,Ornith-1.5-35B-A3B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/StarpowerTechnology/WVY-Blender-5m,Starpowertechnology,WVY-Blender-5m,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/singam96/ShadeNet-5-35M,Singam96,ShadeNet-5-35M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF,Huihui Ai,Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot,Ethanfel,Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/SG161222/RealVisXL_V5.0,Sg161222,RealVisXL_V5.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/stabilityai/stable-diffusion-3.5-medium,Stability AI,stable-diffusion-3.5-medium,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-3-1b-it,Google,gemma-3-1b-it,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/litert-community/Gemma3-1B-IT,Litert Community,Gemma3-1B-IT,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M,Meta Llama,Llama-Prompt-Guard-2-86M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/facebook/dinov3-vit7b16-pretrain-lvd1689m,Facebook,dinov3-vit7b16-pretrain-lvd1689m,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/LocateAnything-3B,Nvidia,LocateAnything-3B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Lightricks/LTX-2.3,Lightricks,LTX-2.3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/gemma-4-31B-it-GGUF,Unsloth,gemma-4-31B-it-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b,Nvidia,nemotron-3.5-asr-streaming-0.6b,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize,Openmoss Team,MOSS-Transcribe-Diarize,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ideogram-ai/ideogram-4-fp8,Ideogram Ai,ideogram-4-fp8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/zai-org/GLM-5.2,Zai Org,GLM-5.2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/EllaPriest45/Krea2_Characters,Ellapriest45,Krea2_Characters,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/moodycat288/kittensupporters,Moodycat288,kittensupporters,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Wan-AI/Wan2.2-Animate-2-14B,Wan Ai,Wan2.2-Animate-2-14B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/javawock7618/comfy-MiniMax-H3-workflows,Javawock7618,comfy-MiniMax-H3-workflows,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/smhfacct/Minimax-H3-fl2va-ref2va-hybrid-models,Smhfacct,Minimax-H3-fl2va-ref2va-hybrid-models,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LBH-123-AI/Minimax_h3_latent_Upscaler,Lbh 123 Ai,Minimax_h3_latent_Upscaler,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B,Ornith Ai,Ornith-1.5-35B-A3B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8,Qwen,Qwen3.8-Flash-Next-FP8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/dgrauet/ltx-2.5-mlx-q8,Dgrauet,ltx-2.5-mlx-q8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/IFM/K2-Horizon-3.7B,Ifm,K2-Horizon-3.7B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Nemotron-3.5-Parse,Nvidia,Nemotron-3.5-Parse,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/m-a-p/YuE2-3B,M A P,YuE2-3B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-27B-GGUF,Ukisai,Swift-1.5-Qwen3.8-27B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/TheDrummer/Artemis-31B-v1.2,Thedrummer,Artemis-31B-v1.2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/pablodawson/MiniMax-H3-360-Orbit-LoRA,Pablodawson,MiniMax-H3-360-Orbit-LoRA,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/lilylilith/QI_2.1_AnyAngle,Lilylilith,QI_2.1_AnyAngle,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/BAAI/AREX-2,Baai,AREX-2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Cactus-Compute/whistle,Cactus Compute,whistle,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/kopper/RelayVSR,Kopper,RelayVSR,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Nemotron-Labs-Sigma-8B,Nvidia,Nemotron-Labs-Sigma-8B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16,Nvidia,NVIDIA-Nemotron-3.5-Bolt-E4B-BF16,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0,Conwayresearch,Underdog-Saluki-27B-1.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air,Edge0,Audio8-TTS-Realistic-Air,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mistralai/Timestral-209M,Mistral AI,Timestral-209M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/THUSI-Lab/GameScaling-27B-S3,Thusi,GameScaling-27B-S3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF,Nvidia,NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/fastino/GLiDE-27B,Fastino,GLiDE-27B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/gradium/phonon-40m-multilingual,Gradium,phonon-40m-multilingual,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/baselabs/elephant-1,Baselabs,elephant-1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/baselabs/mammoth-1,Baselabs,mammoth-1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/HAL-X-AI/THX-02,Hal X Ai,THX-02,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/opencerebral/Boris-2,Opencerebral,Boris-2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/laion/clap2-large-audioxl-s1B,Laion,clap2-large-audioxl-s1B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/thinkingmachines/Inkling-2-Small-MXFP8,Thinkingmachines,Inkling-2-Small-MXFP8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/VillanovaAI/Villanova2-15B-A3B,Villanovaai,Villanova2-15B-A3B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ricecake/Krea-2-Anime-tuned-Raw,Ricecake,Krea-2-Anime-tuned-Raw,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ricecake/Krea-2-Anime-tuned-Turbo,Ricecake,Krea-2-Anime-tuned-Turbo,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/aj9o9/Qwen3.8-27B-DSpine-b16-GGUF,Aj9O9,Qwen3.8-27B-DSpine-b16-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/TontaubeAI/TontaubeV1.1-int4,Tontaubeai,TontaubeV1.1-int4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/akhaliq/minimax-h3-image-pdmd-2step,Akhaliq,minimax-h3-image-pdmd-2step,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/charcot-ai/marimba,charcot-ai,marimba,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/lucidml/gta,Lucidml,gta,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/garlic-llm/garlic-llm-ps4,Garlic Llm,garlic-llm-ps4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/KittenML/kitten-tts-2-pico,Kittenml,kitten-tts-2-pico,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/bartowski/ScarletKc_ScarletKc-2.0-GGUF,Bartowski,ScarletKc_ScarletKc-2.0-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ggml-org/ZONOS3-Mini-GGUF,Ggml Org,ZONOS3-Mini-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/77ethers/alpa,77Ethers,alpa,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/DiffSynth-Studio/MiniMax-H3-Image-EntroPack,Diffsynth Studio,MiniMax-H3-Image-EntroPack,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/OVHaiLLM/Olala-v1.0-mini-7A1B-SFT,Ovhaillm,Olala-v1.0-mini-7A1B-SFT,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/OVHaiLLM/Olala-v1.0-mini-7A1B-base,Ovhaillm,Olala-v1.0-mini-7A1B-base,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/harness-hub/Qwen3.8-27B-hermes-adapted-GGUF,Harness Hub,Qwen3.8-27B-hermes-adapted-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/SupraLabs/Supra2.5-Pro-Base,Supralabs,Supra2.5-Pro-Base,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/guideboardlabs/Voltron-1-Mini-GGUF,Guideboardlabs,Voltron-1-Mini-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/noahcao/FAB,Noahcao,FAB,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/abenzerps/Inkling-2-Mini-GSQ-RCO-GGUF,Abenzerps,Inkling-2-Mini-GSQ-RCO-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/llmfan46/gemma-4-26B-A4B-it-ultra-uncensored-heretic-GGUF,Llmfan46,gemma-4-26B-A4B-it-ultra-uncensored-heretic-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored,Orcarouter,Qwen3.8-27B-Uncensored,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF,Isvalorum,Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/SC117/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF,Sc117,Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/alesha-pro/Qwen3.8-Flash-Next-abliterated-GSQ-RCO-Strata-GGUF,Alesha Pro,Qwen3.8-Flash-Next-abliterated-GSQ-RCO-Strata-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mradermacher/DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic-GGUF,Mradermacher,DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nex-agi/Nex-N2.6,Nex Agi,Nex-N2.6,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/openbmb/MiniCPM-o-4_5,openbmb,MiniCPM-o-4_5,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ZhengPeng7/BiRefNet,Zhengpeng7,BiRefNet,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct,Qwen,Qwen2.5-1.5B-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ResembleAI/chatterbox,Resembleai,chatterbox,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/fishaudio/s1-mini,Fishaudio,s1-mini,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507,Qwen,Qwen3-4B-Instruct-2507,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/gpt-oss-20b-GGUF,Unsloth,gpt-oss-20b-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/facebook/sam-3d-objects,Facebook,sam-3d-objects,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/maya-research/maya1,Maya Research,maya1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/microsoft/VibeVoice-Realtime-0.5B,Microsoft,VibeVoice-Realtime-0.5B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/FunAudioLLM/Fun-CosyVoice3-0.5B-2512,Funaudiollm,Fun-CosyVoice3-0.5B-2512,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/facebook/sam-audio-large,Facebook,sam-audio-large,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/microsoft/VibeVoice-ASR,Microsoft,VibeVoice-ASR,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Ultralytics/YOLO26,Ultralytics,YOLO26,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-4-26B-A4B,Google,gemma-4-26B-A4B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-4-31B,Google,gemma-4-31B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF,Unsloth,gemma-4-E4B-it-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-4-E4B-it-qat-q4_0-gguf,Google,gemma-4-E4B-it-qat-q4_0-gguf,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/stabilityai/stable-audio-3-small-music,Stability AI,stable-audio-3-small-music,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/dvlt,Nvidia,dvlt,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-4-12B-it-qat-q4_0-gguf,Google,gemma-4-12B-it-qat-q4_0-gguf,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF,Unsloth,gemma-4-26B-A4B-it-qat-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/k2loras/krea2-lora-archive,K2Loras,krea2-lora-archive,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/0x4c48/LATO.2,0X4C48,LATO.2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Lightricks/LTX-2.5-Diffusers,Lightricks,LTX-2.5-Diffusers,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Kijai/MiniMax-H3-TAE,Kijai,MiniMax-H3-TAE,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/inclusionAI/Ling-3.0-tiny,Inclusionai,Ling-3.0-tiny,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813,DeepSeek,DeepSeek-V4-Pro-0813,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mlx-community/Qwen3.8-27B-8bit,Mlx Community,Qwen3.8-27B-8bit,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/turboderp/Qwen3.8-27B-exl3,Turboderp,Qwen3.8-27B-exl3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/z-lab/Qwen3.8-27B-DFlash2-GGUF,z-lab,Qwen3.8-27B-DFlash2-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/nemotron-labs-unified-asr-0.6b,Nvidia,nemotron-labs-unified-asr-0.6b,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/bodhan-ai/indic-speak,Bodhan Ai,indic-speak,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Kumo-Tabular,Nvidia,Kumo-Tabular,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4,Nvidia,Qwen3.8-Flash-Next-NVFP4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Comfy-Org/YuE2,Comfy Org,YuE2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/logic65/Whittle-Next-27B-A3B-GGUF,Logic65,Whittle-Next-27B-A3B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/drowzeys/DeepSeek-V4.1-Flash-Abliterated-Cybersecurity-Unleashed,Drowzeys,DeepSeek-V4.1-Flash-Abliterated-Cybersecurity-Unleashed,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/VideoRebirthAI/hyperflow,Videorebirthai,hyperflow,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/HemmingwayAI/Hemmingway-1,Hemmingwayai,Hemmingway-1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/akhilaaa3/Jev-Omni,Akhilaaa3,Jev-Omni,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/openjev/openjev,openjev,openjev,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B,Xiaomimimo,MiMo-V2.6-Distill-Qwen-9B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Refine-Details,Lightricks,LTX-2.5-22b-IC-LoRA-Refine-Details,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ggml-org/Laya-GGUF,Ggml Org,Laya-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/OS-Software/Ternary-Bonsai-2-27B-Uncensored-Heretic-v2-GGUF,Os Software,Ternary-Bonsai-2-27B-Uncensored-Heretic-v2-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/datalab-to/indra-ocr,Datalab To,indra-ocr,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/vllm-sr/d3-flash,Vllm Sr,d3-flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/inclusionAI/Ling-3.1-flash,Inclusionai,Ling-3.1-flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/hazyresearch/ncm-checkpoints,Hazyresearch,ncm-checkpoints,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/IteraCompute/Qwen4-27B-NVFP4,Iteracompute,Qwen4-27B-NVFP4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/XHToken/Spark-X2.6-1.7B-GGUF,Xhtoken,Spark-X2.6-1.7B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/KRAFTON/Raon-1-mini-preview,Krafton,Raon-1-mini-preview,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/agentionai/Qwen3.8-Flash-Next-Gyro-Coder-GGUF,Agentionai,Qwen3.8-Flash-Next-Gyro-Coder-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/WeVisOne-VL-4B,Tencent,WeVisOne-VL-4B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/GrootTeam/Groot-19B-A3B-261023,Grootteam,Groot-19B-A3B-261023,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/GrootTeam/Groot-19B-A3B-261023-GGUF,Grootteam,Groot-19B-A3B-261023-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview,Diffuspace,Clover-35B-A3B-Preview,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiquidAI/d1-2B-GGUF,LiquidAI,d1-2B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/PrunaAI/P-Image-OSS-Comfy,Prunaai,P-Image-OSS-Comfy,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/MATLOWAI/H3-Dials,Matlowai,H3-Dials,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/FashionFlora/ogg-tts,Fashionflora,ogg-tts,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/AtomicChat/SenseNova-Loop-9B-Preview-GGUF,Atomicchat,SenseNova-Loop-9B-Preview-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/oruk/orukqwen-asr-1.7b,Oruk,orukqwen-asr-1.7b,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/apple/DepthPro2-L,Apple,DepthPro2-L,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/bartowski/NousResearch_Arete-27B-GGUF,Bartowski,NousResearch_Arete-27B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Sakura721/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF,Sakura721,DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/FixedSeed/Robin,Fixedseed,Robin,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Inferact/Kimi-K3.1-Pro-DSpark,Inferact,Kimi-K3.1-Pro-DSpark,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/YeeNyunn/nara-mini-v1,Yeenyunn,nara-mini-v1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/AJ-Gonzalez/coder-lfm3-1.7b-k3.1-pro,Aj Gonzalez,coder-lfm3-1.7b-k3.1-pro,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/huawei-csl/Qwen3.6-35B-A3B-MACaQ-R-GGUF,Huawei Csl,Qwen3.6-35B-A3B-MACaQ-R-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/inclusionAI/Duo-1.0-causal-base,Inclusionai,Duo-1.0-causal-base,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/jesdga/Qwen3.8-27B-Basalt,Jesdga,Qwen3.8-27B-Basalt,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/sarvamai/sarvam-105b-1711-bf16,Sarvamai,sarvam-105b-1711-bf16,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/cfahlgren1/fiato,Cfahlgren1,fiato,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/pandacooming/FLUX-3-Image-Klein-TrueRelight-LoRA,Pandacooming,FLUX-3-Image-Klein-TrueRelight-LoRA,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Metric-AI/OhanASR-Streaming-v0.1,Metric Ai,OhanASR-Streaming-v0.1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/racineai/Jevol-0.6B,Racineai,Jevol-0.6B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/StillDeadcode/qwen3.8-next-flash-uncensored-iqr-v4,Stilldeadcode,qwen3.8-next-flash-uncensored-iqr-v4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/YeeNyunn/nara-sar,Yeenyunn,nara-sar,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/WeMM-Video-35BA3B-FP8,Tencent,WeMM-Video-35BA3B-FP8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/lmms-lab-encoder/LLaVA-OneVision-2.5-4B-Instruct,Lmms Encoder,LLaVA-OneVision-2.5-4B-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LuffyTheFox/Left-LLM-Developement,Luffythefox,Left-LLM-Developement,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/RadixArk/DaisyRose-27B-FP8,Radixark,DaisyRose-27B-FP8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/moganai/MoganOCR-TR-1.5,Moganai,MoganOCR-TR-1.5,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/netprojects/Qwen3.8-27B-pi-adapted-GGUF,Netprojects,Qwen3.8-27B-pi-adapted-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ayousanz/tiny-voca-ja-tsukuyomi-chan,Ayousanz,tiny-voca-ja-tsukuyomi-chan,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/PedroMarinhoDev/LongCat-Video-Avatar-1.6-ComfyUI,Pedromarinhodev,LongCat-Video-Avatar-1.6-ComfyUI,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ant-intl/Antom-3-in-1-Transformer,Ant Intl,Antom-3-in-1-Transformer,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/lmstudio-community/Inkling-2-Mini-GGUF,Lmstudio Community,Inkling-2-Mini-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ddalcu/Inkling-2-Mini-MLX-8bit,Ddalcu,Inkling-2-Mini-MLX-8bit,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/openai/gpt-oss-20b,OpenAI,gpt-oss-20b,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiquidAI/Liquid-Codec,LiquidAI,Liquid-Codec,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/webAI-Official/TwIL-8B,Webai Official,TwIL-8B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/MinimaLabs/KLM-1.6,Minimalabs,KLM-1.6,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Edge0/Edge0-120B-NVFP4,Edge0,Edge0-120B-NVFP4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/RavichandranJ/Dolphin3-Cyber-8B-GGUF,Ravichandranj,Dolphin3-Cyber-8B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF,Davidau,Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Cudecnik/Qwen3.8-Flash-Next-refusal-projection,Cudecnik,Qwen3.8-Flash-Next-refusal-projection,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-GSQ-RCO-GGUF,0Bserverx,Qwen3.8-27B-Heretic-GSQ-RCO-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mdevoz/qwen3.5_9b_ultra_uncensored_heretic_int8_convrot,Mdevoz,qwen3.5_9b_ultra_uncensored_heretic_int8_convrot,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/jackjusko/Swift-1.5-Flash-Next-Heretic-ReverseEngineer,Jackjusko,Swift-1.5-Flash-Next-Heretic-ReverseEngineer,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/xtools-at/Qwen3.5-9B-DeepThought-STEM,Xtools At,Qwen3.5-9B-DeepThought-STEM,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/lyber-ai/Kimi-K3.1-Pro-UNCENSORED-MXFP4,Lyber Ai,Kimi-K3.1-Pro-UNCENSORED-MXFP4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/JoaoZaokk/Inkling-2-Mini-Heretic-GGUF,Joaozaokk,Inkling-2-Mini-Heretic-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound-Basalt,Nokeepai,Inkling-2-Mini-Unbound-Basalt,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/DavidAU/Inkling-2-Mini-26B-Heretic-Uncensored-Turbo-Brilliance-50X-V2-AGI,Davidau,Inkling-2-Mini-26B-Heretic-Uncensored-Turbo-Brilliance-50X-V2-AGI,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct,Qwen,Qwen2.5-0.5B-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/HuggingFaceTB/SmolLM2-135M,Hugging Face,SmolLM2-135M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/cagliostrolab/animagine-xl-4.0,Cagliostrolab,animagine-xl-4.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct,Qwen,Qwen2.5-VL-3B-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct,Qwen,Qwen2.5-VL-7B-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/DeepHat/DeepHat-V1-7B,Deephat,DeepHat-V1-7B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ibm-granite/granite-docling-258M,Ibm Granite,granite-docling-258M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/lerobot/smolvla_base,Lerobot,smolvla_base,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/HuggingFaceTB/SmolLM3-3B,Hugging Face,SmolLM3-3B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF,Quantstack,Wan2.2-I2V-A14B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen-Image-Edit,Qwen,Qwen-Image-Edit,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct,Qwen,Qwen3-VL-4B-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct,Qwen,Qwen3-VL-2B-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/TheDrummer/Cydonia-24B-v4.3,Thedrummer,Cydonia-24B-v4.3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/deepseek-ai/DeepSeek-V3.2,DeepSeek,DeepSeek-V3.2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ResembleAI/chatterbox-turbo,Resembleai,chatterbox-turbo,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/Qwen-Image-Edit-2511-GGUF,Unsloth,Qwen-Image-Edit-2511-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/translategemma-4b-it,Google,translategemma-4b-it,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/black-forest-labs/FLUX.2-klein-base-9B,Black Forest Labs,FLUX.2-klein-base-9B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Tongyi-MAI/Z-Image,Tongyi Mai,Z-Image,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap-Video,Alissonerdx,BFS-Best-Face-Swap-Video,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/OpenMOSS-Team/MOSS-TTS,Openmoss Team,MOSS-TTS,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/litert-community/gemma-4-E4B-it-litert-lm,Litert Community,gemma-4-E4B-it-litert-lm,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiquidAI/LFM2.5-350M,LiquidAI,LFM2.5-350M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF,Unsloth,gemma-4-E2B-it-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Real-time_RE-USE,Nvidia,Real-time_RE-USE,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/nemotron-labs-audio-visual-flamingo-hf,Nvidia,nemotron-labs-audio-visual-flamingo-hf,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/openai/privacy-filter,OpenAI,privacy-filter,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/SulphurAI/Sulphur-2-base,Sulphurai,Sulphur-2-base,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Roboflow/rf-detr-large,Roboflow,rf-detr-large,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/avaturn-live/avtr-1,Avaturn Live,avtr-1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF,Unsloth,gemma-4-12B-it-qat-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Cosmos3-Edge,Nvidia,Cosmos3-Edge,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/prism-ml/Bonsai-27B-gguf,Prism Ml,Bonsai-27B-gguf,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/utter-project/EuroLLM1.5-9B-Base,utter-project,EuroLLM1.5-9B-Base,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ifmylove2011/girlslike-krea2,Ifmylove2011,girlslike-krea2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/thinkingmachines/Inkling-Small,Thinkingmachines,Inkling-Small,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/thinkingmachines/Inkling-Small-NVFP4,Thinkingmachines,Inkling-Small-NVFP4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B-FP8,Qwen,Qwen3.8-2.4T-A95B-FP8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/elix3r/gemma4-12b-with-proj-ltx-2.5-GGUF,Elix3R,gemma4-12b-with-proj-ltx-2.5-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/RedHatAI/Qwen3.8-27B-INT4,Redhatai,Qwen3.8-27B-INT4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/lvladikov/Krea2-Turbo-Distill-4step-LoRA,Lvladikov,Krea2-Turbo-Distill-4step-LoRA,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/lylogummy/Anima-3.8B,Lylogummy,Anima-3.8B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/desert-ant-labs/ear,Desert Ant,ear,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF,Unsloth,GLM-5.3-Flash-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Jundot/Qwen3.8-Flash-Next-oQ4e-mtp,Jundot,Qwen3.8-Flash-Next-oQ4e-mtp,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/incoai/GLM-5.3-Flash-DFlash2,Incoai,GLM-5.3-Flash-DFlash2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/turboderp/Qwen3.8-Flash-Next-exl3,Turboderp,Qwen3.8-Flash-Next-exl3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/YoSaNoo/Forge-1-E2B,Yosanoo,Forge-1-E2B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/moondream/parakeet-redux,Moondream,parakeet-redux,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/jaredpalmer/kev-4b,Jaredpalmer,kev-4b,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking,Jetbrains,Mellum2.1-12B-A2.5B-Thinking,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/Qwen-Image-2.1-GGUF,Unsloth,Qwen-Image-2.1-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B,Inclusionai,Ming-3.0-tts-0.5B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/PrunaAI/P-Q-Image-2.1,Prunaai,P-Q-Image-2.1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/pfeifferj/Ornith-1.5-35B-A3B-GSQ-RCO-GGUF,Pfeifferj,Ornith-1.5-35B-A3B-GSQ-RCO-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/bytkim/Qwen3.8-27B-pi,Bytkim,Qwen3.8-27B-pi,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/bytkim/Qwen3.8-27B-pi-GGUF,Bytkim,Qwen3.8-27B-pi-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/fafsaf1/flowhmr-0.46B,Fafsaf1,flowhmr-0.46B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/canberkkkkkk/ema-lightning,Canberkkkkkk,ema-lightning,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/AlayaLab/sprint3d,Alayalab,sprint3d,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiquidAI/d1-3B,LiquidAI,d1-3B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-gguf,openbmb,MiniCPM-V-4.7-35B-A3B-gguf,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ukisai/Swift1.5-GLM-5.3-Flash,Ukisai,Swift1.5-GLM-5.3-Flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/GLM-5.3-Flash-FP4-Local,Nvidia,GLM-5.3-Flash-FP4-Local,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Soulfate24/Spark-X2.6-4B-DSpark-Paretrix-GGUF,Soulfate24,Spark-X2.6-4B-DSpark-Paretrix-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/memorilla/Memorilla-Qwen3-8B,Memorilla,Memorilla-Qwen3-8B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Maximilian228/Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata,Maximilian228,Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/vllm-sr/d3-mini,Vllm Sr,d3-mini,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LittleBitLLM/littlebit-qwen3-8b-0.55bpw,Littlebitllm,littlebit-qwen3-8b-0.55bpw,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/lightx2v/Qwen-Image-2.1-Lightning,Lightx2V,Qwen-Image-2.1-Lightning,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Kimodo-SOMA-RP-v1.2,Nvidia,Kimodo-SOMA-RP-v1.2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/trillionlabs/Zoro-1,Trillionlabs,Zoro-1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Angais/MOSS-Image-PixelArt-16x16,Angais,MOSS-Image-PixelArt-16x16,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/arxhr007/lxask,Arxhr007,lxask,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/Ornith-1.5-122B-GGUF,Unsloth,Ornith-1.5-122B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/KRAFTON/Raon-1-mini-preview-gguf,Krafton,Raon-1-mini-preview-gguf,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/perplexity-ai/pplx-embed-v2-context-0.6b,Perplexity AI,pplx-embed-v2-context-0.6b,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/BUT-FIT/Pandemonium,But Fit,Pandemonium,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/MiniMax-M3.1-Flash-GGUF,Unsloth,MiniMax-M3.1-Flash-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/manuelgscom/dale-0.8b-GGUF,Manuelgscom,dale-0.8b-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/vllm-sr/d3-ultra,Vllm Sr,d3-ultra,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/speakleash/Bielik-11B-v3.1-Instruct,Speakleash,Bielik-11B-v3.1-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/kakaocorp/kanana-2-v-decide-3b-2611,Kakaocorp,kanana-2-v-decide-3b-2611,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Trelis/barge-in-detector,Trelis,barge-in-detector,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ceia-research/lumi-4b,ceia-research,lumi-4b,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Viggle/Viggle-Image-Swap,Viggle,Viggle-Image-Swap,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/pfnet/plamo-3-translate-2b-GGUF,Pfnet,plamo-3-translate-2b-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/OVHaiLLM/Olala-v1.0-translate,Ovhaillm,Olala-v1.0-translate,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LiquidAI/d1-Omni-2B-GGUF,LiquidAI,d1-Omni-2B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview-GGUF,Diffuspace,Clover-35B-A3B-Preview-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/deep-principle/Hydrogen-1.0,Deep Principle,Hydrogen-1.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/apple/DepthPro2-B,Apple,DepthPro2-B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tablinum/Moon-Beam-8B-A1B-GGUF-Preview,Tablinum,Moon-Beam-8B-A1B-GGUF-Preview,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/jesdga/DeepSeek-V4.1-Flash-1017-Basalt,Jesdga,DeepSeek-V4.1-Flash-1017-Basalt,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/jgkwak/solv3r,Jgkwak,solv3r,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF,Mradermacher,gemma-4-31B-it-ARA-heretic-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16,Tencent,Qwen3.8-27B-DSpine-b16,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/pirahansiah/Qwen4-27B-1bit-GGUF,Pirahansiah,Qwen4-27B-1bit-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/SupersonicLabs/Julia-2,Supersoniclabs,Julia-2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/thedeoxen/MOSS-Image-pose-control-lora,Thedeoxen,MOSS-Image-pose-control-lora,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/naklecha/caramel-1,Naklecha,caramel-1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/TontaubeAI/TontaubeV1.1,Tontaubeai,TontaubeV1.1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/xtools-at/Qwensploit-V2-9B-CyberSecurity-Qwen3.5-GGUF,Xtools At,Qwensploit-V2-9B-CyberSecurity-Qwen3.5-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Edge0/Edge0-120B-q3k,Edge0,Edge0-120B-q3k,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/xtools-at/Qwensploit-V2-27B-CyberSecurity-Qwen3.8-GGUF,Xtools At,Qwensploit-V2-27B-CyberSecurity-Qwen3.8-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/manifestro/kezek-v1,Manifestro,kezek-v1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/knowledgator/gliformer-2b-v1.5,Knowledgator,gliformer-2b-v1.5,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/knowledgator/gliformer-0.4b-v1.5,Knowledgator,gliformer-0.4b-v1.5,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/johndpope/MiniMax-H3-MPEG-Diffusion,Johndpope,MiniMax-H3-MPEG-Diffusion,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ScarletKc/ScarletKc-2.0-GGUF,ScarletKc,ScarletKc-2.0-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/peasantsmith/Inkling-2-Small-GGUF,Peasantsmith,Inkling-2-Small-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/iapp/OpenThai2.0-LATTE-WordSeg-Lite,Iapp,OpenThai2.0-LATTE-WordSeg-Lite,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/harness-hub/qwen-safeagents-plugin,Harness Hub,qwen-safeagents-plugin,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/sarvamai/sarvam-105b-1711,Sarvamai,sarvam-105b-1711,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/krystofmitka/ThinkingNuke-gemma-4-26B-A4B,Krystofmitka,ThinkingNuke-gemma-4-26B-A4B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ihor-umanets/pixelsprite-canvas-v2,Ihor Umanets,pixelsprite-canvas-v2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ggml-org/drama-3-GGUF,Ggml Org,drama-3-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/summerAIO/Irodori-TTS-v4.1-Small-SUN,Summeraio,Irodori-TTS-v4.1-Small-SUN,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/racineai/Jevol-0.9B,Racineai,Jevol-0.9B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/racineai/Jevol-2B,Racineai,Jevol-2B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/WeMM-Video-4B-GGUF,Tencent,WeMM-Video-4B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/WeMM-Video-2B-GGUF,Tencent,WeMM-Video-2B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/uezo/maid-k2-3481-multilingual,Uezo,maid-k2-3481-multilingual,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Jundot/Qwen3.8-Flash-Next-oQ4h-mtp,Jundot,Qwen3.8-Flash-Next-oQ4h-mtp,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/KaleComputer/kale-tts-1-base,Kalecomputer,kale-tts-1-base,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ggml-org/tiny-voca-GGUF,Ggml Org,tiny-voca-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Xylolabs/Hy4-flash-GGUF,Xylolabs,Hy4-flash-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Avifenesh/Hy4-flash-NVFP4,Avifenesh,Hy4-flash-NVFP4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/sorryhyun/anima-pixel-decoder,Sorryhyun,anima-pixel-decoder,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/kabachuha/ReDiverse-MiniMax-H3-Comfy,Kabachuha,ReDiverse-MiniMax-H3-Comfy,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/jesdga/Hy4-flash-Basalt,Jesdga,Hy4-flash-Basalt,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ModelsLab/MiniMax-H3-Turbo-RL,Modelslab,MiniMax-H3-Turbo-RL,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nativ-community/Inkling-2-Mini-nvfp4,Nativ Community,Inkling-2-Mini-nvfp4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/oddadmix/tiny-voca-arabic,Oddadmix,tiny-voca-arabic,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/IsValorum/Inkling-2-Mini-APEX-I-NanoPlus-V2.1-GGUF,Isvalorum,Inkling-2-Mini-APEX-I-NanoPlus-V2.1-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/TensorForger/Steppe-Wan2.1,Tensorforger,Steppe-Wan2.1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/eltokh7/inkling-2-mini-decision,Eltokh7,inkling-2-mini-decision,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/f23gg/Krea-2-NSFW-V5,F23Gg,Krea-2-NSFW-V5,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder,Ponpoke,flux2-klein-9b-uncensored-text-encoder,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8,Orcarouter,Qwen3.8-27B-Uncensored-FP8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU,Davidau,Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8,Dealignai,GLM-5.3-CYBERSECURITY-FP8,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/KasugaiSakura/Qwen-Image-2.1-Uncensored-Abenzerps-GGUF,Kasugaisakura,Qwen-Image-2.1-Uncensored-Abenzerps-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/huihui-ai/Huihui-GLM-5.3-abliterated-GGUF,Huihui Ai,Huihui-GLM-5.3-abliterated-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/satellitedown/SenseNova-Loop-9B-abliterated-GGUF,Satellitedown,SenseNova-Loop-9B-abliterated-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/orcarouter/Hy4-flash-abliterated-GGUF,Orcarouter,Hy4-flash-abliterated-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/IsValorum/Inkling-2-Mini-Abliterated-APEX-I-NanoPlus-V2.1-GGUF,Isvalorum,Inkling-2-Mini-Abliterated-APEX-I-NanoPlus-V2.1-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/Qwen-Image-2.1-Turbo-GGUF,Unsloth,Qwen-Image-2.1-Turbo-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/baidu/ERNIE-5.5-Flash-Base,Baidu,ERNIE-5.5-Flash-Base,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/salesforce-sovereign-intelligence/SOV-Transcribe-1,Salesforce Sovereign Intelligence,SOV-Transcribe-1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/vit-base-patch16-224,Google,vit-base-patch16-224,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/BAAI/bge-small-en-v1.5,Baai,bge-small-en-v1.5,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt,Stability AI,stable-video-diffusion-img2vid-xt,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-2b,Google,gemma-2b,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meta-llama/Meta-Llama-3-8B,Meta Llama,Meta-Llama-3-8B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/LyliaEngine/Pony_Diffusion_V6_XL,Lyliaengine,Pony_Diffusion_V6_XL,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct,DeepSeek,DeepSeek-Coder-V2-Lite-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/HunyuanVideo,Tencent,HunyuanVideo,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,DeepSeek,DeepSeek-R1-Distill-Qwen-7B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B,DeepSeek,DeepSeek-R1-Distill-Qwen-14B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/bartowski/DeepSeek-R1-Distill-Qwen-32B-GGUF,Bartowski,DeepSeek-R1-Distill-Qwen-32B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct,Hugging Face,SmolVLM2-500M-Video-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3-4B,Qwen,Qwen3-4B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3-14B,Qwen,Qwen3-14B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-22M,Meta Llama,Llama-Prompt-Guard-2-22M,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/stabilityai/stable-audio-open-small,Stability AI,stable-audio-open-small,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/169Pi/Alpie-Core,169Pi,Alpie-Core,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/jhu-clsp/mmBERT-base,Jhu Clsp,mmBERT-base,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen-Image,Qwen,Qwen-Image,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-3-270m,Google,gemma-3-270m,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/moondream/moondream3-preview,Moondream,moondream3-preview,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/NCAIR1/N-ATLaS,Ncair1,N-ATLaS,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct,Qwen,Qwen3-Omni-30B-A3B-Instruct,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/HunyuanImage-3.0,Tencent,HunyuanImage-3.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/functiongemma-270m-it,Google,functiongemma-270m-it,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/facebook/sam-3d-body-vith,Facebook,sam-3d-body-vith,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct-GGUF,Qwen,Qwen3-VL-4B-Instruct-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/dbonet/iLTM,Dbonet,iLTM,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ai-sage/GigaAM-v3,Ai Sage,GigaAM-v3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/knowledgator/gliner-relex-large-v0.5,Knowledgator,gliner-relex-large-v0.5,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Cosmos-Reason2-8B,Nvidia,Cosmos-Reason2-8B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/medasr,Google,medasr,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign,Qwen,Qwen3-TTS-12Hz-1.7B-VoiceDesign,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/deepseek-ai/DeepSeek-OCR-2,DeepSeek,DeepSeek-OCR-2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Qwen/Qwen3-Coder-Next,Qwen,Qwen3-Coder-Next,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm,Litert Community,gemma-4-E2B-it-litert-lm,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mlx-community/Qwen3.6-35B-A3B-4bit,Mlx Community,Qwen3.6-35B-A3B-4bit,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/SeeSee21/Z-Anime,Seesee21,Z-Anime,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/google/gemma-4-E2B-it-qat-q4_0-gguf,Google,gemma-4-E2B-it-qat-q4_0-gguf,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/tencent/Hy-MT2-1.8B,Tencent,Hy-MT2-1.8B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5,Meituan Longcat,LongCat-Video-Avatar-1.5,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6,Paddlepaddle,PaddleOCR-VL-1.6,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/moonshotai/Kimi-K2.7-Code,Moonshotai,Kimi-K2.7-Code,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mohammedaly22/VoiceTut-TTS,Mohammedaly22,VoiceTut-TTS,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Sentinel7/krea2,Sentinel7,krea2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/moondream/moondream3.1-9B-A2B,Moondream,moondream3.1-9B-A2B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4,Nvidia,NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI,Drbaph,MiniMax-H3-Turbo-Lora-ComfyUI,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ibm-granite/granite-4.2-8b,Ibm Granite,granite-4.2-8b,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meta-models/Muse-Glimmer-30B-GGUF,Meta Models,Muse-Glimmer-30B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/unsloth/Muse-Glimmer-30B-GGUF,Unsloth,Muse-Glimmer-30B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF,Empero Ai,Qwen3.8-9B-Distill-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/bsaleh03/Qwen3.8-27B-ASCII-Condensed,Bsaleh03,Qwen3.8-27B-ASCII-Condensed,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF-MTP,Peculiar Ragdoll,Tiel-Coder-35B-A3B-GGUF-MTP,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/dgrauet/ltx-2.5-mlx-q4,Dgrauet,ltx-2.5-mlx-q4,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/huawei-bayerlab/marigold-v2-0,Huawei Bayerlab,marigold-v2-0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/peonist-ai/halogen-qwen3.8-flash-next,Peonist Ai,halogen-qwen3.8-flash-next,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/internlm/InternLumina-U2,Internlm,InternLumina-U2,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/IFM/K2-Horizon-375B-A23B,Ifm,K2-Horizon-375B-A23B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/IFM/K2-Horizon-7B-Uno,Ifm,K2-Horizon-7B-Uno,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/wanvideo/wan-3-0-video,Wanvideo,wan-3-0-video,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Alex995647/loras-minimax-h3,Alex995647,loras-minimax-h3,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/openbmb/MiniCPM5-2B-GGUF,openbmb,MiniCPM5-2B-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/OrionLLM/OxCoder-9B,Orionllm,OxCoder-9B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Clean-Plate,Lightricks,LTX-2.5-22b-IC-LoRA-Clean-Plate,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/bartowski/TheDrummer_Orion-26B-A4B-v1.1-GGUF,Bartowski,TheDrummer_Orion-26B-A4B-v1.1-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B,Meta Models,Muse-Spark-Open-816B-A42B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B,Xingchen Agi,Xing4.0-29B-A4B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/inclusionAI/Realtime-Venus,Inclusionai,Realtime-Venus,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/whittleOrg/Whittle-Qwen-3.8-35B-A3B,Whittleorg,Whittle-Qwen-3.8-35B-A3B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Cseti/MiniMax-H3_Ref2VA-LoRA-CrossView-Warp_v1,Cseti,MiniMax-H3_Ref2VA-LoRA-CrossView-Warp_v1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Sentinel7/qwen-image-2.1,Sentinel7,qwen-image-2.1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ukisai/Swift1.5-Qwen3.8-Flash-Next,Ukisai,Swift1.5-Qwen3.8-Flash-Next,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Controlnet-Union,Alibaba Pai,Qwen-Image-2.1-Fun-Controlnet-Union,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/taobao-mnn/MNN-Pocket-0.3B,Taobao Mnn,MNN-Pocket-0.3B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/SupersonicLabs/Julia-1,Supersoniclabs,Julia-1,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.8-27B,Bottlecapai,ThinkingCap-Qwen3.8-27B,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/DuoNeural/Cyber-Ornith-1.5-9B-OBLITERATED,Duoneural,Cyber-Ornith-1.5-9B-OBLITERATED,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF,Mradermacher,Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Aratako/Irodori-TTS-v4-Large,Aratako,Irodori-TTS-v4-Large,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/NaiveAI/Naive-N0.5-Flash,Naiveai,Naive-N0.5-Flash,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/ausboss/Qwen-Image-2.1-Consistency-LoRA,Ausboss,Qwen-Image-2.1-Consistency-LoRA,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Alpha-Gen,Lightricks,LTX-2.5-22b-IC-LoRA-Alpha-Gen,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF,Davidau,Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/SoMarkAI/OXR-1.0,Somarkai,OXR-1.0,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/mehdi-hf/nemotron-asr-streaming-farsi,Mehdi Hf,nemotron-asr-streaming-farsi,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/sionic-ai/PepperOCR-VL,Sionic Ai,PepperOCR-VL,FREE,2026-11-22T20:10:54Z
+1.0,PRODUCT,Hugging Face Model Hub,https://huggingface.co/nvidia/Nemotron-Labs-Sigma-8B-instruct,Nvidia,Nemotron-Labs-Sigma-8B-instruct,FREE,2026-11-22T20:10:54Z
