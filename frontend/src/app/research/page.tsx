@@ -61,10 +61,10 @@ export default function ResearchPage() {
         breadcrumbs={[{ label: "FrontierAtlas" }, { label: "Research" }]}
       />
 
-      <div className="px-6 py-6 space-y-6 max-w-7xl mx-auto">
+      <div className="px-3 sm:px-6 py-4 sm:py-6 space-y-4 sm:space-y-6 max-w-7xl mx-auto">
         {/* Controls Bar */}
-        <div className="p-4 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div className="relative flex-1 max-w-md">
+        <div className="p-3 sm:p-4 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] flex flex-col md:flex-row md:items-center justify-between gap-3 sm:gap-4">
+          <div className="relative flex-1 w-full md:max-w-md">
             <Search className="absolute left-3 top-3 w-4 h-4 text-[#98A7BD]" />
             <input
               type="text"
@@ -78,7 +78,7 @@ export default function ResearchPage() {
             />
           </div>
 
-          <div className="flex flex-wrap items-center gap-3">
+          <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-2 sm:gap-3">
             {/* GitHub Repo Presence Filter */}
             <select
               value={githubFilter}
@@ -86,7 +86,7 @@ export default function ResearchPage() {
                 setGithubFilter(e.target.value);
                 setPage(1);
               }}
-              className="px-3 py-2 bg-[#17233A] border border-[#1E2D4A] rounded-xl text-xs text-[#F4F7FC] focus:outline-none focus:border-[#9275FF]"
+              className="w-full sm:w-auto px-3 py-2 bg-[#17233A] border border-[#1E2D4A] rounded-xl text-xs text-[#F4F7FC] focus:outline-none focus:border-[#9275FF]"
             >
               <option value="all">All Research Papers (1,000)</option>
               <option value="yes">With Associated GitHub Code (135)</option>
@@ -100,7 +100,7 @@ export default function ResearchPage() {
                 setMinStars(e.target.value ? parseInt(e.target.value) : undefined);
                 setPage(1);
               }}
-              className="px-3 py-2 bg-[#17233A] border border-[#1E2D4A] rounded-xl text-xs text-[#F4F7FC] focus:outline-none focus:border-[#9275FF]"
+              className="w-full sm:w-auto px-3 py-2 bg-[#17233A] border border-[#1E2D4A] rounded-xl text-xs text-[#F4F7FC] focus:outline-none focus:border-[#9275FF]"
             >
               <option value="">Any Star Count</option>
               <option value="5">★ 5+ Stars</option>
@@ -109,7 +109,7 @@ export default function ResearchPage() {
               <option value="50">★ 50+ Stars</option>
             </select>
 
-            <div className="text-xs font-mono text-[#98A7BD]">
+            <div className="text-xs font-mono text-[#98A7BD] text-center sm:text-left">
               {data ? `${data.total.toLocaleString()} papers` : "Loading..."}
             </div>
           </div>
@@ -129,14 +129,14 @@ export default function ResearchPage() {
                 <div
                   key={paper.id}
                   onClick={() => setSelectedPaper(paper)}
-                  className={`p-4 rounded-2xl bg-[#111A2E] border transition-all cursor-pointer group flex flex-col md:flex-row md:items-center justify-between gap-4 ${
+                  className={`p-3.5 sm:p-4 rounded-2xl bg-[#111A2E] border transition-all cursor-pointer group flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-4 ${
                     hasRepo
                       ? "border-[#1E2D4A] hover:border-[#9275FF]/60 shadow-sm"
                       : "border-[#1E2D4A]/60 opacity-90 hover:opacity-100 hover:border-[#1E2D4A]"
                   }`}
                 >
                   <div className="space-y-1.5 flex-1 min-w-0">
-                    <div className="flex items-center gap-2">
+                    <div className="flex flex-wrap items-center gap-2">
                       {hasRepo ? (
                         <Badge variant="emerald" className="gap-1">
                           <Code2 className="w-3 h-3" />
@@ -160,9 +160,9 @@ export default function ResearchPage() {
                   </div>
 
                   {/* GitHub Metrics & Links */}
-                  <div className="flex items-center gap-4 flex-shrink-0" onClick={(e) => e.stopPropagation()}>
+                  <div className="flex flex-wrap sm:flex-nowrap items-center justify-between sm:justify-end gap-3 flex-shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-[#1E2D4A]/60" onClick={(e) => e.stopPropagation()}>
                     {paper.github_stars !== null && (
-                      <div className="text-right">
+                      <div className="text-left sm:text-right">
                         <div className="flex items-center gap-1 font-mono font-bold text-sm text-[#F3B84B]">
                           <Star className="w-4 h-4 fill-[#F3B84B]" />
                           <span>{paper.github_stars.toLocaleString()}</span>
@@ -231,16 +231,16 @@ export default function ResearchPage() {
 
         {/* Paper Detail Modal */}
         {selectedPaper && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm">
-            <div className="w-full max-w-2xl rounded-2xl bg-[#0B1020] border border-[#1E2D4A] shadow-2xl p-6 relative space-y-4">
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/70 backdrop-blur-sm">
+            <div className="w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-2xl bg-[#0B1020] border border-[#1E2D4A] shadow-2xl p-4 sm:p-6 relative space-y-4">
               <button
                 onClick={() => setSelectedPaper(null)}
-                className="absolute top-4 right-4 p-1.5 rounded-lg text-[#98A7BD] hover:text-white hover:bg-[#17233A]"
+                className="absolute top-3 sm:top-4 right-3 sm:right-4 p-1.5 rounded-lg text-[#98A7BD] hover:text-white hover:bg-[#17233A]"
               >
                 <X className="w-5 h-5" />
               </button>
 
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 pr-8">
                 {selectedPaper.github_url ? (
                   <Badge variant="emerald">Open-Source Code Verified</Badge>
                 ) : (
@@ -256,7 +256,7 @@ export default function ResearchPage() {
                 {selectedPaper.authors.join(", ")}
               </div>
 
-              <div className="grid grid-cols-2 gap-3 py-3 border-y border-[#1E2D4A] text-xs">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 py-3 border-y border-[#1E2D4A] text-xs">
                 <div>
                   <span className="text-[#98A7BD] block mb-1">Publication Date</span>
                   <span className="font-mono text-white">{new Date(selectedPaper.published_date).toLocaleDateString()}</span>
@@ -268,19 +268,19 @@ export default function ResearchPage() {
                   </span>
                 </div>
                 {selectedPaper.github_stars_retrieved_at && (
-                  <div className="col-span-2">
+                  <div className="col-span-1 sm:col-span-2">
                     <span className="text-[#98A7BD] block mb-0.5">Observation Timestamp (Traceability Guarantee):</span>
-                    <span className="font-mono text-[#35C98A] text-[11px]">{selectedPaper.github_stars_retrieved_at}</span>
+                    <span className="font-mono text-[#35C98A] text-[11px] break-all">{selectedPaper.github_stars_retrieved_at}</span>
                   </div>
                 )}
               </div>
 
-              <div className="flex items-center justify-between pt-2">
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2 sm:gap-0 pt-2">
                 <a
                   href={selectedPaper.paper_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-xl bg-[#17233A] hover:bg-[#1E2D4A] border border-[#1E2D4A] text-xs text-white flex items-center gap-1.5"
+                  className="px-4 py-2 rounded-xl bg-[#17233A] hover:bg-[#1E2D4A] border border-[#1E2D4A] text-xs text-white flex items-center justify-center gap-1.5"
                 >
                   Read on arXiv <ExternalLink className="w-3.5 h-3.5" />
                 </a>
@@ -289,7 +289,7 @@ export default function ResearchPage() {
                     href={selectedPaper.github_url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 rounded-xl bg-[#35C98A] hover:bg-[#28B87B] text-xs font-semibold text-black flex items-center gap-1.5"
+                    className="px-4 py-2 rounded-xl bg-[#35C98A] hover:bg-[#28B87B] text-xs font-semibold text-black flex items-center justify-center gap-1.5"
                   >
                     View Repository on GitHub <ExternalLink className="w-3.5 h-3.5" />
                   </a>

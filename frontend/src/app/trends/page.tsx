@@ -71,27 +71,27 @@ export default function TrendsPage() {
         breadcrumbs={[{ label: "FrontierAtlas" }, { label: "Trend Intelligence" }]}
       />
 
-      <div className="px-6 py-6 space-y-6 max-w-7xl mx-auto">
+      <div className="px-3 sm:px-6 py-4 sm:py-6 space-y-4 sm:space-y-6 max-w-7xl mx-auto">
         {/* Banner with Transparent Methodology */}
-        <div className="p-5 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+        <div className="p-4 sm:p-5 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] flex flex-col md:flex-row items-start md:items-center justify-between gap-3 sm:gap-4">
           <div className="space-y-1">
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2">
               <Badge variant="cyan">EMPIRICAL STATISTICAL MODELS</Badge>
               <Badge variant="emerald">ZERO HALLUCINATED MARKET METRICS</Badge>
             </div>
-            <h2 className="text-lg font-bold text-white">Frontier Signals Intelligence</h2>
-            <p className="text-xs text-[#98A7BD] max-w-2xl">
+            <h2 className="text-base sm:text-lg font-bold text-white">Frontier Signals Intelligence</h2>
+            <p className="text-xs text-[#98A7BD] max-w-2xl leading-relaxed">
               Signals are calculated directly from word frequency distributions, repository tracking, role family clustering, and standardized pricing models across all 4,389 database records.
             </p>
           </div>
-          <div className="p-3 rounded-xl bg-[#17233A] border border-[#1E2D4A] text-[11px] font-mono text-[#36D6E7]">
+          <div className="p-2.5 sm:p-3 rounded-xl bg-[#17233A] border border-[#1E2D4A] text-[11px] font-mono text-[#36D6E7] whitespace-nowrap self-start md:self-auto">
             Confidence: 99.4% Verified
           </div>
         </div>
 
         {/* Emerging Research Domains */}
-        <div className="p-6 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] space-y-4">
-          <div className="flex items-center justify-between">
+        <div className="p-4 sm:p-6 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] space-y-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <div>
               <h3 className="text-sm font-bold text-white flex items-center gap-2">
                 <Brain className="w-4 h-4 text-[#9275FF]" />
@@ -99,14 +99,14 @@ export default function TrendsPage() {
               </h3>
               <p className="text-xs text-[#98A7BD]">Frequency of foundational themes across 1,000 indexed research papers</p>
             </div>
-            <Badge variant="violet">arXiv CS.AI/LG/CL</Badge>
+            <Badge variant="violet" className="self-start sm:self-auto">arXiv CS.AI/LG/CL</Badge>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 pt-2">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6 pt-2">
             {/* Chart */}
-            <div className="lg:col-span-2 h-72">
+            <div className="lg:col-span-2 h-60 sm:h-72">
               <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={topicChartData} margin={{ top: 10, right: 10, left: -20, bottom: 25 }}>
+                <BarChart data={topicChartData} margin={{ top: 10, right: 10, left: -25, bottom: 25 }}>
                   <XAxis dataKey="name" stroke="#98A7BD" fontSize={10} angle={-20} textAnchor="end" />
                   <YAxis stroke="#98A7BD" fontSize={11} unit="%" />
                   <Tooltip
@@ -141,9 +141,9 @@ export default function TrendsPage() {
         </div>
 
         {/* 2-Column: Open-Source Velocity & Talent Demand */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
           {/* Open-Source Implementation Velocity */}
-          <div className="p-5 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] space-y-4">
+          <div className="p-4 sm:p-5 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] space-y-4">
             <div className="flex items-center justify-between">
               <h3 className="text-sm font-bold text-white flex items-center gap-2">
                 <Code2 className="w-4 h-4 text-[#35C98A]" />
@@ -152,24 +152,24 @@ export default function TrendsPage() {
               <Badge variant="emerald">{signals?.open_source_velocity.status}</Badge>
             </div>
 
-            <div className="grid grid-cols-3 gap-3 text-center">
-              <div className="p-3 rounded-xl bg-[#17233A] border border-[#1E2D4A]">
-                <div className="text-xl font-bold text-white tabular-nums">
+            <div className="grid grid-cols-3 gap-2 sm:gap-3 text-center">
+              <div className="p-2.5 sm:p-3 rounded-xl bg-[#17233A] border border-[#1E2D4A]">
+                <div className="text-lg sm:text-xl font-bold text-white tabular-nums">
                   {signals?.open_source_velocity.total_papers}
                 </div>
-                <div className="text-[11px] text-[#98A7BD] mt-0.5">Total Papers</div>
+                <div className="text-[10px] sm:text-[11px] text-[#98A7BD] mt-0.5">Total Papers</div>
               </div>
-              <div className="p-3 rounded-xl bg-[#17233A] border border-[#1E2D4A]">
-                <div className="text-xl font-bold text-[#35C98A] tabular-nums">
+              <div className="p-2.5 sm:p-3 rounded-xl bg-[#17233A] border border-[#1E2D4A]">
+                <div className="text-lg sm:text-xl font-bold text-[#35C98A] tabular-nums">
                   {signals?.open_source_velocity.with_code_repository}
                 </div>
-                <div className="text-[11px] text-[#98A7BD] mt-0.5">With Repos</div>
+                <div className="text-[10px] sm:text-[11px] text-[#98A7BD] mt-0.5">With Repos</div>
               </div>
-              <div className="p-3 rounded-xl bg-[#17233A] border border-[#1E2D4A]">
-                <div className="text-xl font-bold text-[#4F8CFF] tabular-nums">
+              <div className="p-2.5 sm:p-3 rounded-xl bg-[#17233A] border border-[#1E2D4A]">
+                <div className="text-lg sm:text-xl font-bold text-[#4F8CFF] tabular-nums">
                   {signals?.open_source_velocity.open_source_ratio}%
                 </div>
-                <div className="text-[11px] text-[#98A7BD] mt-0.5">Code Velocity</div>
+                <div className="text-[10px] sm:text-[11px] text-[#98A7BD] mt-0.5">Code Velocity</div>
               </div>
             </div>
 
@@ -179,7 +179,7 @@ export default function TrendsPage() {
           </div>
 
           {/* AI Talent Demand Patterns */}
-          <div className="p-5 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] space-y-4">
+          <div className="p-4 sm:p-5 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] space-y-4">
             <div className="flex items-center justify-between">
               <h3 className="text-sm font-bold text-white flex items-center gap-2">
                 <Briefcase className="w-4 h-4 text-[#F3B84B]" />

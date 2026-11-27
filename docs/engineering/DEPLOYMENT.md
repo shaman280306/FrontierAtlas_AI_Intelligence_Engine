@@ -36,8 +36,8 @@ The FrontierAtlas AI platform is designed for zero-friction cloud deployment usi
 3. **Environment Variables on Render:**
    - `PYTHON_VERSION`: `3.11.9`
    - `DATABASE_URL`: `sqlite:///data/frontier_atlas.db` (or connection string to PostgreSQL)
-   - `CORS_ORIGINS`: `https://your-frontend.vercel.app,http://localhost:3000`
-4. **Copy Public Backend URL:** (e.g. `https://frontier-atlas-backend.onrender.com`).
+   - `CORS_ORIGINS`: `https://frontieratlas-frontend.vercel.app,http://localhost:3000`
+4. **Copy Public Backend URL:** (e.g. `https://frontieratlas-api.onrender.com`).
 
 ### 2.2 Frontend Deployment on Vercel
 1. **New Project on Vercel:** Import your GitHub repository into [Vercel](https://vercel.com).
@@ -48,8 +48,8 @@ The FrontierAtlas AI platform is designed for zero-friction cloud deployment usi
    - Output Directory: `.next`
    - Install Command: `npm install`
 5. **Environment Variables:**
-   - `NEXT_PUBLIC_API_BASE_URL`: `https://frontier-atlas-backend.onrender.com` (your backend URL)
-6. **Deploy:** Click **Deploy**. Vercel will build and assign an SSL-enabled production URL (e.g., `https://frontier-atlas.vercel.app`).
+   - `NEXT_PUBLIC_API_BASE_URL`: `https://frontieratlas-api.onrender.com` (your backend URL)
+6. **Deploy:** Click **Deploy**. Vercel will build and assign an SSL-enabled production URL (e.g., `https://frontieratlas-frontend.vercel.app/`).
 
 ---
 

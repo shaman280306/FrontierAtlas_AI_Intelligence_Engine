@@ -36,25 +36,29 @@ export default function AIAssistantModal({ isOpen, onClose }: Props) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-md animate-in fade-in duration-200">
-      <div className="relative w-full max-w-3xl rounded-2xl bg-[#0B1020] border border-[#1E2D4A] shadow-2xl overflow-hidden flex flex-col h-[85vh]">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/80 backdrop-blur-md animate-in fade-in duration-200">
+      <div className="relative w-full max-w-3xl rounded-2xl bg-[#0B1020] border border-[#1E2D4A] shadow-2xl overflow-hidden flex flex-col h-[94vh] sm:h-[85vh]">
         {/* Header */}
-        <div className="flex items-center justify-between px-6 py-4 border-b border-[#1E2D4A] bg-[#111A2E]">
-          <div className="flex items-center space-x-3">
-            <div className="p-2 rounded-xl bg-gradient-to-br from-[#4F8CFF] to-[#9275FF] text-white shadow-md">
-              <Sparkles className="w-5 h-5" />
+        <div className="flex items-center justify-between px-3 sm:px-6 py-3 sm:py-4 border-b border-[#1E2D4A] bg-[#111A2E] gap-2">
+          <div className="flex items-center space-x-2 sm:space-x-3 min-w-0">
+            <div className="p-1.5 sm:p-2 rounded-xl bg-gradient-to-br from-[#4F8CFF] to-[#9275FF] text-white shadow-md flex-shrink-0">
+              <Sparkles className="w-4 h-4 sm:w-5 sm:h-5" />
             </div>
-            <div>
-              <h2 className="text-base font-bold text-white flex items-center gap-2">
-                Frontier Intelligence Assistant
-                <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-[#9275FF]/20 text-[#9275FF] border border-[#9275FF]/30">
+            <div className="min-w-0">
+              <h2 className="text-xs sm:text-base font-bold text-white flex items-center gap-1.5 truncate">
+                <span className="truncate">Frontier Assistant</span>
+                <span className="text-[9px] sm:text-[10px] font-mono px-1.5 sm:px-2 py-0.5 rounded-full bg-[#9275FF]/20 text-[#9275FF] border border-[#9275FF]/30 flex-shrink-0">
                   Grounding Mode
                 </span>
               </h2>
-              <p className="text-xs text-[#98A7BD]">Verified AI ecosystem analysis grounded in 4,389 database records</p>
+              <p className="text-[10px] sm:text-xs text-[#98A7BD] truncate hidden min-[360px]:block">Grounded in 4,389 verified database records</p>
             </div>
           </div>
-          <button onClick={onClose} className="p-1.5 rounded-lg text-[#98A7BD] hover:text-white hover:bg-[#17233A]">
+          <button
+            onClick={onClose}
+            className="p-1.5 rounded-lg text-[#98A7BD] hover:text-white hover:bg-[#17233A] flex-shrink-0"
+            aria-label="Close Assistant Modal"
+          >
             <X className="w-5 h-5" />
           </button>
         </div>
@@ -167,18 +171,19 @@ export default function AIAssistantModal({ isOpen, onClose }: Props) {
         </div>
 
         {/* Input Form */}
-        <form onSubmit={handleSubmit} className="p-4 border-t border-[#1E2D4A] bg-[#111A2E] flex items-center space-x-3">
+        <form onSubmit={handleSubmit} className="p-3 sm:p-4 border-t border-[#1E2D4A] bg-[#111A2E] flex items-center gap-2 sm:gap-3">
           <input
             type="text"
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
-            placeholder="Ask FrontierAtlas intelligence engine..."
-            className="flex-1 bg-[#17233A] border border-[#1E2D4A] rounded-xl px-4 py-2.5 text-sm text-[#F4F7FC] placeholder-[#98A7BD] focus:outline-none focus:border-[#4F8CFF]"
+            placeholder="Ask FrontierAtlas intelligence..."
+            className="flex-1 min-w-0 bg-[#17233A] border border-[#1E2D4A] rounded-xl px-3 sm:px-4 py-2 sm:py-2.5 text-xs sm:text-sm text-[#F4F7FC] placeholder-[#98A7BD] focus:outline-none focus:border-[#4F8CFF]"
           />
           <button
             type="submit"
             disabled={!prompt.trim() || loading}
-            className="p-2.5 rounded-xl bg-[#4F8CFF] hover:bg-[#3B7BE8] disabled:opacity-50 text-white transition-colors"
+            className="p-2 sm:p-2.5 rounded-xl bg-[#4F8CFF] hover:bg-[#3B7BE8] disabled:opacity-50 text-white transition-colors flex-shrink-0"
+            aria-label="Send Query"
           >
             <Send className="w-4 h-4" />
           </button>

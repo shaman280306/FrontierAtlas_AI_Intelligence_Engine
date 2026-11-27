@@ -107,13 +107,13 @@ export default function EntityExplorerPage() {
         breadcrumbs={[{ label: "FrontierAtlas" }, { label: "Entity Explorer" }]}
       />
 
-      <div className="px-6 py-6 space-y-6 max-w-7xl mx-auto">
+      <div className="px-3 sm:px-6 py-4 sm:py-6 space-y-4 sm:space-y-6 max-w-7xl mx-auto">
         {/* Navigation Tabs */}
-        <div className="flex items-center justify-between border-b border-[#1E2D4A] pb-3">
-          <div className="flex items-center space-x-2">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-[#1E2D4A] pb-3 gap-3">
+          <div className="flex flex-wrap items-center gap-2">
             <button
               onClick={() => setActiveTab("graph")}
-              className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-2 ${
+              className={`px-3 sm:px-4 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-2 ${
                 activeTab === "graph"
                   ? "bg-[#4F8CFF] text-white shadow-lg shadow-blue-500/20"
                   : "bg-[#111A2E] text-[#98A7BD] hover:text-white border border-[#1E2D4A]"
@@ -124,7 +124,7 @@ export default function EntityExplorerPage() {
             </button>
             <button
               onClick={() => setActiveTab("logs")}
-              className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-2 ${
+              className={`px-3 sm:px-4 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-2 ${
                 activeTab === "logs"
                   ? "bg-[#4F8CFF] text-white shadow-lg shadow-blue-500/20"
                   : "bg-[#111A2E] text-[#98A7BD] hover:text-white border border-[#1E2D4A]"
@@ -135,25 +135,25 @@ export default function EntityExplorerPage() {
             </button>
           </div>
 
-          <Badge variant="cyan">Multi-Vertical Graph Synthesis</Badge>
+          <Badge variant="cyan" className="self-start sm:self-auto">Multi-Vertical Graph Synthesis</Badge>
         </div>
 
         {activeTab === "graph" ? (
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 sm:gap-6">
             {/* Left Sidebar: Top Connected Entities */}
             <div className="lg:col-span-1 space-y-4">
-              <div className="p-4 rounded-2xl bg-[#111A2E] border border-[#1E2D4A]">
-                <h3 className="text-xs font-bold text-white uppercase tracking-wider mb-3">
+              <div className="p-3 sm:p-4 rounded-2xl bg-[#111A2E] border border-[#1E2D4A]">
+                <h3 className="text-xs font-bold text-white uppercase tracking-wider mb-2 sm:mb-3">
                   Top Connected Entities
                 </h3>
-                <div className="space-y-1.5 max-h-[550px] overflow-y-auto pr-1">
+                <div className="flex flex-row overflow-x-auto gap-2 pb-2 lg:flex-col lg:overflow-x-visible lg:space-y-1.5 lg:pb-0 lg:max-h-[550px] lg:overflow-y-auto pr-1">
                   {topEntities.map((item) => {
                     const isSelected = selectedEntity.toLowerCase() === item.entity.toLowerCase();
                     return (
                       <button
                         key={item.entity}
                         onClick={() => setSelectedEntity(item.entity)}
-                        className={`w-full p-2.5 rounded-xl text-left text-xs transition-all flex items-center justify-between border ${
+                        className={`flex-shrink-0 lg:flex-shrink lg:w-full px-3 py-2 lg:p-2.5 rounded-xl text-left text-xs transition-all flex items-center justify-between gap-2 border ${
                           isSelected
                             ? "bg-[#17233A] text-white border-[#4F8CFF] shadow-sm shadow-blue-500/10"
                             : "bg-[#0B1020]/60 text-[#98A7BD] hover:text-white hover:bg-[#17233A]/50 border-transparent"
@@ -172,9 +172,9 @@ export default function EntityExplorerPage() {
 
             {/* Main Graph Canvas Area */}
             <div className="lg:col-span-3 space-y-4">
-              <div className="p-6 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] relative overflow-hidden flex flex-col justify-between min-h-[550px]">
+              <div className="p-4 sm:p-6 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] relative overflow-hidden flex flex-col justify-between min-h-[440px] sm:min-h-[550px]">
                 {/* Graph Controls & Legend */}
-                <div className="flex flex-wrap items-center justify-between gap-3 pb-4 border-b border-[#1E2D4A]/60 z-10">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 sm:pb-4 border-b border-[#1E2D4A]/60 z-10">
                   <div>
                     <h3 className="text-base font-bold text-white flex items-center gap-2">
                       <Network className="w-5 h-5 text-[#4F8CFF]" />
@@ -202,8 +202,8 @@ export default function EntityExplorerPage() {
                     <span className="text-xs font-mono text-[#98A7BD]">Traversing graph edges...</span>
                   </div>
                 ) : (
-                  <div className="flex-1 relative py-6 flex items-center justify-center">
-                    <svg className="w-full h-[400px]" viewBox="0 0 700 400">
+                  <div className="flex-1 relative py-4 sm:py-6 flex items-center justify-center overflow-hidden">
+                    <svg className="w-full h-[280px] sm:h-[400px]" viewBox="0 0 700 400" preserveAspectRatio="xMidYMid meet">
                       {/* Radial layout calculation */}
                       {(() => {
                         if (!graphData || graphData.nodes.length <= 1) return null;
@@ -330,8 +330,8 @@ export default function EntityExplorerPage() {
           /* Deterministic Resolution Logs Tab */
           <div className="rounded-2xl bg-[#111A2E] border border-[#1E2D4A] overflow-hidden space-y-4 p-4">
             {/* Filters */}
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
-              <div className="relative flex-1 max-w-md w-full">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+              <div className="relative flex-1 w-full sm:max-w-md">
                 <Search className="absolute left-3 top-3 w-4 h-4 text-[#98A7BD]" />
                 <input
                   type="text"
@@ -351,7 +351,7 @@ export default function EntityExplorerPage() {
                   setLogMethod(e.target.value);
                   setLogPage(1);
                 }}
-                className="px-3 py-2 bg-[#17233A] border border-[#1E2D4A] rounded-xl text-xs text-[#F4F7FC] focus:outline-none focus:border-[#4F8CFF]"
+                className="w-full sm:w-auto px-3 py-2 bg-[#17233A] border border-[#1E2D4A] rounded-xl text-xs text-[#F4F7FC] focus:outline-none focus:border-[#4F8CFF]"
               >
                 <option value="">All Resolution Methods</option>
                 <option value="EXACT_CANONICAL">EXACT_CANONICAL (1.0)</option>
@@ -368,8 +368,8 @@ export default function EntityExplorerPage() {
                 <span className="text-xs text-[#98A7BD]">Loading entity mapping logs...</span>
               </div>
             ) : (
-              <div className="overflow-x-auto">
-                <table className="w-full text-left text-xs">
+              <div className="overflow-x-auto -mx-4 sm:mx-0 px-4 sm:px-0">
+                <table className="w-full min-w-[650px] text-left text-xs">
                   <thead className="bg-[#17233A] text-[#98A7BD] uppercase font-mono border-b border-[#1E2D4A]">
                     <tr>
                       <th className="py-2.5 px-3">Raw Name</th>

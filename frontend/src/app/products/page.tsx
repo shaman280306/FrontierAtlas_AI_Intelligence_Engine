@@ -103,10 +103,10 @@ export default function ProductsPage() {
         breadcrumbs={[{ label: "FrontierAtlas" }, { label: "Products" }]}
       />
 
-      <div className="px-6 py-6 space-y-6 max-w-7xl mx-auto">
+      <div className="px-3 sm:px-6 py-4 sm:py-6 space-y-4 sm:space-y-6 max-w-7xl mx-auto w-full">
         {/* Controls Bar */}
-        <div className="p-4 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div className="relative flex-1 max-w-md">
+        <div className="p-3.5 sm:p-4 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] flex flex-col lg:flex-row lg:items-center justify-between gap-3 sm:gap-4">
+          <div className="relative flex-1 w-full lg:max-w-md">
             <Search className="absolute left-3 top-3 w-4 h-4 text-[#98A7BD]" />
             <input
               type="text"
@@ -120,7 +120,7 @@ export default function ProductsPage() {
             />
           </div>
 
-          <div className="flex flex-wrap items-center gap-3">
+          <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-2.5 sm:gap-3">
             {/* Pricing Model Filter */}
             <select
               value={pricingFilter}
@@ -128,7 +128,7 @@ export default function ProductsPage() {
                 setPricingFilter(e.target.value);
                 setPage(1);
               }}
-              className="px-3 py-2 bg-[#17233A] border border-[#1E2D4A] rounded-xl text-xs text-[#F4F7FC] focus:outline-none focus:border-[#36D6E7]"
+              className="w-full sm:w-auto px-3 py-2 bg-[#17233A] border border-[#1E2D4A] rounded-xl text-xs text-[#F4F7FC] focus:outline-none focus:border-[#36D6E7]"
             >
               <option value="">All Pricing Tiers</option>
               <option value="FREE">FREE</option>
@@ -141,14 +141,14 @@ export default function ProductsPage() {
             {comparisonIds.length > 0 && (
               <button
                 onClick={handleOpenComparison}
-                className="px-3.5 py-2 rounded-xl bg-[#4F8CFF] hover:bg-[#3B7BE8] text-xs font-semibold text-white flex items-center gap-2 shadow-lg shadow-blue-500/20"
+                className="w-full sm:w-auto px-3.5 py-2 rounded-xl bg-[#4F8CFF] hover:bg-[#3B7BE8] text-xs font-semibold text-white flex items-center justify-center gap-2 shadow-lg shadow-blue-500/20"
               >
                 <ArrowRightLeft className="w-4 h-4" />
                 Compare ({comparisonIds.length})
               </button>
             )}
 
-            <div className="text-xs font-mono text-[#98A7BD]">
+            <div className="text-xs font-mono text-[#98A7BD] self-center sm:self-auto">
               {data ? `${data.total.toLocaleString()} products` : "Loading..."}
             </div>
           </div>
@@ -161,7 +161,7 @@ export default function ProductsPage() {
             <span className="text-xs font-mono text-[#98A7BD]">Loading AI product directory...</span>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4">
             {data?.items.map((prod) => {
               const isSelected = comparisonIds.includes(prod.id);
               return (
@@ -252,8 +252,8 @@ export default function ProductsPage() {
 
         {/* Product Comparison Modal */}
         {comparisonModalOpen && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-md">
-            <div className="w-full max-w-4xl rounded-2xl bg-[#0B1020] border border-[#1E2D4A] shadow-2xl p-6 relative max-h-[85vh] flex flex-col">
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/80 backdrop-blur-md">
+            <div className="w-full max-w-4xl rounded-2xl bg-[#0B1020] border border-[#1E2D4A] shadow-2xl p-4 sm:p-6 relative max-h-[92vh] flex flex-col">
               <div className="flex items-center justify-between pb-4 border-b border-[#1E2D4A]">
                 <div className="flex items-center gap-2">
                   <ArrowRightLeft className="w-5 h-5 text-[#4F8CFF]" />
@@ -262,6 +262,7 @@ export default function ProductsPage() {
                 <button
                   onClick={() => setComparisonModalOpen(false)}
                   className="p-1.5 rounded-lg text-[#98A7BD] hover:text-white hover:bg-[#17233A]"
+                  aria-label="Close Comparison"
                 >
                   <X className="w-5 h-5" />
                 </button>
@@ -273,8 +274,8 @@ export default function ProductsPage() {
                   <span className="text-xs text-[#98A7BD]">Fetching comparison attributes...</span>
                 </div>
               ) : (
-                <div className="overflow-x-auto py-4">
-                  <table className="w-full text-left text-xs">
+                <div className="overflow-x-auto py-4 -mx-4 sm:mx-0 px-4 sm:px-0">
+                  <table className="w-full text-left text-xs min-w-[500px]">
                     <thead>
                       <tr className="border-b border-[#1E2D4A]">
                         <th className="py-3 px-3 text-[#98A7BD] uppercase font-mono w-32">Attribute</th>
@@ -345,26 +346,27 @@ export default function ProductsPage() {
 
         {/* Product Detail Modal */}
         {selectedProduct && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm">
-            <div className="w-full max-w-xl rounded-2xl bg-[#0B1020] border border-[#1E2D4A] shadow-2xl p-6 relative space-y-4">
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/80 backdrop-blur-sm">
+            <div className="w-full max-w-xl rounded-2xl bg-[#0B1020] border border-[#1E2D4A] shadow-2xl p-4 sm:p-6 relative space-y-4 max-h-[92vh] overflow-y-auto">
               <button
                 onClick={() => setSelectedProduct(null)}
-                className="absolute top-4 right-4 p-1.5 rounded-lg text-[#98A7BD] hover:text-white hover:bg-[#17233A]"
+                className="absolute top-3 right-3 sm:top-4 sm:right-4 p-1.5 rounded-lg text-[#98A7BD] hover:text-white hover:bg-[#17233A]"
+                aria-label="Close Product Details"
               >
                 <X className="w-5 h-5" />
               </button>
 
-              <div className="flex items-center gap-3">
-                <div className="p-3 rounded-xl bg-[#36D6E7]/15 border border-[#36D6E7]/30 text-[#36D6E7]">
-                  <Package className="w-6 h-6" />
+              <div className="flex items-center gap-3 pr-8">
+                <div className="p-2.5 sm:p-3 rounded-xl bg-[#36D6E7]/15 border border-[#36D6E7]/30 text-[#36D6E7] flex-shrink-0">
+                  <Package className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
-                <div>
-                  <h3 className="text-lg font-bold text-white">{selectedProduct.product_name}</h3>
-                  <p className="text-xs text-[#98A7BD]">Created by {selectedProduct.startup_name}</p>
+                <div className="min-w-0">
+                  <h3 className="text-base sm:text-lg font-bold text-white truncate">{selectedProduct.product_name}</h3>
+                  <p className="text-xs text-[#98A7BD] truncate">Created by {selectedProduct.startup_name}</p>
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-3 py-3 border-y border-[#1E2D4A] text-xs">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 py-3 border-y border-[#1E2D4A] text-xs">
                 <div>
                   <span className="text-[#98A7BD] block mb-1">Pricing Model</span>
                   <Badge variant={getPricingBadgeVariant(selectedProduct.pricing_model)}>
@@ -394,13 +396,13 @@ export default function ProductsPage() {
                 </div>
               )}
 
-              <div className="flex items-center justify-between pt-2">
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2.5 pt-2">
                 <button
                   onClick={() => {
                     toggleComparison(selectedProduct.id);
                     setSelectedProduct(null);
                   }}
-                  className="px-4 py-2 rounded-xl bg-[#17233A] hover:bg-[#1E2D4A] border border-[#1E2D4A] text-xs text-white"
+                  className="px-4 py-2 rounded-xl bg-[#17233A] hover:bg-[#1E2D4A] border border-[#1E2D4A] text-xs text-white text-center"
                 >
                   {comparisonIds.includes(selectedProduct.id) ? "Remove from Compare" : "Add to Compare"}
                 </button>
@@ -408,7 +410,7 @@ export default function ProductsPage() {
                   href={selectedProduct.source_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-xl bg-[#36D6E7] hover:bg-[#20BACB] text-xs font-semibold text-black flex items-center gap-1.5"
+                  className="px-4 py-2 rounded-xl bg-[#36D6E7] hover:bg-[#20BACB] text-xs font-semibold text-black flex items-center justify-center gap-1.5"
                 >
                   Open Original Product <ExternalLink className="w-3.5 h-3.5" />
                 </a>

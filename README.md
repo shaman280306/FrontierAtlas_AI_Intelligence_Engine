@@ -19,7 +19,7 @@
 
 | Component | Target URL / Status | Description |
 | :--- | :--- | :--- |
-| **Frontend Web Workspace** | **[Live Web App (Vercel)](https://frontieratlas-ai.vercel.app)** *(or `http://localhost:3000`)* | Next.js 14 App Router, Recharts, SVG Graph, 12 Modules |
+| **Frontend Web Workspace** | **[Live Web App (Vercel)](https://frontieratlas-frontend.vercel.app/)** *(or `http://localhost:3000`)* | Next.js 14 App Router, Recharts, SVG Graph, 12 Modules |
 | **Backend REST API** | **[FastAPI Service (Render)](https://frontieratlas-api.onrender.com)** *(or `http://localhost:8000`)* | 22 REST Endpoints, OpenAPI / Swagger Docs, CORS Enabled |
 | **Interactive API Docs** | **[`/docs` (Swagger UI)](http://localhost:8000/docs)** | Interactive schema explorer and request testing console |
 | **Continuous Integration** | **[GitHub Actions](https://github.com/shaman280306/FrontierAtlas_AI_Intelligence_Engine/actions)** | Automated Pytest (42 tests) & Next.js production build |

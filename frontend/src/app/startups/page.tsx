@@ -67,11 +67,11 @@ export default function StartupsPage() {
         breadcrumbs={[{ label: "FrontierAtlas" }, { label: "Startups" }]}
       />
 
-      <div className="px-6 py-6 space-y-6 max-w-7xl mx-auto">
+      <div className="px-3 sm:px-6 py-4 sm:py-6 space-y-4 sm:space-y-6 max-w-7xl mx-auto w-full">
         {/* Controls Header */}
-        <div className="p-4 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div className="p-3.5 sm:p-4 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] flex flex-col lg:flex-row lg:items-center justify-between gap-3 sm:gap-4">
           {/* Search */}
-          <div className="relative flex-1 max-w-md">
+          <div className="relative flex-1 w-full lg:max-w-md">
             <Search className="absolute left-3 top-3 w-4 h-4 text-[#98A7BD]" />
             <input
               type="text"
@@ -86,7 +86,7 @@ export default function StartupsPage() {
           </div>
 
           {/* Filters */}
-          <div className="flex flex-wrap items-center gap-3">
+          <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-2.5 sm:gap-3">
             {/* Source Filter */}
             <select
               value={selectedSource}
@@ -94,7 +94,7 @@ export default function StartupsPage() {
                 setSelectedSource(e.target.value);
                 setPage(1);
               }}
-              className="px-3 py-2 bg-[#17233A] border border-[#1E2D4A] rounded-xl text-xs text-[#F4F7FC] focus:outline-none focus:border-[#4F8CFF]"
+              className="w-full sm:w-auto px-3 py-2 bg-[#17233A] border border-[#1E2D4A] rounded-xl text-xs text-[#F4F7FC] focus:outline-none focus:border-[#4F8CFF]"
             >
               <option value="">All Ingestion Sources</option>
               {sources.map((s) => (
@@ -109,7 +109,7 @@ export default function StartupsPage() {
                 setEmployeeFilter(e.target.value);
                 setPage(1);
               }}
-              className="px-3 py-2 bg-[#17233A] border border-[#1E2D4A] rounded-xl text-xs text-[#F4F7FC] focus:outline-none focus:border-[#4F8CFF]"
+              className="w-full sm:w-auto px-3 py-2 bg-[#17233A] border border-[#1E2D4A] rounded-xl text-xs text-[#F4F7FC] focus:outline-none focus:border-[#4F8CFF]"
             >
               <option value="all">All Employee Sizes</option>
               <option value="yes">Known Employee Count</option>
@@ -117,7 +117,7 @@ export default function StartupsPage() {
             </select>
 
             {/* Total Results Count */}
-            <div className="text-xs font-mono text-[#98A7BD]">
+            <div className="text-xs font-mono text-[#98A7BD] self-center sm:self-auto">
               {data ? `${data.total.toLocaleString()} startups` : "Loading..."}
             </div>
           </div>
@@ -132,7 +132,7 @@ export default function StartupsPage() {
         ) : (
           <div className="rounded-2xl bg-[#111A2E] border border-[#1E2D4A] overflow-hidden">
             <div className="overflow-x-auto">
-              <table className="w-full text-left text-xs">
+              <table className="w-full text-left text-xs min-w-[700px]">
                 <thead className="bg-[#17233A] text-[#98A7BD] uppercase font-mono border-b border-[#1E2D4A]">
                   <tr>
                     <th className="py-3 px-4">Canonical Entity</th>
@@ -218,26 +218,27 @@ export default function StartupsPage() {
 
         {/* Startup Detail Drawer / Modal */}
         {selectedStartup && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm">
-            <div className="w-full max-w-xl rounded-2xl bg-[#0B1020] border border-[#1E2D4A] shadow-2xl p-6 relative space-y-4">
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/80 backdrop-blur-sm">
+            <div className="w-full max-w-xl rounded-2xl bg-[#0B1020] border border-[#1E2D4A] shadow-2xl p-4 sm:p-6 relative space-y-4 max-h-[92vh] overflow-y-auto">
               <button
                 onClick={() => setSelectedStartup(null)}
-                className="absolute top-4 right-4 p-1.5 rounded-lg text-[#98A7BD] hover:text-white hover:bg-[#17233A]"
+                className="absolute top-3 right-3 sm:top-4 sm:right-4 p-1.5 rounded-lg text-[#98A7BD] hover:text-white hover:bg-[#17233A]"
+                aria-label="Close Startup Details"
               >
                 <X className="w-5 h-5" />
               </button>
 
-              <div className="flex items-center gap-3">
-                <div className="p-3 rounded-xl bg-[#4F8CFF]/15 border border-[#4F8CFF]/30 text-[#4F8CFF]">
-                  <Building2 className="w-6 h-6" />
+              <div className="flex items-center gap-3 pr-8">
+                <div className="p-2.5 sm:p-3 rounded-xl bg-[#4F8CFF]/15 border border-[#4F8CFF]/30 text-[#4F8CFF] flex-shrink-0">
+                  <Building2 className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
-                <div>
-                  <h3 className="text-lg font-bold text-white">{selectedStartup.canonical_name}</h3>
-                  <p className="text-xs font-mono text-[#98A7BD]">Raw Name: {selectedStartup.raw_name}</p>
+                <div className="min-w-0">
+                  <h3 className="text-base sm:text-lg font-bold text-white truncate">{selectedStartup.canonical_name}</h3>
+                  <p className="text-xs font-mono text-[#98A7BD] truncate">Raw Name: {selectedStartup.raw_name}</p>
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-3 py-3 border-y border-[#1E2D4A] text-xs">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 py-3 border-y border-[#1E2D4A] text-xs">
                 <div>
                   <span className="text-[#98A7BD] block mb-1">Ingestion Source</span>
                   <span className="font-semibold text-white">{selectedStartup.source_name}</span>
@@ -269,10 +270,10 @@ export default function StartupsPage() {
                 </div>
               )}
 
-              <div className="flex items-center justify-between pt-2">
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2.5 pt-2">
                 <a
                   href={`/entities?name=${encodeURIComponent(selectedStartup.canonical_name)}`}
-                  className="px-4 py-2 rounded-xl bg-[#17233A] hover:bg-[#1E2D4A] border border-[#1E2D4A] text-xs text-white"
+                  className="px-4 py-2 rounded-xl bg-[#17233A] hover:bg-[#1E2D4A] border border-[#1E2D4A] text-xs text-white text-center"
                 >
                   View in Entity Graph
                 </a>
@@ -280,7 +281,7 @@ export default function StartupsPage() {
                   href={selectedStartup.source_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-xl bg-[#4F8CFF] hover:bg-[#3B7BE8] text-xs font-medium text-white flex items-center gap-1.5"
+                  className="px-4 py-2 rounded-xl bg-[#4F8CFF] hover:bg-[#3B7BE8] text-xs font-medium text-white flex items-center justify-center gap-1.5"
                 >
                   Visit Verified Source <ExternalLink className="w-3.5 h-3.5" />
                 </a>

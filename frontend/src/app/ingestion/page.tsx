@@ -72,46 +72,46 @@ export default function IngestionPage() {
         breadcrumbs={[{ label: "FrontierAtlas" }, { label: "Ingestion Monitor" }]}
       />
 
-      <div className="px-6 py-6 space-y-6 max-w-7xl mx-auto">
+      <div className="px-3 sm:px-6 py-4 sm:py-6 space-y-4 sm:space-y-6 max-w-7xl mx-auto">
         {/* Top Status Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-          <div className="p-4 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] space-y-1">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+          <div className="p-3.5 sm:p-4 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] space-y-1">
             <span className="text-xs text-[#98A7BD]">Engine State</span>
-            <div className="text-xl font-bold text-[#35C98A] flex items-center gap-2">
+            <div className="text-lg sm:text-xl font-bold text-[#35C98A] flex items-center gap-2">
               <span className="w-2.5 h-2.5 rounded-full bg-[#35C98A] animate-pulse" />
               {statusData?.status || "READY"}
             </div>
-            <span className="text-[11px] font-mono text-[#98A7BD]">FastAPI Async Worker Core</span>
+            <span className="text-[10px] sm:text-[11px] font-mono text-[#98A7BD]">FastAPI Async Worker Core</span>
           </div>
 
-          <div className="p-4 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] space-y-1">
+          <div className="p-3.5 sm:p-4 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] space-y-1">
             <span className="text-xs text-[#98A7BD]">Global Concurrency</span>
-            <div className="text-xl font-bold text-white font-mono">
+            <div className="text-lg sm:text-xl font-bold text-white font-mono">
               {statusData?.worker_concurrency || 10} workers
             </div>
-            <span className="text-[11px] font-mono text-[#4F8CFF]">asyncio.Semaphore pool</span>
+            <span className="text-[10px] sm:text-[11px] font-mono text-[#4F8CFF]">asyncio.Semaphore pool</span>
           </div>
 
-          <div className="p-4 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] space-y-1">
+          <div className="p-3.5 sm:p-4 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] space-y-1">
             <span className="text-xs text-[#98A7BD]">Per-Domain Cap</span>
-            <div className="text-xl font-bold text-white font-mono">
+            <div className="text-lg sm:text-xl font-bold text-white font-mono">
               {statusData?.per_domain_concurrency || 3} req/domain
             </div>
-            <span className="text-[11px] font-mono text-[#36D6E7]">Anti-Bot Protection Guard</span>
+            <span className="text-[10px] sm:text-[11px] font-mono text-[#36D6E7]">Anti-Bot Protection Guard</span>
           </div>
 
-          <div className="p-4 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] space-y-1">
+          <div className="p-3.5 sm:p-4 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] space-y-1">
             <span className="text-xs text-[#98A7BD]">Ingested Entities</span>
-            <div className="text-xl font-bold text-white font-mono">
+            <div className="text-lg sm:text-xl font-bold text-white font-mono">
               4,389 records
             </div>
-            <span className="text-[11px] font-mono text-[#35C98A]">100% Ingested</span>
+            <span className="text-[10px] sm:text-[11px] font-mono text-[#35C98A]">100% Ingested</span>
           </div>
         </div>
 
         {/* Source Adapter Status Table */}
-        <div className="p-6 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] space-y-4">
-          <div className="flex items-center justify-between">
+        <div className="p-4 sm:p-6 rounded-2xl bg-[#111A2E] border border-[#1E2D4A] space-y-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <div>
               <h3 className="text-sm font-bold text-white flex items-center gap-2">
                 <Layers className="w-4 h-4 text-[#4F8CFF]" />
@@ -119,10 +119,10 @@ export default function IngestionPage() {
               </h3>
               <p className="text-xs text-[#98A7BD]">Autonomous crawlers with ethical anti-bot fallback logic</p>
             </div>
-            <Badge variant="cyan">Multi-Source Topology</Badge>
+            <Badge variant="cyan" className="self-start sm:self-auto">Multi-Source Topology</Badge>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             {/* Startups */}
             <div className="p-4 rounded-xl bg-[#17233A]/60 border border-[#1E2D4A] space-y-2">
               <div className="flex items-center justify-between">

@@ -54,22 +54,26 @@ export default function GlobalSearchModal({ isOpen, onClose }: Props) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-start justify-center pt-20 px-4 bg-black/70 backdrop-blur-sm animate-in fade-in duration-200">
-      <div className="relative w-full max-w-3xl rounded-2xl bg-[#0B1020] border border-[#1E2D4A] shadow-2xl overflow-hidden flex flex-col max-h-[80vh]">
+    <div className="fixed inset-0 z-50 flex items-start justify-center pt-4 sm:pt-16 px-2 sm:px-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200">
+      <div className="relative w-full max-w-3xl rounded-2xl bg-[#0B1020] border border-[#1E2D4A] shadow-2xl overflow-hidden flex flex-col max-h-[92vh] sm:max-h-[80vh]">
         {/* Search Bar Input */}
-        <div className="flex items-center px-4 py-3.5 border-b border-[#1E2D4A] bg-[#111A2E]">
-          <Search className="w-5 h-5 text-[#4F8CFF] mr-3 flex-shrink-0" />
+        <div className="flex items-center px-3 sm:px-4 py-3 sm:py-3.5 border-b border-[#1E2D4A] bg-[#111A2E] gap-2">
+          <Search className="w-5 h-5 text-[#4F8CFF] flex-shrink-0" />
           <input
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search AI startups, products, papers, jobs, news, entities..."
+            placeholder="Search AI startups, products, papers, jobs, news..."
             autoFocus
-            className="w-full bg-transparent text-sm text-[#F4F7FC] placeholder-[#98A7BD] focus:outline-none"
+            className="w-full bg-transparent text-xs sm:text-sm text-[#F4F7FC] placeholder-[#98A7BD] focus:outline-none"
           />
-          {loading && <Loader2 className="w-4 h-4 text-[#36D6E7] animate-spin mr-2" />}
-          <button onClick={onClose} className="p-1 rounded-lg text-[#98A7BD] hover:text-white hover:bg-[#17233A]">
-            <X className="w-4 h-4" />
+          {loading && <Loader2 className="w-4 h-4 text-[#36D6E7] animate-spin flex-shrink-0" />}
+          <button
+            onClick={onClose}
+            className="p-1.5 rounded-lg text-[#98A7BD] hover:text-white hover:bg-[#17233A] flex-shrink-0"
+            aria-label="Close Search Modal"
+          >
+            <X className="w-5 h-5" />
           </button>
         </div>
 
