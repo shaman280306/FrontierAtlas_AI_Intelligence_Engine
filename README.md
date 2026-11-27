@@ -1,108 +1,156 @@
 # FrontierAtlas AI — Global AI Ecosystem Intelligence Platform
 
+[![CI Pipeline](https://github.com/shaman280306/FrontierAtlas_AI_Intelligence_Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/shaman280306/FrontierAtlas_AI_Intelligence_Engine/actions)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Next.js 14](https://img.shields.io/badge/Next.js-14.2-black.svg)](https://nextjs.org/)
 [![React 18](https://img.shields.io/badge/React-18.3-61dafb.svg)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue.svg)](https://www.typescriptlang.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688.svg)](https://fastapi.tiangolo.com/)
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4-38bdf8.svg)](https://tailwindcss.com/)
-[![Pydantic v2](https://img.shields.io/badge/Pydantic-v2.14-e92063.svg)](https://docs.pydantic.dev/)
 [![Automated Tests](https://img.shields.io/badge/pytest-42%2F42%20passed-35c98a.svg)](tests/)
 [![Data Quality](https://img.shields.io/badge/quality%20score-99.4%25%20(Grade%20A+)-35c98a.svg)](data/exports/)
 
 > **Navigate the Intelligence Frontier.**  
-> *An AI-powered intelligence workspace connecting startups, commercial products, breakthrough research, engineering opportunities, and emerging technology trends across the global AI ecosystem.*
+> *The Intelligence Layer for the Global AI Ecosystem: An enterprise-grade platform connecting startups, commercial products, breakthrough research, engineering opportunities, and emerging technology trends.*
 
 ---
 
-## 1. Product Vision & Philosophy
+## 🚀 Live Demo & Cloud Deployment
 
-**FrontierAtlas AI** is an enterprise-grade AI ecosystem intelligence platform engineered for technology executives, venture research teams, engineering leaders, and recruiters.
+| Component | Target URL / Status | Description |
+| :--- | :--- | :--- |
+| **Frontend Web Workspace** | **[Live Web App (Vercel)](https://frontieratlas-ai.vercel.app)** *(or `http://localhost:3000`)* | Next.js 14 App Router, Recharts, SVG Graph, 12 Modules |
+| **Backend REST API** | **[FastAPI Service (Render)](https://frontieratlas-api.onrender.com)** *(or `http://localhost:8000`)* | 22 REST Endpoints, OpenAPI / Swagger Docs, CORS Enabled |
+| **Interactive API Docs** | **[`/docs` (Swagger UI)](http://localhost:8000/docs)** | Interactive schema explorer and request testing console |
+| **Continuous Integration** | **[GitHub Actions](https://github.com/shaman280306/FrontierAtlas_AI_Intelligence_Engine/actions)** | Automated Pytest (42 tests) & Next.js production build |
 
-The platform answers fundamental questions across the global artificial intelligence landscape:
-- **Which AI startups are emerging?** Tracking canonical entities, employee footprints, and origin registries.
-- **Which AI products are gaining commercial traction?** Auditing commercialization tiers (`FREE`, `FREEMIUM`, `PAID`, `ENTERPRISE`) across 1,000 products.
-- **What technologies are researchers exploring?** Tracking 1,000 arXiv papers and establishing the exact **research-to-code implementation link** with verified GitHub repositories and live star counts.
-- **What engineering opportunities exist?** Ingesting verified 24-hour fresh openings across 5 major technical job boards.
-- **What are the key industry developments?** Real-time monitoring across 5 top technology news sources.
-- **How are entities connected?** An interactive multi-dimensional relationship graph linking Startups ↔ Products ↔ Research ↔ Jobs ↔ News.
-- **Why can you trust the data?** Dedicated Data Quality Center with empirical completeness, uniqueness, and provenance metrics.
-
-**Core Philosophy:** `DISCOVER → UNDERSTAND → CONNECT → ANALYZE → VERIFY → ACT`
+*Deployment blueprints for Render (`render.yaml`), Vercel (`frontend/vercel.json`), and Docker Compose are included directly in the repository for one-click reproducibility.*
 
 ---
 
-## 2. Complete Platform Architecture
+## 📸 Application Showcase
 
+The platform features an executive dark-mode analytical interface designed for high-density information exploration:
+
+### 1. Executive Analytics & Overview Dashboard
+![Overview Dashboard](docs/screenshots/dashboard_overview.png)
+*Real-time ecosystem metrics: 1,000 startups, 1,000 products, 1,000 research breakthroughs, funding distribution, and research-to-code ratio.*
+
+### 2. Interactive SVG Entity Relationship Graph
+![Entity Relationship Graph](docs/screenshots/entity_graph.png)
+*Real-time SVG network visualizer linking Startups ↔ Products ↔ Research Papers ↔ Jobs ↔ News, with degree-weighted node sizing.*
+
+### 3. AI Startups Directory & Detailed Intelligence Dossier
+![Startups Directory](docs/screenshots/startups_directory.png)
+*Multi-field search, funding stage filters (Seed through Series C+), employee counts, and provenance tracking.*
+
+### 4. AI Products Explorer & Side-by-Side Comparison Matrix
+![Products Comparison](docs/screenshots/products_comparison.png)
+*Commercial AI product directory with pricing model filters (`Free`, `Freemium`, `Paid`, `Enterprise`, `Open Source`) and side-by-side comparison.*
+
+### 5. Research Intelligence & Code Implementation Link
+![Research Intelligence](docs/screenshots/research_intelligence.png)
+*arXiv research tracker establishing the explicit research-to-code link with verified GitHub repositories and live star counts.*
+
+### 6. Engineering Opportunities & Remote Filter
+![Jobs Opportunities](docs/screenshots/jobs_opportunities.png)
+*Engineering openings across 5 major technical job boards with remote status toggle and category breakdowns.*
+
+### 7. Frontier Signals & Trend Intelligence
+![Trend Signals](docs/screenshots/trend_signals.png)
+*Emerging technology trajectory, research velocity, and market segment momentum.*
+
+### 8. Data Quality & Trust Center (99.4% Grade A+)
+![Data Quality Center](docs/screenshots/data_quality.png)
+*Empirical transparency: field completeness, null-rate audits, and deterministic resolution logs.*
+
+### 9. Deliverables & Reports Export Center
+![Reports Exports](docs/screenshots/reports_exports.png)
+*One-click direct streaming downloads for Master Excel (6 sheets, 294 KB), CSVs, and the 3-page Architecture PDF.*
+
+---
+
+## 📚 Deep-Dive Technical Documentation
+
+For engineering recruiters and technical leads, exhaustive specifications are available in [`docs/engineering/`](docs/engineering/):
+
+1. **[System Architecture Specification](docs/engineering/SYSTEM_ARCHITECTURE.md)** — Architectural layers, request flow, and path to 500,000+ records.
+2. **[Data Pipeline & Ingestion Engine](docs/engineering/DATA_PIPELINE.md)** — Rate limiting, 413 semantic chunking, 429 jitter backoff, and hierarchical LLM fallback.
+3. **[REST API Reference Catalog](docs/engineering/API_REFERENCE.md)** — Complete schemas, parameters, and payloads for all 22 REST endpoints.
+4. **[Cloud Deployment & Production Ops](docs/engineering/DEPLOYMENT.md)** — Zero-friction setup for Vercel, Render, Docker, and Kubernetes.
+5. **[Security, Governance & Ethical Web Practices](docs/engineering/SECURITY.md)** — Credential isolation, robots.txt compliance, and anti-abuse policies.
+6. **[Architectural Decisions & Trade-offs](docs/engineering/ENGINEERING_DECISIONS.md)** — Documented justifications (SQLite vs. PostgreSQL, ReportLab vs. Print).
+7. **[Known Limitations & Engineering Roadmap](docs/engineering/KNOWN_LIMITATIONS.md)** — Honest assessment of API boundaries (GitHub 60 req/hr) and future scale roadmap.
+
+---
+
+## 🏛️ Platform Architecture
+
+```mermaid
+graph TD
+    subgraph Sources["Heterogeneous Ingestion Sources"]
+        S1["Startup Registries & Directories"]
+        S2["Commercial AI Product Feeds"]
+        S3["ArXiv Research Feed (cs.AI, cs.LG, cs.CL)"]
+        S4["GitHub REST API v3 (Repos & Stars)"]
+        S5["AI Engineering Job Boards"]
+        S6["Industry RSS & News Feeds"]
+    end
+
+    subgraph Pipeline["Ingestion & Resilience Engine"]
+        C1["Async Scrapers (aiohttp / asyncio / Playwright)"]
+        C2["Semantic Chunker (413 Payload Splitter)"]
+        C3["LLM Extraction (Gemini Pro/Flash ➔ Claude ➔ GPT-4o ➔ DLQ)"]
+        C4["429 Exponential Jitter Backoff"]
+    end
+
+    subgraph Resolution["Normalization & Resolution Cascade"]
+        N1["Pydantic v2 Schema Validation"]
+        N2["URL & Timestamp Normalization"]
+        N3["Deterministic Resolution (Aliases / Legal Suffixes / Fuzzy)"]
+        N4["Entity Relationship Graph Engine"]
+    end
+
+    subgraph Storage["Storage & Deliverable Artifacts"]
+        DB[("Relational Store (SQLite / PostgreSQL)")]
+        EXP["Automated Exporters (Master XLSX, CSVs, 3-Page PDF)"]
+    end
+
+    subgraph Backend["FastAPI Application Services (22 Endpoints)"]
+        API1["Analytics & KPI Service"]
+        API2["Graph & Degree Centrality Service"]
+        API3["Frontier Trends & Topic Service"]
+        API4["Data Quality & Audit Engine (99.4%)"]
+        API5["Global Search & AI Query Assistant"]
+    end
+
+    subgraph Frontend["Next.js 14 Web Workspace (12 Modules)"]
+        UI1["Overview & Market Analytics"]
+        UI2["Directories (Startups, Products, Papers, Jobs, News)"]
+        UI3["Interactive SVG Network Graph"]
+        UI4["Command Palette (Ctrl+K) & Natural Language Assistant"]
+        UI5["Data Trust & Export Hub"]
+    end
+
+    Sources --> Pipeline
+    C1 --> C2 --> C3
+    C3 -- 429 Rate Limit --> C4 --> C3
+    C3 --> Resolution
+    N1 --> N2 --> N3 --> N4
+    N4 --> Storage
+    Storage --> EXP
+    Storage --> Backend
+    Backend --> Frontend
 ```
-                                      [ USER CLIENTS ]
-                                              │
-                                              ▼
-                    ┌──────────────────────────────────────────────────┐
-                    │       NEXT.JS 14 APP ROUTER FRONTEND (PORT 3000) │
-                    │  • Executive Overview Dashboard                  │
-                    │  • AI Startup Directory & Details Drawer         │
-                    │  • AI Product Explorer & Comparison Matrix       │
-                    │  • Research Intelligence & Code Verification     │
-                    │  • Engineering Opportunity Center (24h Fresh)    │
-                    │  • Industry News Signals Workspace               │
-                    │  • Interactive Entity Relationship Graph (SVG)   │
-                    │  • Frontier Signals Trend Intelligence           │
-                    │  • Data Quality & Trust Center (99.4% Grade A+)  │
-                    │  • Ingestion Operations & Concurrency Monitor    │
-                    │  • Reports & Deliverables Export Center          │
-                    │  • Global Multi-Entity Search (Ctrl+K)           │
-                    │  • Grounded AI Natural Language Assistant        │
-                    └─────────────────────────┬────────────────────────┘
-                                              │ REST API / CORS
-                                              ▼
-                    ┌──────────────────────────────────────────────────┐
-                    │          FASTAPI 2.0 BACKEND (PORT 8000)         │
-                    │  • Uvicorn ASGI Server with Pydantic v2 Models   │
-                    │  • Server-Side Pagination, Filtering & Sorting   │
-                    │  • Multi-Entity Search Service                   │
-                    │  • Live Analytics & Graph Synthesis Engine       │
-                    │  • Empirical Data Quality Audit Service          │
-                    │  • AI Discovery & Grounded Retrieval Synthesizer │
-                    └───────────┬──────────────────────────┬───────────┘
-                                │                          │
-                  ┌─────────────┴─────────────┐            │
-                  ▼                           ▼            ▼
-┌──────────────────────────────────┐  ┌──────────────────────────────────┐
-│   ASYNC CRAWLER & SCRAPER CORE   │  │   STORAGE & PERSISTENCE LAYER    │
-│ • Bounded Concurrency (Max 10)   │  │ • SQLite (Local Development)     │
-│ • Per-Domain Semaphores (Max 3)  │  │ • PostgreSQL 16 (Production)     │
-│ • SHA-256 Fingerprinting         │  │ • SQLAlchemy ORM Models          │
-│ • Canonical URL Normalization    │  │ • Master XLSX (6 Audited Tabs)   │
-│ • Anti-Bot Detection & Fallbacks │  │ • 6 Verified CSV Tab Exports     │
-└─────────────────┬────────────────┘  │ • 3-Page Architecture PDF        │
-                  │                   └──────────────────────────────────┘
-                  ▼
-┌────────────────────────────────────────────────────────────────────────┐
-│               MULTI-TIER LLM EXTRACTION & CHUNKING ENGINE              │
-│ • Tier 1: Gemini Flash (gemini-2.0-flash) ──[429 / Outage]─►          │
-│ • Tier 2: Groq Llama 3 (llama-3.3-70b)    ──[429 / Outage]─►          │
-│ • Tier 3: DeepSeek (deepseek-chat)        ──[Exhausted]───► Dead Letter│
-│ • Semantic-Aware Chunking: Splits on Markdown/Headers to prevent 413   │
-│ • Exponential Backoff with Full Jitter: Desynchronizes 429 thundering   │
-└─────────────────┬──────────────────────────────────────────────────────┘
-                  │
-                  ▼
-┌────────────────────────────────────────────────────────────────────────┐
-│                DETERMINISTIC ENTITY RESOLUTION CASCADE                 │
-│ • 50 Curated AI Seed Startups + Known Corporate Aliases                │
-│ • Unicode NFKD Transliteration & Legal Corporate Suffix Stripping      │
-│ • Levenshtein / Token-Sort Fuzzy Matcher (Exact: 1.0, Fuzzy: >=0.88)   │
-│ • Audit Log: Raw Name ➔ Canonical Name + Timestamp + Confidence Score  │
-└────────────────────────────────────────────────────────────────────────┘
-```
 
 ---
 
-## 3. Monorepo Repository Structure
+## 💻 Monorepo Structure
 
 ```
 FrontierAtlas_AI_Intelligence_Engine/
+├── .github/
+│   └── workflows/ci.yml         # GitHub Actions CI (Pytest 42/42 + Next.js build)
 ├── config/
 │   ├── settings.py              # Pydantic BaseSettings with .env management
 │   └── sources.yaml             # Crawl targets, URLs, concurrency, seeds
@@ -112,44 +160,36 @@ FrontierAtlas_AI_Intelligence_Engine/
 │   │   ├── startups.csv         # 1,000 verified startups
 │   │   ├── products.csv         # 1,000 commercial AI products
 │   │   ├── research_papers.csv  # 1,000 research papers (with GitHub stars)
-│   │   ├── jobs.csv             # 317 verified 24h fresh jobs
-│   │   ├── news.csv             # 72 verified 24h fresh news articles
+│   │   ├── jobs.csv             # 317 verified jobs
+│   │   ├── news.csv             # 72 verified news articles
 │   │   └── entity_mapping_log.csv # 1,000 deterministic resolution logs
 │   ├── frontier_atlas.db        # SQLite persistence database (4,389 records)
 │   └── samples/                 # Sample payload schemas
 ├── docs/
+│   ├── engineering/             # In-depth recruiter & architect documentation
+│   │   ├── SYSTEM_ARCHITECTURE.md
+│   │   ├── DATA_PIPELINE.md
+│   │   ├── API_REFERENCE.md
+│   │   ├── DEPLOYMENT.md
+│   │   ├── SECURITY.md
+│   │   ├── ENGINEERING_DECISIONS.md
+│   │   └── KNOWN_LIMITATIONS.md
+│   ├── screenshots/             # High-res application screenshots
 │   ├── architecture.pdf         # Strictly 3-page production architecture document
 │   └── AI Engineer_Nov 2026.pdf # Authoritative 9-page specification document
 ├── frontend/                    # Next.js 14 App Router Web Application
 │   ├── src/
 │   │   ├── app/                 # 12 Application Pages & Routes
-│   │   │   ├── layout.tsx       # Shell with persistent sidebar & header
-│   │   │   ├── page.tsx         # Overview Dashboard with Recharts
-│   │   │   ├── startups/        # Startup Directory & Details Drawer
-│   │   │   ├── products/        # Product Explorer & Comparison Matrix
-│   │   │   ├── research/        # Research Intelligence & Repo Distinction
-│   │   │   ├── jobs/            # Engineering Opportunities (24h Fresh)
-│   │   │   ├── news/            # Industry News Signals Workspace
-│   │   │   ├── entities/        # Interactive SVG Entity Relationship Graph
-│   │   │   ├── trends/          # Frontier Signals & Statistical Trajectories
-│   │   │   ├── quality/         # Data Quality Center (99.4% Grade A+)
-│   │   │   ├── ingestion/       # Ingestion Operations & Concurrency Monitor
-│   │   │   ├── reports/         # Master Workbook & CSV Export Downloads
-│   │   │   └── settings/        # System Architecture & API Swagger Links
-│   │   ├── components/
-│   │   │   ├── layout/          # Sidebar & Top Navigation Header
-│   │   │   └── common/          # GlobalSearchModal, AIAssistantModal, Badges
-│   │   ├── lib/
-│   │   │   └── api.ts           # Type-safe API client
-│   │   └── types/
-│   │       └── index.ts         # TypeScript interfaces for all data models
-│   ├── package.json             # Next 14, React 18, Tailwind, Lucide, Recharts
-│   ├── tailwind.config.js       # Brand color palette design tokens
-│   └── tsconfig.json            # Strict TypeScript configuration
+│   │   ├── components/          # Sidebar, Header, GlobalSearchModal, Badges
+│   │   ├── lib/api.ts           # Type-safe API client
+│   │   └── types/index.ts       # TypeScript interfaces for all data models
+│   ├── vercel.json              # Vercel deployment configuration
+│   └── package.json             # Next 14, React 18, Tailwind, Lucide, Recharts
 ├── scripts/
 │   ├── run_pipeline.py          # CLI pipeline execution script
 │   ├── validate_data.py         # 6-step automated data quality validator
 │   ├── generate_architecture_pdf.py # ReportLab 3-page PDF generator
+│   ├── capture_screenshots.py   # Headless Chrome screenshot automation
 │   └── final_audit.py           # 10-point independent verification script
 ├── src/
 │   ├── crawlers/                # Async crawlers for Startups, Products, Papers, Jobs, News
@@ -159,191 +199,89 @@ FrontierAtlas_AI_Intelligence_Engine/
 │   ├── pipelines/               # Ingestion pipeline orchestration
 │   ├── services/                # Analytics, Graph, Trends, Quality, Search, AI services
 │   ├── storage/                 # Database connection, ORM models & repositories
-│   ├── utils/                   # Dates, deduplication, retry policies, logging
-│   └── main.py                  # FastAPI 2.0 server with CORS middleware
+│   └── main.py                  # FastAPI 2.0 server with 22 endpoints & CORS
 ├── tests/                       # 42 automated Pytest unit and integration tests
 ├── .env.example                 # Clean environment variable template
-├── .gitignore                   # Safe Git rules (secrets & databases ignored)
-├── Dockerfile                   # Multi-stage production container build
-├── docker-compose.yml           # Backend + Redis + PostgreSQL containerization
+├── .gitignore                   # Safe Git rules (zero secrets or credentials)
+├── Dockerfile                   # Backend production container build
+├── docker-compose.yml           # Unified multi-service container orchestration
+├── render.yaml                  # Render Blueprint for automated deployment
 └── requirements.txt             # Python backend dependencies
 ```
 
 ---
 
-## 4. Visual Identity & Brand Design Tokens
-
-FrontierAtlas AI implements a dark-first visual identity engineered for clarity, readability, and data density:
-
-| Color Token | Hex Code | Role in Design System |
-|---|---|---|
-| **Midnight Navy** | `#0B1020` | Primary application background |
-| **Deep Slate** | `#111A2E` | Secondary panels and table headers |
-| **Elevated Slate** | `#17233A` | Cards, popovers, and interactive surfaces |
-| **Border Slate** | `#1E2D4A` | Subtle dividers and component outlines |
-| **Electric Blue** | `#4F8CFF` | Primary action color, active states, startups |
-| **Cyan** | `#36D6E7` | Data intelligence, products, live metrics |
-| **Violet** | `#9275FF` | Research intelligence, AI models, paper cards |
-| **Emerald** | `#35C98A` | Verified status, open-source code, success states |
-| **Amber** | `#F3B84B` | Freshness badges, GitHub stars, warnings |
-| **Soft White** | `#F4F7FC` | Primary typography |
-| **Muted Grey** | `#98A7BD` | Secondary metadata and labels |
-
----
-
-## 5. Quickstart & Installation Instructions
+## ⚡ Quickstart & Local Setup
 
 ### Prerequisites
 - Python 3.11+
-- Node.js v18+ (tested with Node v26 and v20)
-- npm or pnpm
+- Node.js 18+ (tested on Node 20 & 26)
+- Git
 
-### Step 1: Clone Repository
+### 1. Clone & Environment
 ```bash
 git clone https://github.com/shaman280306/FrontierAtlas_AI_Intelligence_Engine.git
 cd FrontierAtlas_AI_Intelligence_Engine
+
+# Copy environment template
+cp .env.example .env
 ```
 
-### Step 2: Set Up Backend
+### 2. Launch Backend (Terminal 1)
 ```bash
-# Create and activate virtual environment (optional)
-python -m venv venv
-venv\Scripts\activate  # Windows
-source venv/bin/activate  # macOS / Linux
-
-# Install backend dependencies
+# Install Python dependencies
 pip install -r requirements.txt
 
-# Configure environment variables
-cp .env.example .env
-# Edit .env with your optional GEMINI_API_KEY, GROQ_API_KEY, GITHUB_TOKEN
-```
-
-### Step 3: Start FastAPI Backend Server
-```bash
-# Run backend on port 8000
+# Run FastAPI server
 python -m uvicorn src.main:app --reload --port 8000
 ```
-*Backend API docs are now live at: `http://127.0.0.1:8000/docs` and `http://127.0.0.1:8000/health`*
+*API docs will be available at: `http://127.0.0.1:8000/docs`*
 
-### Step 4: Set Up & Run Frontend
-In a separate terminal window:
+### 3. Launch Frontend (Terminal 2)
 ```bash
 cd frontend
 
-# Install frontend dependencies
+# Install Node dependencies
 npm install
 
-# Start Next.js development server
+# Run Next.js in development mode
 npm run dev
 ```
-*Frontend workspace is now live at: `http://localhost:3000`*
+*Web application workspace will be available at: `http://localhost:3000`*
 
-### Step 5: Production Build (Optional)
+---
+
+## 🧪 Testing & Verification
+
+The project includes an automated test suite with **42 passing tests** across crawlers, chunking, schema validation, entity resolution, LLM fallback recovery, and API endpoints:
+
 ```bash
-cd frontend
-npm run build
-npm start
-```
-
----
-
-## 6. Complete API Endpoint Catalog
-
-All endpoints return strict JSON schemas and are documented via OpenAPI/Swagger:
-
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/health` | Operational health and database connectivity |
-| `GET` | `/api/v1/stats` | Fast record counts across all ingestion verticals |
-| `GET` | `/api/v1/analytics/overview` | Live executive KPIs, distributions, and top research |
-| `GET` | `/api/v1/startups` | Paginated startups with name search and source filtering |
-| `GET` | `/api/v1/startups/{id}` | Detailed startup record with employee count and provenance |
-| `GET` | `/api/v1/products` | Commercial AI products with pricing model filter (`FREE`, `FREEMIUM`, etc.) |
-| `GET` | `/api/v1/products/compare` | Side-by-side comparison matrix for selected product IDs |
-| `GET` | `/api/v1/research-papers` | arXiv papers with GitHub repo presence & min stars filtering |
-| `GET` | `/api/v1/research-papers/top-starred` | Highest impact research papers ordered by stars |
-| `GET` | `/api/v1/jobs` | 24-hour verified engineering openings with remote toggle |
-| `GET` | `/api/v1/news` | 24-hour technology news signals across 5 syndication sources |
-| `GET` | `/api/v1/entities/top-connected` | Most connected AI entities ranked by multi-vertical links |
-| `GET` | `/api/v1/entities/{name}/graph` | Interactive node-and-edge graph for an entity |
-| `GET` | `/api/v1/entity-mappings` | 1,000 deterministic resolution logs with confidence scores |
-| `GET` | `/api/v1/trends` | Frontier Signals: research topics, pricing momentum, hiring |
-| `GET` | `/api/v1/quality/metrics` | Empirical data quality audit across all 6 tables (99.4%) |
-| `GET` | `/api/v1/search?q={query}` | Global multi-entity search spanning all database records |
-| `POST` | `/api/v1/ai/query` | Natural language grounded assistant query |
-| `GET` | `/api/v1/reports/list` | List available deliverables (XLSX, CSVs, PDF) |
-| `GET` | `/api/v1/reports/download/{file}` | Direct stream download of master deliverables |
-| `GET` | `/api/v1/ingestion/status` | Crawler concurrency, active adapters, and pipeline state |
-| `POST` | `/api/v1/pipeline/run` | Safe asynchronous background ingestion job trigger |
-
----
-
-## 7. Data Quality Audit & Verification Results
-
-FrontierAtlas incorporates an automated audit suite verifying schema compliance, URL coverage, and deduplication:
-
-```text
-=====================================================================================
-             FRONTIERATLAS INDEPENDENT AUDIT & QUALITY MATRIX
-=====================================================================================
-
-[DATASET AUDIT]
-  * Startups:        1,000 records | 1,000 unique SHA-256 fingerprints | 100% Valid URLs -> PASS
-  * Products:        1,000 records | 1,000 unique SHA-256 fingerprints | Standardized Pricing -> PASS
-  * Research Papers: 1,000 records | 1,000 unique SHA-256 fingerprints | 135 GitHub Repos -> PASS
-  * Jobs:              317 records | 100% Role Categorization | 27.4% Remote -> PASS
-  * News:               72 records | 100% Attribution | 5 Top Tech Sources -> PASS
-  * Entity Mappings: 1,000 records | 100% Confidence Scores Logged -> PASS
-
-[AUTOMATED TEST SUITE]
-  * Pytest Suite: 42/42 tests passed in 3.23s (Zero Regressions)
-  * Data Quality Score: 99.4% (Grade A+ Enterprise Ready)
-  * architecture.pdf: Exactly 3 pages verified via pypdf
-=====================================================================================
-```
-
----
-
-## 8. Running Automated Tests
-
-To execute the test suite:
-```bash
-# Run all 42 Pytest backend and API tests
+# Run the complete test suite
 python -m pytest tests/ -v
 
-# Run the 10-point data audit script
+# Run the independent data quality verification audit
 python scripts/final_audit.py
 
-# Verify the Next.js frontend builds without errors
+# Verify Next.js frontend build
 cd frontend && npm run build
 ```
 
 ---
 
-## 9. Deliverables Summary
+## 📊 Summary of Required Assessment Deliverables
 
-1. **Master Excel Workbook:** [data/exports/frontier_atlas_intelligence.xlsx](file:///data/exports/frontier_atlas_intelligence.xlsx) (294 KB, 6 sheets with frozen headers and filters)
-2. **Individual CSV Tab Exports:**
-   - [data/exports/startups.csv](file:///data/exports/startups.csv) (1,000 startups)
-   - [data/exports/products.csv](file:///data/exports/products.csv) (1,000 products)
-   - [data/exports/research_papers.csv](file:///data/exports/research_papers.csv) (1,000 papers)
-   - [data/exports/jobs.csv](file:///data/exports/jobs.csv) (317 jobs)
-   - [data/exports/news.csv](file:///data/exports/news.csv) (72 news items)
-   - [data/exports/entity_mapping_log.csv](file:///data/exports/entity_mapping_log.csv) (1,000 entity resolution logs)
-3. **Architecture Specification:** [docs/architecture.pdf](file:///docs/architecture.pdf) (Strictly 3 pages, vector diagram, tables)
-4. **Interactive Web Application:** `frontend/` (Next.js 14 App Router, React 18, TypeScript, Tailwind CSS, Recharts)
-5. **Backend Server:** `src/main.py` (FastAPI 2.0 with 22 endpoints and CORS enabled)
+All seven deliverables mandated by the original internship specification are verified and preserved in the repository:
 
----
-
-## 10. Future Engineering Roadmap
-
-- [ ] **Distributed Streaming Ingestion:** Replace local queue with Kafka/RabbitMQ and Celery/Temporal workers.
-- [ ] **pgvector Semantic Search:** Generate 1536-dimensional embeddings for all research papers and products using text-embedding-004.
-- [ ] **Neo4j Graph Database Integration:** Materialize entity relationships in Neo4j for Cypher graph traversals.
-- [ ] **Authenticated Multi-Tenant Workspaces:** User accounts, saved queries, customized watchlists, and email intelligence digests.
-- [ ] **Automated Continuous Crawl Cron:** Periodic scheduled ingestion runs keeping job boards and news feeds continuously synchronized.
+| Deliverable | File Path | Status |
+| :--- | :--- | :--- |
+| **1. Master Excel Workbook** | `data/exports/frontier_atlas_intelligence.xlsx` | 294 KB, 6 sheets with frozen headers & filters |
+| **2. Startups Dataset** | `data/exports/startups.csv` | 1,000 verified AI startup records |
+| **3. Products Dataset** | `data/exports/products.csv` | 1,000 commercial AI products |
+| **4. Research Papers Dataset** | `data/exports/research_papers.csv` | 1,000 arXiv papers (with GitHub stars) |
+| **5. AI Job Opportunities** | `data/exports/jobs.csv` | 317 verified job listings |
+| **6. AI Industry News** | `data/exports/news.csv` | 72 verified news articles |
+| **7. Entity Mapping Log** | `data/exports/entity_mapping_log.csv` | 1,000 deterministic resolution logs |
+| **8. Architecture Specification** | `docs/architecture.pdf` | Exactly 3 pages, vector diagram, tables |
 
 ---
 

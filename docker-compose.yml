@@ -1,53 +1,27 @@
 version: '3.8'
 
 services:
-  api:
-    build: .
-    container_name: frontier_atlas_api
-    restart: unless-stopped
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: frontieratlas_backend
     ports:
       - "8000:8000"
-    environment:
-      - DATABASE_URL=sqlite:///./data/frontier_atlas.db
-      - ENVIRONMENT=production
-      - LOG_LEVEL=INFO
-      - MAX_CONCURRENT_REQUESTS=10
     volumes:
       - ./data:/app/data
-      - ./docs:/app/docs
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-    depends_on:
-      - redis
-
-  redis:
-    image: redis:7-alpine
-    container_name: frontier_atlas_redis
-    restart: unless-stopped
-    ports:
-      - "6379:6379"
-    volumes:
-      - redis_data:/data
-
-  # Optional production PostgreSQL with pgvector
-  postgres:
-    image: pgvector/pgvector:pg16
-    container_name: frontier_atlas_postgres
-    restart: unless-stopped
     environment:
-      POSTGRES_DB: frontier_atlas
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgrespassword
-    ports:
-      - "5432:5432"
-    volumes:
-      - pgdata:/var/lib/postgresql/data
-    profiles:
-      - postgres-prod
+      - DATABASE_URL=sqlite:///data/frontier_atlas.db
+      - CORS_ORIGINS=*
 
-volumes:
-  redis_data:
-  pgdata:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: frontieratlas_frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
+    depends_on:
+      - backend
