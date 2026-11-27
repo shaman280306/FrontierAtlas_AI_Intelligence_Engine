@@ -38,19 +38,27 @@ import {
 export default function OverviewPage() {
   const [data, setData] = useState<OverviewAnalytics | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  const loadData = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      const res = await api.getOverviewAnalytics();
+      setData(res);
+    } catch (err: any) {
+      console.error("Failed to load overview analytics", err);
+      setError(
+        err?.message ||
+        "Failed to connect to FrontierAtlas Intelligence API. If the Render backend is resuming from cold-start, please retry in a few seconds."
+      );
+    } finally {
+      setLoading(false);
+    }
+  };
 
   useEffect(() => {
-    async function load() {
-      try {
-        const res = await api.getOverviewAnalytics();
-        setData(res);
-      } catch (err) {
-        console.error("Failed to load overview analytics", err);
-      } finally {
-        setLoading(false);
-      }
-    }
-    load();
+    loadData();
   }, []);
 
   if (loading) {
@@ -60,6 +68,29 @@ export default function OverviewPage() {
         <div className="flex flex-col items-center justify-center h-[70vh] space-y-3">
           <Loader2 className="w-8 h-8 text-[#4F8CFF] animate-spin" />
           <span className="text-sm font-mono text-[#98A7BD]">Aggregating ecosystem intelligence metrics...</span>
+        </div>
+      </div>
+    );
+  }
+
+  if (error && !data) {
+    return (
+      <div className="min-h-screen bg-[#0B1020]">
+        <Header title="Overview" subtitle="Executive Intelligence Dashboard" />
+        <div className="flex flex-col items-center justify-center h-[70vh] max-w-md mx-auto text-center px-4 space-y-4">
+          <div className="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-[#F3B84B] flex items-center justify-center shadow-lg shadow-amber-500/10">
+            <Radio className="w-6 h-6 animate-pulse" />
+          </div>
+          <div>
+            <h3 className="text-base font-bold text-white mb-1">Backend Connection Notice</h3>
+            <p className="text-xs text-[#98A7BD] leading-relaxed mb-4">{error}</p>
+          </div>
+          <button
+            onClick={loadData}
+            className="px-5 py-2.5 bg-[#4F8CFF] hover:bg-[#3B7BE8] text-white text-xs font-semibold rounded-xl transition-all shadow-lg shadow-blue-500/20"
+          >
+            Retry Connection
+          </button>
         </div>
       </div>
     );

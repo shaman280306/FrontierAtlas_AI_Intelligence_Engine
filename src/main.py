@@ -22,16 +22,33 @@ from src.pipelines.orchestration import PipelineOrchestrator
 from src.exports.sheets_export import GoogleSheetsExporter
 from src.utils.logging import app_logger
 
+from src.storage.seeder import seed_database_if_empty
+
 app = FastAPI(
     title=settings.APP_NAME,
     version="2.0.0",
     description="Enterprise-grade AI Ecosystem Intelligence Platform for FrontierAtlas."
 )
 
-# Enable CORS for Next.js frontend
+# Enable CORS with explicit origins & regex for Vercel production + preview deployments
+allowed_origins = [
+    "https://frontieratlas-frontend.vercel.app",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "http://localhost:3001",
+    "http://localhost:3002",
+]
+env_cors = os.getenv("CORS_ORIGINS", "")
+if env_cors:
+    for o in env_cors.split(","):
+        clean_o = o.strip()
+        if clean_o and clean_o not in allowed_origins:
+            allowed_origins.append(clean_o)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=allowed_origins,
+    allow_origin_regex=r"^https:\/\/.*\.vercel\.app$",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -40,6 +57,14 @@ app.add_middleware(
 @app.on_event("startup")
 def on_startup():
     init_db()
+    # Automated Canonical Data Seeder Check
+    try:
+        from src.storage.database import SessionLocal
+        with SessionLocal() as db_session:
+            counts = seed_database_if_empty(db_session)
+            app_logger.info(f"Database readiness verified on startup: {counts}")
+    except Exception as e:
+        app_logger.error(f"Automated data restoration check failed during startup: {e}")
     app_logger.info("FrontierAtlas AI API initialized.")
 
 # =========================================================================
@@ -48,9 +73,16 @@ def on_startup():
 @app.get("/health", tags=["System"])
 @app.get("/api/v1/health", tags=["System"])
 def health_check(db: Session = Depends(get_db)):
-    """Verifies operational health and database connectivity."""
+    """Verifies operational health, database connectivity, and record counts."""
     try:
-        startup_count = StartupRepository(db).count()
+        s_count = StartupRepository(db).count()
+        p_count = ProductRepository(db).count()
+        r_count = PaperRepository(db).count()
+        j_count = JobRepository(db).count()
+        n_count = NewsRepository(db).count()
+        m_count = EntityMappingRepository(db).count()
+        total = s_count + p_count + r_count + j_count + n_count + m_count
+
         return {
             "status": "healthy",
             "environment": settings.ENVIRONMENT,
@@ -62,7 +94,13 @@ def health_check(db: Session = Depends(get_db)):
                 "tier_3_deepseek": bool(settings.DEEPSEEK_API_KEY)
             },
             "records_count": {
-                "startups": startup_count
+                "startups": s_count,
+                "products": p_count,
+                "research_papers": r_count,
+                "jobs": j_count,
+                "news": n_count,
+                "entity_mapping_logs": m_count,
+                "total_entities": total
             }
         }
     except Exception as e:
@@ -74,13 +112,20 @@ def health_check(db: Session = Depends(get_db)):
 @app.get("/api/v1/stats", tags=["Intelligence"])
 def get_stats(db: Session = Depends(get_db)):
     """Returns real-time record counts across all ingestion verticals."""
+    s_count = StartupRepository(db).count()
+    p_count = ProductRepository(db).count()
+    r_count = PaperRepository(db).count()
+    j_count = JobRepository(db).count()
+    n_count = NewsRepository(db).count()
+    m_count = EntityMappingRepository(db).count()
     return {
-        "startups": StartupRepository(db).count(),
-        "products": ProductRepository(db).count(),
-        "research_papers": PaperRepository(db).count(),
-        "jobs_24h_fresh": JobRepository(db).count(),
-        "news_24h_fresh": NewsRepository(db).count(),
-        "entity_mapping_logs": EntityMappingRepository(db).count()
+        "startups": s_count,
+        "products": p_count,
+        "research_papers": r_count,
+        "jobs_24h_fresh": j_count,
+        "news_24h_fresh": n_count,
+        "entity_mapping_logs": m_count,
+        "total_records": s_count + p_count + r_count + j_count + n_count + m_count
     }
 
 @app.get("/api/v1/analytics/overview", tags=["Intelligence"])

@@ -22,6 +22,7 @@ import {
   X
 } from "lucide-react";
 import { useNav } from "./NavContext";
+import { api } from "@/lib/api";
 
 interface NavItem {
   name: string;
@@ -48,6 +49,22 @@ const navItems: NavItem[] = [
 export default function Sidebar() {
   const pathname = usePathname();
   const { isMobileOpen, setIsMobileOpen, isCollapsed, toggleCollapsed } = useNav();
+  const [liveTotal, setLiveTotal] = React.useState<number | null>(4389);
+
+  React.useEffect(() => {
+    api.getStats()
+      .then((res: any) => {
+        const total =
+          (res.startups || 0) +
+          (res.products || 0) +
+          (res.research_papers || 0) +
+          (res.jobs_24h_fresh || 0) +
+          (res.news_24h_fresh || 0) +
+          (res.entity_mapping_logs || 0);
+        if (total > 0) setLiveTotal(total);
+      })
+      .catch(() => {});
+  }, []);
 
   return (
     <>
@@ -165,7 +182,9 @@ export default function Sidebar() {
                 <span className="w-2.5 h-2.5 rounded-full bg-[#35C98A] animate-ping" />
                 <div className="flex flex-col">
                   <span className="text-xs font-semibold text-white">Live Ingestion</span>
-                  <span className="text-[10px] text-[#98A7BD]">4,389 Entities</span>
+                  <span className="text-[10px] text-[#98A7BD]">
+                    {liveTotal !== null ? `${liveTotal.toLocaleString()} Entities` : "4,389 Entities"}
+                  </span>
                 </div>
               </div>
               <span className="text-[10px] font-mono text-[#35C98A] bg-[#35C98A]/10 px-1.5 py-0.5 rounded">
