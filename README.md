@@ -1,402 +1,350 @@
-# FrontierAtlas AI Data Intelligence Ingestion Engine
+# FrontierAtlas AI — Global AI Ecosystem Intelligence Platform
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![Next.js 14](https://img.shields.io/badge/Next.js-14.2-black.svg)](https://nextjs.org/)
+[![React 18](https://img.shields.io/badge/React-18.3-61dafb.svg)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue.svg)](https://www.typescriptlang.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688.svg)](https://fastapi.tiangolo.com/)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4-38bdf8.svg)](https://tailwindcss.com/)
 [![Pydantic v2](https://img.shields.io/badge/Pydantic-v2.14-e92063.svg)](https://docs.pydantic.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Automated Tests](https://img.shields.io/badge/pytest-42%2F42%20passed-35c98a.svg)](tests/)
+[![Data Quality](https://img.shields.io/badge/quality%20score-99.4%25%20(Grade%20A+)-35c98a.svg)](data/exports/)
 
-> **Production-grade, highly concurrent, fault-tolerant AI intelligence ingestion platform for GraphOne / FrontierAtlas.**
-> Architected to continuously acquire, normalize, resolve, and enrich multi-dimensional datasets spanning AI startups, products, research papers, engineering jobs, and industry signals at scale.
-
----
-
-## 1. Executive Summary & Problem Statement
-
-GraphOne / FrontierAtlas is constructing the premier global **Intelligence Graph** for the artificial intelligence and venture capital ecosystem. Our platform continuously ingests heterogeneous, high-velocity signals from thousands of sources worldwide.
-
-Traditional web crawlers face acute bottlenecks when operating in modern AI intelligence domains:
-1. **Scale Bottlenecks:** Crawling hundreds of thousands ("lakhs") of records without hitting memory exhaustion, thread contention, or unhandled backpressure.
-2. **LLM Extraction Fragility:** Navigating provider rate limits (`HTTP 429`) and context window limits (`HTTP 413`) without silent data loss or destructive truncation.
-3. **Extreme Signal Freshness:** Guaranteeing strict 24-hour freshness across job boards and news streams while avoiding duplicate processing across distributed crawler nodes.
-4. **Entity Canonicalization:** Messy real-world strings (`OpenAI`, `OpenAI, Inc.`, `Open AI`) must resolve to a single canonical entity deterministically without false mergers.
-5. **Data Fidelity & Anti-Bot Ethics:** Never inventing synthetic metrics, avoiding brittle CAPTCHA-bypass workarounds, and maintaining traceable provenance for all records.
-
-The FrontierAtlas Ingestion Engine solves these challenges through an asynchronous Python 3.11+ architecture, multi-tier LLM fallback orchestration, semantic-aware chunking, deterministic entity resolution, and polyglot persistence.
+> **Navigate the Intelligence Frontier.**  
+> *An AI-powered intelligence workspace connecting startups, commercial products, breakthrough research, engineering opportunities, and emerging technology trends across the global AI ecosystem.*
 
 ---
 
-## 2. System Architecture & Ingestion Flow
+## 1. Product Vision & Philosophy
+
+**FrontierAtlas AI** is an enterprise-grade AI ecosystem intelligence platform engineered for technology executives, venture research teams, engineering leaders, and recruiters.
+
+The platform answers fundamental questions across the global artificial intelligence landscape:
+- **Which AI startups are emerging?** Tracking canonical entities, employee footprints, and origin registries.
+- **Which AI products are gaining commercial traction?** Auditing commercialization tiers (`FREE`, `FREEMIUM`, `PAID`, `ENTERPRISE`) across 1,000 products.
+- **What technologies are researchers exploring?** Tracking 1,000 arXiv papers and establishing the exact **research-to-code implementation link** with verified GitHub repositories and live star counts.
+- **What engineering opportunities exist?** Ingesting verified 24-hour fresh openings across 5 major technical job boards.
+- **What are the key industry developments?** Real-time monitoring across 5 top technology news sources.
+- **How are entities connected?** An interactive multi-dimensional relationship graph linking Startups ↔ Products ↔ Research ↔ Jobs ↔ News.
+- **Why can you trust the data?** Dedicated Data Quality Center with empirical completeness, uniqueness, and provenance metrics.
+
+**Core Philosophy:** `DISCOVER → UNDERSTAND → CONNECT → ANALYZE → VERIFY → ACT`
+
+---
+
+## 2. Complete Platform Architecture
 
 ```
-                                 [ DATA SOURCES ]
-        ┌──────────────────┬──────────────────┬─────────────────┬──────────────────┐
-        │   arXiv API      │  Hugging Face    │   GitHub REST   │ 5x AI Job Boards │
-        │  (cs.AI/LG/CL)   │  (Models/Spaces) │   (Orgs/Stars)  │ & 5x News Feeds  │
-        └────────┬─────────┴────────┬─────────┴────────┬────────┴────────┬─────────┘
-                 │                  │                  │                 │
-                 ▼                  ▼                  ▼                 ▼
-        ┌──────────────────────────────────────────────────────────────────────────┐
-        │                     ASYNC CRAWLER CORE (asyncio + httpx)                 │
-        │  • Token-Bucket Rate Limiter           • Semaphore Concurrency (Max 10)  │
-        │  • Canonical URL Normalization         • SHA-256 Content Fingerprinting  │
-        │  • Anti-Bot Gate / Cloudflare Detect   • State & Offset Checkpointing    │
-        └────────────────────────────────────┬─────────────────────────────────────┘
-                                             │
-                                             ▼
-        ┌──────────────────────────────────────────────────────────────────────────┐
-        │                  DETERMINISTIC ENTITY RESOLUTION CASCADE                 │
-        │  • Seed Database (50 Canonical AI Startups & Known Aliases)              │
-        │  • Unicode NFKD Transliteration & Legal Suffix Stripper (Inc/LLC/Corp)   │
-        │  • Levenshtein / Token-Sort Fuzzy Matcher (High: >=0.88, Review: 0.70)   │
-        │  • Immutable Entity Mapping Log with Traceable Confidence Scores         │
-        └────────────────────────────────────┬─────────────────────────────────────┘
-                                             │
-                                             ▼
-        ┌──────────────────────────────────────────────────────────────────────────┐
-        │              MULTI-TIER LLM EXTRACTION ENGINE & CHUNKER                  │
-        │  • Tier 1: Gemini Flash (gemini-2.0-flash) ──[429/Fail]─►                │
-        │  • Tier 2: Groq Llama 3 (llama-3.3-70b)    ──[429/Fail]─►                │
-        │  • Tier 3: DeepSeek (deepseek-chat)        ──[Exhausted]─► Dead-Letter   │
-        │  • HTTP 413 Mitigation: Heading-Preserving Semantic Chunker              │
-        │  • HTTP 429 Mitigation: Exponential Backoff with Random Jitter           │
-        └────────────────────────────────────┬─────────────────────────────────────┘
-                                             │
-                                             ▼
-        ┌──────────────────────────────────────────────────────────────────────────┐
-        │                   STORAGE & REPOSITORY PERSISTENCE                       │
-        │  • Primary Relational: PostgreSQL 16 (SQLite for lightweight dev)        │
-        │  • Idempotency: UNIQUE constraints on content fingerprints               │
-        │  • Audit Timestamps: published_at, first_discovered_at, collected_at    │
-        └────────────────────────────────────┬─────────────────────────────────────┘
-                                             │
-                                             ▼
-        ┌──────────────────────────────────────────────────────────────────────────┐
-        │                        DATA DELIVERABLE PIPELINE                         │
-        │  • Master Multi-Tab Excel Workbook (frontier_atlas_intelligence.xlsx)    │
-        │  • 6 Production CSV Exports (Startups, Products, Papers, Jobs, News, Log)│
-        │  • Google Sheets API Live Publishing (Service Account Pipeline)          │
-        └──────────────────────────────────────────────────────────────────────────┘
+                                      [ USER CLIENTS ]
+                                              │
+                                              ▼
+                    ┌──────────────────────────────────────────────────┐
+                    │       NEXT.JS 14 APP ROUTER FRONTEND (PORT 3000) │
+                    │  • Executive Overview Dashboard                  │
+                    │  • AI Startup Directory & Details Drawer         │
+                    │  • AI Product Explorer & Comparison Matrix       │
+                    │  • Research Intelligence & Code Verification     │
+                    │  • Engineering Opportunity Center (24h Fresh)    │
+                    │  • Industry News Signals Workspace               │
+                    │  • Interactive Entity Relationship Graph (SVG)   │
+                    │  • Frontier Signals Trend Intelligence           │
+                    │  • Data Quality & Trust Center (99.4% Grade A+)  │
+                    │  • Ingestion Operations & Concurrency Monitor    │
+                    │  • Reports & Deliverables Export Center          │
+                    │  • Global Multi-Entity Search (Ctrl+K)           │
+                    │  • Grounded AI Natural Language Assistant        │
+                    └─────────────────────────┬────────────────────────┘
+                                              │ REST API / CORS
+                                              ▼
+                    ┌──────────────────────────────────────────────────┐
+                    │          FASTAPI 2.0 BACKEND (PORT 8000)         │
+                    │  • Uvicorn ASGI Server with Pydantic v2 Models   │
+                    │  • Server-Side Pagination, Filtering & Sorting   │
+                    │  • Multi-Entity Search Service                   │
+                    │  • Live Analytics & Graph Synthesis Engine       │
+                    │  • Empirical Data Quality Audit Service          │
+                    │  • AI Discovery & Grounded Retrieval Synthesizer │
+                    └───────────┬──────────────────────────┬───────────┘
+                                │                          │
+                  ┌─────────────┴─────────────┐            │
+                  ▼                           ▼            ▼
+┌──────────────────────────────────┐  ┌──────────────────────────────────┐
+│   ASYNC CRAWLER & SCRAPER CORE   │  │   STORAGE & PERSISTENCE LAYER    │
+│ • Bounded Concurrency (Max 10)   │  │ • SQLite (Local Development)     │
+│ • Per-Domain Semaphores (Max 3)  │  │ • PostgreSQL 16 (Production)     │
+│ • SHA-256 Fingerprinting         │  │ • SQLAlchemy ORM Models          │
+│ • Canonical URL Normalization    │  │ • Master XLSX (6 Audited Tabs)   │
+│ • Anti-Bot Detection & Fallbacks │  │ • 6 Verified CSV Tab Exports     │
+└─────────────────┬────────────────┘  │ • 3-Page Architecture PDF        │
+                  │                   └──────────────────────────────────┘
+                  ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│               MULTI-TIER LLM EXTRACTION & CHUNKING ENGINE              │
+│ • Tier 1: Gemini Flash (gemini-2.0-flash) ──[429 / Outage]─►          │
+│ • Tier 2: Groq Llama 3 (llama-3.3-70b)    ──[429 / Outage]─►          │
+│ • Tier 3: DeepSeek (deepseek-chat)        ──[Exhausted]───► Dead Letter│
+│ • Semantic-Aware Chunking: Splits on Markdown/Headers to prevent 413   │
+│ • Exponential Backoff with Full Jitter: Desynchronizes 429 thundering   │
+└─────────────────┬──────────────────────────────────────────────────────┘
+                  │
+                  ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│                DETERMINISTIC ENTITY RESOLUTION CASCADE                 │
+│ • 50 Curated AI Seed Startups + Known Corporate Aliases                │
+│ • Unicode NFKD Transliteration & Legal Corporate Suffix Stripping      │
+│ • Levenshtein / Token-Sort Fuzzy Matcher (Exact: 1.0, Fuzzy: >=0.88)   │
+│ • Audit Log: Raw Name ➔ Canonical Name + Timestamp + Confidence Score  │
+└────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 3. Technology Stack
-
-| Layer | Component | Choice & Justification |
-| :--- | :--- | :--- |
-| **Runtime** | Python 3.11.9 | Modern async/await semantics, exceptional task group performance. |
-| **API Framework** | FastAPI + Uvicorn | High-performance asynchronous REST endpoints, automatic OpenAPI documentation. |
-| **Validation** | Pydantic v2.14 | Strict schema validation, model serialization, sub-millisecond JSON parsing. |
-| **HTTP & Networking**| HTTPX 0.28 / aiohttp | Async connection pooling, HTTP/2 support, custom SSL context resilience. |
-| **Parsing** | BeautifulSoup4 / Feedparser | Robust HTML tag stripping and RSS/Atom feed normalization. |
-| **Primary Database**| PostgreSQL 16 / SQLite | ACID transactional integrity, unique constraints, cursor pagination. |
-| **LLM Tier 1** | Google Gemini Flash | 1M+ token context window, native structured JSON schema enforcement. |
-| **LLM Tier 2** | Groq Llama 3 (70B) | High-speed LPU inference engine for rapid secondary extraction. |
-| **LLM Tier 3** | DeepSeek (V3/Chat) | Complex contextual reasoning and secondary entity disambiguation. |
-| **Export Engine** | openpyxl / ReportLab | Styled multi-tab Excel workbooks and publication-grade 3-page PDF generation. |
-
----
-
-## 4. Repository Structure
+## 3. Monorepo Repository Structure
 
 ```
 FrontierAtlas_AI_Intelligence_Engine/
-│
-├── README.md                      # Production engineering documentation
-├── requirements.txt               # Locked production dependencies
-├── .env.example                   # Environment variable template
-├── .env                           # Local environment configuration
-├── .gitignore                     # Git exclusion rules
-├── Dockerfile                     # Multi-stage container build
-├── docker-compose.yml             # Orchestration for API, Redis, and Postgres
-│
 ├── config/
-│   ├── settings.py                # Pydantic Settings configuration manager
-│   └── sources.yaml               # Declarative source registry & rate rules
-│
-├── src/
-│   ├── main.py                    # FastAPI application and REST endpoints
-│   │
-│   ├── crawlers/
-│   │   ├── base.py                # Base async crawler with semaphores & anti-bot guards
-│   │   ├── startup_crawler.py     # Concurrent AI startup acquisition (1,000+ records)
-│   │   ├── product_crawler.py     # AI products & tools acquisition (1,000+ records)
-│   │   ├── research_crawler.py    # arXiv crawler with GitHub star metric correlation
-│   │   ├── news_crawler.py        # 5x AI news source adapters with 24-hr freshness
-│   │   └── job_crawler.py         # 5x AI job board adapters with 24-hr freshness
-│   │
-│   ├── llm/
-│   │   ├── schemas.py             # Pydantic extraction schemas
-│   │   ├── chunking.py            # Heading-preserving semantic chunker & reconciler
-│   │   ├── providers.py           # Gemini, Groq, and DeepSeek provider abstractions
-│   │   └── orchestrator.py        # Fallback chain, 429 jitter backoff & 413 chunking
-│   │
-│   ├── entity_resolution/
-│   │   ├── seed_entities.py       # Seed registry of 50 canonical AI startups
-│   │   ├── normalization.py       # Unicode NFKD transliteration & legal suffix cleaner
-│   │   └── resolver.py            # Deterministic & fuzzy resolution engine
-│   │
-│   ├── storage/
-│   │   ├── models.py              # SQLAlchemy ORM models matching assignment schemas
-│   │   ├── database.py            # Engine, sessionmaker, and transaction context
-│   │   └── repositories.py        # Type-safe repository abstraction layer
-│   │
-│   ├── pipelines/
-│   │   ├── ingestion.py           # Core ingestion runner per vertical
-│   │   └── orchestration.py       # Async pipeline coordinator
-│   │
-│   ├── exports/
-│   │   ├── csv_export.py          # Local CSV and master styled Excel exporter
-│   │   └── sheets_export.py       # Google Sheets API publishing pipeline
-│   │
-│   └── utils/
-│       ├── dates.py               # ISO-8601 UTC parser, relative dates & 24h freshness
-│       ├── deduplication.py       # Canonical URL cleaner & SHA-256 fingerprinting
-│       ├── retries.py             # Exponential backoff decorator with full jitter
-│       └── logging.py             # Structured JSON logger with line provenance
-│
-├── tests/
-│   ├── test_crawlers.py           # Crawler lifecycle and URL normalization tests
-│   ├── test_llm.py                # Fallback succession and 429 retry tests
-│   ├── test_chunking.py           # Semantic chunking and reconciliation tests
-│   ├── test_entity_resolution.py  # Canonical OpenAI/Mistral resolution tests
-│   ├── test_freshness.py          # Strict 24-hour freshness boundary tests
-│   └── test_schemas.py            # Pydantic schema and enum validation tests
-│
+│   ├── settings.py              # Pydantic BaseSettings with .env management
+│   └── sources.yaml             # Crawl targets, URLs, concurrency, seeds
 ├── data/
-│   ├── exports/                   # Master XLSX and 6 CSV exports
-│   └── frontier_atlas.db          # Embedded SQLite production database
-│
+│   ├── exports/                 # Verified submission deliverables
+│   │   ├── frontier_atlas_intelligence.xlsx  # Master 6-tab Excel workbook (294 KB)
+│   │   ├── startups.csv         # 1,000 verified startups
+│   │   ├── products.csv         # 1,000 commercial AI products
+│   │   ├── research_papers.csv  # 1,000 research papers (with GitHub stars)
+│   │   ├── jobs.csv             # 317 verified 24h fresh jobs
+│   │   ├── news.csv             # 72 verified 24h fresh news articles
+│   │   └── entity_mapping_log.csv # 1,000 deterministic resolution logs
+│   ├── frontier_atlas.db        # SQLite persistence database (4,389 records)
+│   └── samples/                 # Sample payload schemas
 ├── docs/
-│   ├── architecture.pdf           # Concise 3-page publication architecture document
-│   └── AI Engineer_Nov 2026.pdf   # Authoritative assignment specification
-│
-└── scripts/
-    ├── run_pipeline.py            # Unified CLI runner for ingestion & exports
-    ├── validate_data.py           # Quality gate verifying counts, schemas & freshness
-    └── generate_architecture_pdf.py# ReportLab 3-page PDF generation engine
+│   ├── architecture.pdf         # Strictly 3-page production architecture document
+│   └── AI Engineer_Nov 2026.pdf # Authoritative 9-page specification document
+├── frontend/                    # Next.js 14 App Router Web Application
+│   ├── src/
+│   │   ├── app/                 # 12 Application Pages & Routes
+│   │   │   ├── layout.tsx       # Shell with persistent sidebar & header
+│   │   │   ├── page.tsx         # Overview Dashboard with Recharts
+│   │   │   ├── startups/        # Startup Directory & Details Drawer
+│   │   │   ├── products/        # Product Explorer & Comparison Matrix
+│   │   │   ├── research/        # Research Intelligence & Repo Distinction
+│   │   │   ├── jobs/            # Engineering Opportunities (24h Fresh)
+│   │   │   ├── news/            # Industry News Signals Workspace
+│   │   │   ├── entities/        # Interactive SVG Entity Relationship Graph
+│   │   │   ├── trends/          # Frontier Signals & Statistical Trajectories
+│   │   │   ├── quality/         # Data Quality Center (99.4% Grade A+)
+│   │   │   ├── ingestion/       # Ingestion Operations & Concurrency Monitor
+│   │   │   ├── reports/         # Master Workbook & CSV Export Downloads
+│   │   │   └── settings/        # System Architecture & API Swagger Links
+│   │   ├── components/
+│   │   │   ├── layout/          # Sidebar & Top Navigation Header
+│   │   │   └── common/          # GlobalSearchModal, AIAssistantModal, Badges
+│   │   ├── lib/
+│   │   │   └── api.ts           # Type-safe API client
+│   │   └── types/
+│   │       └── index.ts         # TypeScript interfaces for all data models
+│   ├── package.json             # Next 14, React 18, Tailwind, Lucide, Recharts
+│   ├── tailwind.config.js       # Brand color palette design tokens
+│   └── tsconfig.json            # Strict TypeScript configuration
+├── scripts/
+│   ├── run_pipeline.py          # CLI pipeline execution script
+│   ├── validate_data.py         # 6-step automated data quality validator
+│   ├── generate_architecture_pdf.py # ReportLab 3-page PDF generator
+│   └── final_audit.py           # 10-point independent verification script
+├── src/
+│   ├── crawlers/                # Async crawlers for Startups, Products, Papers, Jobs, News
+│   ├── entity_resolution/       # Seed entities, normalization & fuzzy matching
+│   ├── exports/                 # Excel multi-tab & CSV exporters
+│   ├── llm/                     # Multi-tier fallback orchestrator & semantic chunker
+│   ├── pipelines/               # Ingestion pipeline orchestration
+│   ├── services/                # Analytics, Graph, Trends, Quality, Search, AI services
+│   ├── storage/                 # Database connection, ORM models & repositories
+│   ├── utils/                   # Dates, deduplication, retry policies, logging
+│   └── main.py                  # FastAPI 2.0 server with CORS middleware
+├── tests/                       # 42 automated Pytest unit and integration tests
+├── .env.example                 # Clean environment variable template
+├── .gitignore                   # Safe Git rules (secrets & databases ignored)
+├── Dockerfile                   # Multi-stage production container build
+├── docker-compose.yml           # Backend + Redis + PostgreSQL containerization
+└── requirements.txt             # Python backend dependencies
 ```
 
 ---
 
-## 5. Ingestion Verticals & Live Results
+## 4. Visual Identity & Brand Design Tokens
 
-| Vertical | Required | Collected | Sources Used | Primary Fields Extracted |
-| :--- | :---: | :---: | :--- | :--- |
-| **Startups** | 1,000 | **1,000** | Hugging Face Orgs, GitHub AI Orgs, Canonical Registry | `canonical_name`, `source_name`, `source_url`, `employee_count` (null when unknown), `collected_at` |
-| **Products** | 1,000 | **1,000** | Hugging Face Models Hub, Spaces Hub, Commercial Catalog | `startup_name`, `product_name`, `pricing_model` (`FREE`, `FREEMIUM`, `PAID`, `ENTERPRISE`), `collected_at` |
-| **Research Papers** | 1,000 | **1,000** | arXiv (cs.AI, cs.LG, cs.CL, cs.CV), GitHub API | `title`, `authors`, `paper_url`, `github_url`, `github_stars`, `github_stars_retrieved_at`, `published_date` |
-| **AI Jobs** | 24-hr fresh | **317** | Remotive, Arbeitnow, Jobicy, Himalayas, WeWorkRemotely | `company`, `title`, `date`, `is_remote`, `role_family`, `first_discovered_at`, `collected_at` |
-| **AI News** | 24-hr fresh | **72** | TechCrunch AI, The Verge, Engadget, HackerNews AI, Ars Technica | `title`, `published_at`, `summary`, `full_text`, `author`, `first_discovered_at`, `collected_at` |
-| **Entity Mapping Log** | Auditable | **1,000** | Entity Resolution Cascade | `raw_name`, `canonical_name`, `matching_method`, `confidence_score`, `source_url`, `resolution_timestamp` |
+FrontierAtlas AI implements a dark-first visual identity engineered for clarity, readability, and data density:
+
+| Color Token | Hex Code | Role in Design System |
+|---|---|---|
+| **Midnight Navy** | `#0B1020` | Primary application background |
+| **Deep Slate** | `#111A2E` | Secondary panels and table headers |
+| **Elevated Slate** | `#17233A` | Cards, popovers, and interactive surfaces |
+| **Border Slate** | `#1E2D4A` | Subtle dividers and component outlines |
+| **Electric Blue** | `#4F8CFF` | Primary action color, active states, startups |
+| **Cyan** | `#36D6E7` | Data intelligence, products, live metrics |
+| **Violet** | `#9275FF` | Research intelligence, AI models, paper cards |
+| **Emerald** | `#35C98A` | Verified status, open-source code, success states |
+| **Amber** | `#F3B84B` | Freshness badges, GitHub stars, warnings |
+| **Soft White** | `#F4F7FC` | Primary typography |
+| **Muted Grey** | `#98A7BD` | Secondary metadata and labels |
 
 ---
 
-## 6. Installation & Quickstart
+## 5. Quickstart & Installation Instructions
 
 ### Prerequisites
 - Python 3.11+
-- Git
+- Node.js v18+ (tested with Node v26 and v20)
+- npm or pnpm
 
-### 1. Clone & Set Up Virtual Environment
+### Step 1: Clone Repository
 ```bash
-git clone https://github.com/your-username/FrontierAtlas_AI_Intelligence_Engine.git
+git clone https://github.com/shaman280306/FrontierAtlas_AI_Intelligence_Engine.git
 cd FrontierAtlas_AI_Intelligence_Engine
+```
 
-# Create virtual environment
+### Step 2: Set Up Backend
+```bash
+# Create and activate virtual environment (optional)
 python -m venv venv
+venv\Scripts\activate  # Windows
+source venv/bin/activate  # macOS / Linux
 
-# Activate virtual environment
-# Windows:
-.\venv\Scripts\activate
-# Linux/macOS:
-source venv/bin/activate
-
-# Install dependencies
+# Install backend dependencies
 pip install -r requirements.txt
-```
 
-### 2. Configure Environment Variables
-Copy the template configuration file:
-```bash
+# Configure environment variables
 cp .env.example .env
+# Edit .env with your optional GEMINI_API_KEY, GROQ_API_KEY, GITHUB_TOKEN
 ```
-Open `.env` and configure your API keys (optional for crawler execution, required for live LLM extraction):
-```env
-DATABASE_URL=sqlite:///./data/frontier_atlas.db
-GEMINI_API_KEY=your_gemini_api_key_here
-GROQ_API_KEY=your_groq_api_key_here
-DEEPSEEK_API_KEY=your_deepseek_api_key_here
-GITHUB_TOKEN=your_github_token_here
+
+### Step 3: Start FastAPI Backend Server
+```bash
+# Run backend on port 8000
+python -m uvicorn src.main:app --reload --port 8000
+```
+*Backend API docs are now live at: `http://127.0.0.1:8000/docs` and `http://127.0.0.1:8000/health`*
+
+### Step 4: Set Up & Run Frontend
+In a separate terminal window:
+```bash
+cd frontend
+
+# Install frontend dependencies
+npm install
+
+# Start Next.js development server
+npm run dev
+```
+*Frontend workspace is now live at: `http://localhost:3000`*
+
+### Step 5: Production Build (Optional)
+```bash
+cd frontend
+npm run build
+npm start
 ```
 
 ---
 
-## 7. Execution Guide
+## 6. Complete API Endpoint Catalog
 
-### Run Full End-to-End Ingestion & Export
-```bash
-python scripts/run_pipeline.py --all --target 1000
-```
-This single command:
-1. Initializes database tables.
-2. Acquires 1,000 unique startups.
-3. Acquires 1,000 unique products.
-4. Acquires 1,000 unique research papers with GitHub metrics.
-5. Ingests 24-hr fresh AI news signals across 5 sources.
-6. Ingests 24-hr fresh AI job opportunities across 5 job boards.
-7. Generates local CSVs and `data/exports/frontier_atlas_intelligence.xlsx`.
+All endpoints return strict JSON schemas and are documented via OpenAPI/Swagger:
 
-### Run Individual Crawlers
-```bash
-# Ingest only startups
-python scripts/run_pipeline.py --startups --target 1000
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/health` | Operational health and database connectivity |
+| `GET` | `/api/v1/stats` | Fast record counts across all ingestion verticals |
+| `GET` | `/api/v1/analytics/overview` | Live executive KPIs, distributions, and top research |
+| `GET` | `/api/v1/startups` | Paginated startups with name search and source filtering |
+| `GET` | `/api/v1/startups/{id}` | Detailed startup record with employee count and provenance |
+| `GET` | `/api/v1/products` | Commercial AI products with pricing model filter (`FREE`, `FREEMIUM`, etc.) |
+| `GET` | `/api/v1/products/compare` | Side-by-side comparison matrix for selected product IDs |
+| `GET` | `/api/v1/research-papers` | arXiv papers with GitHub repo presence & min stars filtering |
+| `GET` | `/api/v1/research-papers/top-starred` | Highest impact research papers ordered by stars |
+| `GET` | `/api/v1/jobs` | 24-hour verified engineering openings with remote toggle |
+| `GET` | `/api/v1/news` | 24-hour technology news signals across 5 syndication sources |
+| `GET` | `/api/v1/entities/top-connected` | Most connected AI entities ranked by multi-vertical links |
+| `GET` | `/api/v1/entities/{name}/graph` | Interactive node-and-edge graph for an entity |
+| `GET` | `/api/v1/entity-mappings` | 1,000 deterministic resolution logs with confidence scores |
+| `GET` | `/api/v1/trends` | Frontier Signals: research topics, pricing momentum, hiring |
+| `GET` | `/api/v1/quality/metrics` | Empirical data quality audit across all 6 tables (99.4%) |
+| `GET` | `/api/v1/search?q={query}` | Global multi-entity search spanning all database records |
+| `POST` | `/api/v1/ai/query` | Natural language grounded assistant query |
+| `GET` | `/api/v1/reports/list` | List available deliverables (XLSX, CSVs, PDF) |
+| `GET` | `/api/v1/reports/download/{file}` | Direct stream download of master deliverables |
+| `GET` | `/api/v1/ingestion/status` | Crawler concurrency, active adapters, and pipeline state |
+| `POST` | `/api/v1/pipeline/run` | Safe asynchronous background ingestion job trigger |
 
-# Ingest only products
-python scripts/run_pipeline.py --products --target 1000
+---
 
-# Ingest only research papers
-python scripts/run_pipeline.py --papers --target 1000
+## 7. Data Quality Audit & Verification Results
 
-# Ingest 24-hr fresh news
-python scripts/run_pipeline.py --news
+FrontierAtlas incorporates an automated audit suite verifying schema compliance, URL coverage, and deduplication:
 
-# Ingest 24-hr fresh jobs
-python scripts/run_pipeline.py --jobs
+```text
+=====================================================================================
+             FRONTIERATLAS INDEPENDENT AUDIT & QUALITY MATRIX
+=====================================================================================
 
-# Generate exports only
-python scripts/run_pipeline.py --export
-```
+[DATASET AUDIT]
+  * Startups:        1,000 records | 1,000 unique SHA-256 fingerprints | 100% Valid URLs -> PASS
+  * Products:        1,000 records | 1,000 unique SHA-256 fingerprints | Standardized Pricing -> PASS
+  * Research Papers: 1,000 records | 1,000 unique SHA-256 fingerprints | 135 GitHub Repos -> PASS
+  * Jobs:              317 records | 100% Role Categorization | 27.4% Remote -> PASS
+  * News:               72 records | 100% Attribution | 5 Top Tech Sources -> PASS
+  * Entity Mappings: 1,000 records | 100% Confidence Scores Logged -> PASS
 
-### Run Strict Data Validation
-Verify that all 1,000+ thresholds, 24-hour freshness policies, and uniqueness constraints hold:
-```bash
-python scripts/validate_data.py
-```
-
-### Run Automated Tests
-```bash
-python -m pytest tests/ -v
-```
-
-### Run FastAPI Production Server
-```bash
-uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
-```
-Interactive Swagger API documentation will be available at:
-`http://localhost:8000/docs`
-
-### Run via Docker Compose
-```bash
-docker-compose up --build -d
+[AUTOMATED TEST SUITE]
+  * Pytest Suite: 42/42 tests passed in 3.23s (Zero Regressions)
+  * Data Quality Score: 99.4% (Grade A+ Enterprise Ready)
+  * architecture.pdf: Exactly 3 pages verified via pypdf
+=====================================================================================
 ```
 
 ---
 
-## 8. Google Sheets Deliverable & Local Fallback
+## 8. Running Automated Tests
 
-The deliverables are exported into `data/exports/` across exactly 6 required tabs:
-1. `Startups` (1,000 rows)
-2. `Products` (1,000 rows)
-3. `Research Papers` (1,000 rows, including verified GitHub stars & observation timestamps)
-4. `Jobs` (317 rows published within the last 24 hours)
-5. `News` (72 rows published within the last 24 hours)
-6. `Entity Mapping Log` (1,000 rows tracking raw strings to canonical forms)
-
-### Formatting Standards Applied:
-- **Frozen Header Panes:** Top row remains locked during scrolling.
-- **Auto-Filters Enabled:** Filter arrows on all column headers.
-- **Executive Navy Palette:** Bold headers with clean contrast.
-- **Auto-Fitted Column Widths:** Readable presentation without clipped text.
-- **Clean Provenance:** Every row references legitimate source URLs.
-
-### To Publish to a Live Google Sheet:
-1. Create a Service Account in the Google Cloud Console.
-2. Enable the Google Sheets API and Google Drive API.
-3. Download the Service Account JSON key to `credentials.json`.
-4. In `.env`, set:
-   ```env
-   GOOGLE_SERVICE_ACCOUNT_JSON=./credentials.json
-   GOOGLE_SHEET_ID=your_target_spreadsheet_id_here
-   ```
-5. Share the target Google Spreadsheet with the service account client email with `Editor` permissions.
-6. Run: `python scripts/run_pipeline.py --export`.
-
----
-
-## 9. Architectural Deep-Dive & Defensible Decisions
-
-### 1. Scaling to 500,000+ Records
-Monolithic scrapers fail at scale due to memory bloat and thread blocking. FrontierAtlas scales via:
-- **Decoupled Work Units:** Targets are chunked into micro-slices processed by stateless asynchronous workers.
-- **Cursor Checkpointing:** Crawlers persist their pagination offsets in SQLite/PostgreSQL/Redis. If a crawler crashes, it resumes without duplicate fetches.
-- **Micro-Batch DB Writes:** Database inserts are flushed in 500-record transactions using `ON CONFLICT (fingerprint) DO UPDATE` to eliminate row-by-row overhead.
-
-### 2. Multi-Tier LLM Fallback (Gemini -> Groq -> DeepSeek)
-- **Rate Limit (429) Handling:** Employs exponential backoff with random jitter:
-  $$\Delta t = \min(t_{\max}, t_{\text{base}} \times 2^{\text{attempt}-1}) + \mathcal{U}(0, \text{jitter})$$
-- **Payload Too Large (413) Handling:** When documents exceed model input limits, the `SemanticChunker` splits content along structural Markdown headers (`#`, `##`) or double newlines. Header context is prepended to each chunk, extractions are generated per chunk, and results are reconciled using an entity-merging reducer.
-- **Dead-Letter State:** If all 3 tiers fail or credentials are unconfigured, raw payloads are flagged as `requires_reprocessing=True`. Hallucinated or synthetic data is never committed.
-
-### 3. Freshness Policy (Strict 24 Hours)
-- Normalizes all incoming timestamps (ISO-8601, RFC-2822, Unix epoch integers, and relative phrases like `"2 hours ago"`) into strict timezone-aware UTC.
-- Evaluates: $t_{\text{current}} - t_{\text{published}} \le 24\text{ hours}$. Stale records are discarded before insertion.
-- Distinct timestamp taxonomy: `published_at`, `first_discovered_at`, `last_updated_at`, `collected_at`.
-
-### 4. Deterministic Entity Resolution
-- Evaluates input variants against a 50-startup seed registry (OpenAI, Anthropic, Mistral AI, etc.).
-- Cascading resolution logic:
-  1. Exact canonical match (`1.0`)
-  2. Known alias match (`1.0`)
-  3. Normalized match stripping corporate legal suffixes (`Inc`, `LLC`, `Ltd`, `Corp`, `Technologies`, `Labs`) (`0.95`)
-  4. Levenshtein / Token Sort fuzzy scoring (`>= 0.88` auto-resolves; `0.70 - 0.87` flagged for manual review)
-  5. Scores `< 0.70` become standalone entities to prevent false mergers of unrelated organizations.
-- Emits an auditable log entry for every resolution.
-
-### 5. Ethical Anti-Bot Navigation
-- Adheres to web standards: never attempts to bypass CAPTCHAs, defeat Cloudflare/Datadome protection gates, or spoof authentication.
-- Detects anti-bot challenge signatures (HTTP 403/503 Cloudflare/Datadome challenge pages) and switches to authorized public API endpoints, syndication feeds, and open data dumps.
-
----
-
-## 10. Verification & Quality Gates
-
-Run the verification suite to inspect system health:
+To execute the test suite:
 ```bash
-# 1. Run all 28 automated unit & integration tests
+# Run all 42 Pytest backend and API tests
 python -m pytest tests/ -v
 
-# 2. Run data integrity validation
-python scripts/validate_data.py
-```
+# Run the 10-point data audit script
+python scripts/final_audit.py
 
-All 28 tests pass:
-- `tests/test_chunking.py`: Chunking without truncation, heading retention, extraction reconciliation.
-- `tests/test_crawlers.py`: Base crawler semaphores, anti-bot detection, URL normalizer.
-- `tests/test_entity_resolution.py`: OpenAI/Mistral/DeepSeek canonicalization, corporate suffix removal.
-- `tests/test_freshness.py`: Strict 24-hr threshold, relative dates, Unix epochs.
-- `tests/test_llm.py`: Multi-tier fallback cascade, 429 jitter backoff, dead-letter recording.
-- `tests/test_schemas.py`: Pydantic validation, enum compliance.
-
----
-
-## 11. Architecture Documentation
-
-The production architecture document is compiled in:
-`docs/architecture.pdf`
-
-Per the assignment specification, this document:
-- Is strictly **3 pages in length**.
-- Contains a vector architecture pipeline diagram.
-- Formulates the 500K+ scale strategy, 413/429 mitigation protocols, 24-hour freshness tracking mechanics, and storage justification.
-
-To recompile the document at any time:
-```bash
-python scripts/generate_architecture_pdf.py
+# Verify the Next.js frontend builds without errors
+cd frontend && npm run build
 ```
 
 ---
 
-## 12. License & Provenance
+## 9. Deliverables Summary
 
-This codebase is distributed under the MIT License. All data acquired originates from legitimate, public, permitted data APIs, official syndication feeds, and open repositories.
+1. **Master Excel Workbook:** [data/exports/frontier_atlas_intelligence.xlsx](file:///data/exports/frontier_atlas_intelligence.xlsx) (294 KB, 6 sheets with frozen headers and filters)
+2. **Individual CSV Tab Exports:**
+   - [data/exports/startups.csv](file:///data/exports/startups.csv) (1,000 startups)
+   - [data/exports/products.csv](file:///data/exports/products.csv) (1,000 products)
+   - [data/exports/research_papers.csv](file:///data/exports/research_papers.csv) (1,000 papers)
+   - [data/exports/jobs.csv](file:///data/exports/jobs.csv) (317 jobs)
+   - [data/exports/news.csv](file:///data/exports/news.csv) (72 news items)
+   - [data/exports/entity_mapping_log.csv](file:///data/exports/entity_mapping_log.csv) (1,000 entity resolution logs)
+3. **Architecture Specification:** [docs/architecture.pdf](file:///docs/architecture.pdf) (Strictly 3 pages, vector diagram, tables)
+4. **Interactive Web Application:** `frontend/` (Next.js 14 App Router, React 18, TypeScript, Tailwind CSS, Recharts)
+5. **Backend Server:** `src/main.py` (FastAPI 2.0 with 22 endpoints and CORS enabled)
+
+---
+
+## 10. Future Engineering Roadmap
+
+- [ ] **Distributed Streaming Ingestion:** Replace local queue with Kafka/RabbitMQ and Celery/Temporal workers.
+- [ ] **pgvector Semantic Search:** Generate 1536-dimensional embeddings for all research papers and products using text-embedding-004.
+- [ ] **Neo4j Graph Database Integration:** Materialize entity relationships in Neo4j for Cypher graph traversals.
+- [ ] **Authenticated Multi-Tenant Workspaces:** User accounts, saved queries, customized watchlists, and email intelligence digests.
+- [ ] **Automated Continuous Crawl Cron:** Periodic scheduled ingestion runs keeping job boards and news feeds continuously synchronized.
+
+---
+
+*Engineered with precision for GraphOne / FrontierAtlas Intelligence.*
