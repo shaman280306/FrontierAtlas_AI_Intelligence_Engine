@@ -19,9 +19,12 @@
 
 | Component | Target URL / Status | Description |
 | :--- | :--- | :--- |
-| **Frontend Web Workspace** | **[Live Web App (Vercel)](https://frontieratlas-frontend.vercel.app/)** *(or `http://localhost:3000`)* | Next.js 14 App Router, Recharts, SVG Graph, 12 Modules |
-| **Backend REST API** | **[FastAPI Service (Render)](https://frontieratlas-api.onrender.com)** *(or `http://localhost:8000`)* | 22 REST Endpoints, OpenAPI / Swagger Docs, CORS Enabled |
-| **Interactive API Docs** | **[`/docs` (Swagger UI)](http://localhost:8000/docs)** | Interactive schema explorer and request testing console |
+| **Frontend Web Workspace** | **[Live Web App (Vercel)](https://frontieratlas-frontend.vercel.app/)** | Next.js 14 App Router, Recharts, SVG Graph, 12 Modules |
+| **Backend REST API Root** | **[FastAPI Service (Render)](https://frontieratlas-api.onrender.com/)** | 22 REST Endpoints, Multi-source Ingestion, CORS Enabled |
+| **Interactive API Docs** | **[Swagger UI Documentation](https://frontieratlas-api.onrender.com/docs)** | Live interactive OpenAPI schema explorer & testing console |
+| **ReDoc Specification** | **[ReDoc API Reference](https://frontieratlas-api.onrender.com/redoc)** | Clean technical endpoint specification & data models |
+| **OpenAPI Schema** | **[OpenAPI JSON Schema](https://frontieratlas-api.onrender.com/openapi.json)** | Standard OpenAPI 3.1.0 contract definition |
+| **Health & Telemetry** | **[API Health Endpoint](https://frontieratlas-api.onrender.com/api/v1/health)** | Live system diagnostics, database status & 4,389 records count |
 | **Continuous Integration** | **[GitHub Actions](https://github.com/shaman280306/FrontierAtlas_AI_Intelligence_Engine/actions)** | Automated Pytest (42 tests) & Next.js production build |
 
 *Deployment blueprints for Render (`render.yaml`), Vercel (`frontend/vercel.json`), and Docker Compose are included directly in the repository for one-click reproducibility.*
@@ -213,6 +216,8 @@ FrontierAtlas_AI_Intelligence_Engine/
 
 ## ⚡ Quickstart & Local Setup
 
+> **Note:** The instructions below are for local offline development. To inspect the live cloud deployment without running local servers, use the **[Live Demo & Cloud Deployment](#-live-demo--cloud-deployment)** links above.
+
 ### Prerequisites
 - Python 3.11+
 - Node.js 18+ (tested on Node 20 & 26)
@@ -228,17 +233,25 @@ cp .env.example .env
 ```
 
 ### 2. Launch Backend (Terminal 1)
-```bash
+```powershell
+# Optional: Create and activate virtual environment
+python -m venv .venv
+.venv\Scripts\activate
+
 # Install Python dependencies
 pip install -r requirements.txt
 
-# Run FastAPI server
-python -m uvicorn src.main:app --reload --port 8000
+# Run FastAPI server locally
+python -m uvicorn src.main:app --reload --host 127.0.0.1 --port 8000
 ```
-*API docs will be available at: `http://127.0.0.1:8000/docs`*
+*Local API and documentation will be accessible at:*
+- *Local API Root:* `http://127.0.0.1:8000/`
+- *Local Swagger Docs:* `http://127.0.0.1:8000/docs`
+- *Local ReDoc:* `http://127.0.0.1:8000/redoc`
+- *Local Health Endpoint:* `http://127.0.0.1:8000/api/v1/health`
 
 ### 3. Launch Frontend (Terminal 2)
-```bash
+```powershell
 cd frontend
 
 # Install Node dependencies
@@ -247,7 +260,7 @@ npm install
 # Run Next.js in development mode
 npm run dev
 ```
-*Web application workspace will be available at: `http://localhost:3000`*
+*Local Web application workspace will be available at: `http://localhost:3000`*
 
 ---
 

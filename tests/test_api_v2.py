@@ -4,6 +4,18 @@ from src.main import app
 
 client = TestClient(app)
 
+def test_root_endpoint():
+    res = client.get("/")
+    assert res.status_code == 200
+    data = res.json()
+    assert data["name"] == "FrontierAtlas AI"
+    assert data["status"] == "operational"
+    assert data["docs"] == "/docs"
+    assert data["health"] == "/api/v1/health"
+
+    head_res = client.head("/")
+    assert head_res.status_code == 200
+
 def test_health_check_endpoint():
     res = client.get("/health")
     assert res.status_code == 200

@@ -70,8 +70,32 @@ def on_startup():
 # =========================================================================
 # SYSTEM & HEALTH
 # =========================================================================
+@app.get("/", tags=["System"])
+@app.head("/", tags=["System"])
+def root_endpoint(db: Session = Depends(get_db)):
+    """Production root endpoint with service metadata, live health status, and documentation links."""
+    try:
+        startup_count = StartupRepository(db).count()
+        status = "operational" if startup_count > 0 else "degraded"
+    except Exception:
+        status = "unhealthy"
+
+    return {
+        "name": "FrontierAtlas AI",
+        "description": "Global AI Ecosystem Intelligence Engine",
+        "version": app.version,
+        "status": status,
+        "docs": "/docs",
+        "redoc": "/redoc",
+        "openapi": "/openapi.json",
+        "health": "/api/v1/health",
+        "live_frontend": "https://frontieratlas-frontend.vercel.app"
+    }
+
 @app.get("/health", tags=["System"])
+@app.head("/health", tags=["System"])
 @app.get("/api/v1/health", tags=["System"])
+@app.head("/api/v1/health", tags=["System"])
 def health_check(db: Session = Depends(get_db)):
     """Verifies operational health, database connectivity, and record counts."""
     try:
